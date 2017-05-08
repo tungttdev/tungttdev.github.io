@@ -44,9 +44,11 @@
 .mg-left-15 {
     margin-left: -15px !important;
 }
+
 .pd-side-15 {
-  padding: 0px 15px;
+    padding: 0 15px;
 }
+
 .pd-left15 {
     padding-left: 15px !important;
 }
@@ -83,6 +85,10 @@ h3 {
     left: 0;
     z-index: 1;
     background: rgba(0,0,0,0.5);
+}
+
+.mg-bottom80 {
+    margin-bottom: 80px !important;
 }
 /* --------- Header ----------- */
 #header {
@@ -170,7 +176,6 @@ h3 {
             input {
                 height: 31px !important;
                 line-height: 31px;
-                max-width: 430px;
                 width: 100%;
                 border-radius: 10px;
                 border: 3px solid #ededed;
@@ -367,17 +372,26 @@ h3 {
                                 padding: 0;
                                 border: 0;
                                 display: block;
-                                margin-bottom: 15px;
+                                margin-bottom: 30px;
+                                overflow: hidden;
 
                                 &:hover {
                                     .brand-name {
                                         color: $colorSecondary;
                                     }
+
+                                    img {
+                                        transform: scale(1.1);
+                                    }
                                 }
 
                                 img {
-                                    vertical-align: middle;
                                     width: 100%;
+                                    vertical-align: middle;
+                                    transform: scale(1);
+                                    -webkit-transition: all 0.3s ease;
+                                    -moz-transition: all 0.3s ease;
+                                    transition: all 0.3s ease;
                                 }
 
                                 .brand-name {
@@ -486,10 +500,19 @@ h3 {
 
                 a {
                     display: block;
+                    overflow: hidden;
 
                     img {
                         width: 100%;
                         vertical-align: middle;
+                        transform: scale(1);
+                        -webkit-transition: all 0.3s ease;
+                        -moz-transition: all 0.3s ease;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
                     }
                 }
             }
@@ -549,7 +572,7 @@ h3 {
 }
 
 #home-collection {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 
     .collection-feature-img {
         position: relative;
@@ -561,9 +584,22 @@ h3 {
             }
         }
 
-        img {
-            width: 100%;
-            vertical-align: middle;
+        a {
+            display: block;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                vertical-align: middle;
+                transform: scale(1);
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+            }
         }
 
         .btnViewAll {
@@ -631,10 +667,19 @@ h3 {
 
                 a {
                     display: block;
+                    overflow: hidden;
 
                     img {
                         width: 100%;
                         vertical-align: middle;
+                        transform: scale(1);
+                        -webkit-transition: all 0.3s ease;
+                        -moz-transition: all 0.3s ease;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
                     }
                 }
             }
@@ -699,7 +744,7 @@ h3 {
 
         .showroom-info {
             font-size: 12px;
-            color: $colorThird;
+            color: rgba($colorThird, 0.8);
             margin: 0 0 5px;
 
             &:last-child {
@@ -718,7 +763,7 @@ h3 {
 
         .openning-hours-detail {
             font-size: 12px;
-            color: $colorThird;
+            color: rgba($colorThird, 0.8);
             margin-bottom: 30px;
         }
     }
@@ -728,10 +773,11 @@ h3 {
         a {
             display: block;
             font-size: 12px;
-            color: $colorThird;
+            color: rgba($colorThird, 0.8);
 
             span {
                 @extend %text-bold;
+                color: $colorThird !important;
             }
         }
     }
@@ -781,6 +827,7 @@ h3 {
             height: 31px;
             background: #e0e0e0;
             color: $colorTextFooter;
+            font-size: 12px;
             border-radius: 10px;
             outline: 0 !important;
             box-shadow: none;
@@ -813,6 +860,10 @@ h3 {
             width: 25px;
             height: 25px;
             background: $colorSecondary;
+
+            &:last-child {
+                margin-right: 0 !important;
+            }
         }
     }
 }
@@ -873,5 +924,5 @@ h3 {
 }
 
 .border-white {
-  border-left: 1px solid $colorThird;
+    border-left: 1px solid rgba($colorThird, 0.8);
 }
