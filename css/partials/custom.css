@@ -4923,6 +4923,7 @@ h3,
 #header .desktop-main-header .search-form input {
   height: 31px !important;
   line-height: 31px;
+  max-width: 430px;
   width: 100%;
   border-radius: 10px;
   border: 3px solid #ededed;
