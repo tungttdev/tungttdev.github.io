@@ -260,41 +260,42 @@ h3 {
                         left: 0;
                         display: none;
                         z-index: 99 !important;
-                        -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-                        -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-                        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
 
                         > li {
                             text-align: left;
                             width: 100%;
-                            border-bottom: 1px solid #fff;
                             margin-bottom: 0;
                             list-style-type: none;
-                            -webkit-transition: all 0.3s ease;
-                            -moz-transition: all 0.3s ease;
-                            transition: all 0.3s ease;
-                            padding: 0 !important;
+                            padding: 0px 15px !important;
+                            background: $colorBgDropdown !important;
+                            &:hover {
+                              background: $colorBgDropdownHover !important;
+                            }
 
                             &:last-child {
-                                border: 0 !important;
+                              > a {
+                                  border: 0 !important;
+                              }
+                            }
+
+                            &:hover {
+                              > a {
+                                color: $colorTextDropdownHover !important;
+                              }
+                            }
+
+                            > a {
+                              border-bottom: 1px solid $colorThird !important;
                             }
 
                             a {
                                 width: 100%;
-                                padding: 5px 15px !important;
+                                padding: 5px 0px !important;
                                 position: relative;
                                 display: block;
-                                border: 0 !important;
                                 color: $colorTextDropdown !important;
-                                background: $colorBgDropdown !important;
                                 @extend %text-normal;
                                 text-align: left;
-
-                                &:hover {
-                                    color: $colorTextDropdownHover !important;
-                                    background: $colorBgDropdownHover !important;
-                                }
-
                                 i {
                                     position: absolute;
                                     top: calc(50% - 7px);
@@ -452,7 +453,7 @@ h3 {
                 &:hover {
                     background: $colorBgNavbarHover;
 
-                    a {
+                    > a {
                         background: $colorBgNavbarHover;
                         color: $colorTextNavbarHover;
                         border-bottom: 2px solid $colorTextNavbarHover;
@@ -518,7 +519,7 @@ h3 {
                         &.btnFavourite,
                         &.btnQuickView {
                             transform: translateX(0);
-                            opacity: 0.7;
+                            opacity: 0.9;
                         }
                     }
                 }
@@ -611,9 +612,9 @@ h3 {
 
                 a {
                     display: inline-block;
-                    height: 40px;
-                    width: 40px;
-                    line-height: 40px;
+                    height: 32px;
+                    width: 32px;
+                    line-height: 32px;
                     text-align: center;
                     padding: 0;
                     border-radius: 50%;
@@ -1219,7 +1220,7 @@ h3 {
                         &.btnFavourite,
                         &.btnQuickView {
                             transform: translateX(0);
-                            opacity: 0.7;
+                            opacity: 0.9;
                         }
                     }
                 }
