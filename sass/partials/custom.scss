@@ -2212,91 +2212,237 @@ h3 {
             }
         }
     }
+}
+.blog-sidebar-content {
+    margin-bottom: 25px;
 
-    .blog-sidebar-content {
-        margin-bottom: 25px;
+    .blog-sidebar-title {
+        padding: 0 15px;
+        height: 40px;
+        line-height: 40px;
+        color: $colorThird;
+        @extend %text-normal;
+        @extend %text-bold;
+        background: #707070;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
 
-        .blog-sidebar-title {
-            padding: 0 15px;
-            height: 40px;
-            line-height: 40px;
-            color: $colorThird;
-            @extend %text-normal;
-            @extend %text-bold;
-            background: #707070;
-            border-top-left-radius: 5px;
-            border-top-right-radius: 5px;
+    .all-tags-content {
+      padding: 15px;
+      border: 1px solid #7fd0d4;
+      border-top: 0 !important;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      a {
+        display: inline-block;
+        margin-right: 5px;
+        @extend %text-normal;
+        color: $colorTextBody;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        &:hover {
+          color: $colorSecondary;
         }
+      }
+    }
 
-        .all-tags-content {
-          padding: 15px;
-          border: 1px solid #7fd0d4;
-          border-top: 0 !important;
-          border-bottom-left-radius: 5px;
-          border-bottom-right-radius: 5px;
-          a {
-            display: inline-block;
-            margin-right: 5px;
-            @extend %text-normal;
-            color: $colorTextBody;
-            -webkit-transition: all 0.3s ease;
-            -moz-transition: all 0.3s ease;
-            transition: all 0.3s ease;
-            &:hover {
-              color: $colorSecondary;
+    &.sidebar-subscribe {
+        form {
+            .form-desc {
+                @extend %text-normal;
+                color: $colorTextBody;
+                margin-bottom: 15px;
             }
-          }
-        }
 
-        &.sidebar-subscribe {
-            form {
-                .form-desc {
-                    @extend %text-normal;
-                    color: $colorTextBody;
-                    margin-bottom: 15px;
-                }
+            input {
+                width: 95%;
+                height: 32px;
+                line-height: 32px;
+                padding: 0 15px;
+                @extend %text-normal;
+                color: $colorThird;
+                background: #b7b7b7;
+                outline: 0 !important;
+                border: 0;
+                border-radius: 5px;
+            }
 
-                input {
-                    width: 95%;
-                    height: 32px;
-                    line-height: 32px;
-                    padding: 0 15px;
-                    @extend %text-normal;
-                    color: $colorThird;
-                    background: #b7b7b7;
-                    outline: 0 !important;
-                    border: 0;
-                    border-radius: 5px;
-                }
+            button {
+                height: 32px;
+                padding: 0 15px;
+                line-height: 32px;
+                text-align: center;
+                @extend %text-normal;
+                color: $colorThird;
+                background: $colorSecondary;
+                outline: 0 !important;
+                border-radius: 5px;
+            }
 
-                button {
-                    height: 32px;
-                    padding: 0 15px;
-                    line-height: 32px;
-                    text-align: center;
-                    @extend %text-normal;
-                    color: $colorThird;
-                    background: $colorSecondary;
-                    outline: 0 !important;
-                    border-radius: 5px;
-                }
+            input::-webkit-input-placeholder {
+                color: #fff !important;
+            }
 
-                input::-webkit-input-placeholder {
-                    color: #fff !important;
-                }
+            input:-moz-placeholder {
+                color: #fff !important;
+            }
 
-                input:-moz-placeholder {
-                    color: #fff !important;
-                }
+            input::-moz-placeholder {
+                color: #fff !important;
+            }
 
-                input::-moz-placeholder {
-                    color: #fff !important;
-                }
-
-                input:-ms-input-placeholder {
-                    color: #fff !important;
-                }
+            input:-ms-input-placeholder {
+                color: #fff !important;
             }
         }
     }
+}
+#article-wrapper {
+  .article-content {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px dashed $colorSecondary;
+    .article-title {
+      h1 {
+        @extend %text-title;
+        @extend %text-bold;
+        color: $colorTextBody;
+        margin: 0px 0px 15px 0px;
+      }
+    }
+    .datetime-comments {
+      @extend %text-normal;
+      color: #666666;
+      margin-bottom: 15px;
+
+      span {
+          display: inline-block;
+
+          &:first-child {
+              padding-right: 5px;
+              margin-right: 5px;
+              border-right: 1px solid #666666;
+          }
+      }
+    }
+    .article-short-desc {
+      margin-bottom: 15px;
+      @extend %text-normal;
+      color: $colorTextBody;
+    }
+
+    .article-description {
+      margin-bottom: 15px;
+      @extend %text-normal;
+      color: $colorTextBody;
+    }
+
+    .article-all-tags {
+      @extend %text-normal;
+      color: $colorTextBody;
+      a {
+        display: inline-block;
+        @extend %text-normal;
+        color: $colorTextBody;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        &:hover {
+          color: $colorSecondary;
+        }
+      }
+    }
+  }
+  .related-articles {
+    margin-bottom: 30px;
+    > h2 {
+      @extend %text-title;
+      @extend %text-bold;
+      @extend %text-uppercase;
+      color: $colorSecondary;
+      margin: 0px 0px 30px 0px;
+    }
+    .featured-article {
+        &:hover {
+            .featured-article-img {
+                img {
+                    transform: scale(1.1);
+                }
+
+                .hover-layout {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .featured-article-img {
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 15px;
+
+            img {
+                width: 100%;
+                vertical-align: middle;
+                transform: scale(1);
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+            }
+        }
+
+        .datetime-comments {
+            @extend %text-small;
+            color: #666666;
+            margin-bottom: 15px;
+
+            span {
+                display: inline-block;
+
+                &:first-child {
+                    padding-right: 5px;
+                    margin-right: 5px;
+                    border-right: 1px solid #666666;
+                }
+            }
+        }
+
+        .featured-article-title {
+            margin-bottom: 15px;
+
+            h3 {
+                margin: 0;
+                padding: 0;
+
+                a {
+                    display: block;
+                    font-size: 16px;
+                    color: $colorTextBody;
+                    -webkit-transition: all 0.3s ease;
+                    -moz-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        color: $colorSecondary;
+                    }
+                }
+            }
+        }
+
+        .featured-article-desc {
+            @extend %text-small;
+            color: #666666;
+            margin-bottom: 15px;
+        }
+
+        .featured-article-action {
+            a {
+                display: inline-block;
+                @extend %text-small;
+                color: $colorSecondary;
+            }
+        }
+    }
+  }
 }
