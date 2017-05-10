@@ -2342,6 +2342,7 @@ h3 {
     .article-all-tags {
       @extend %text-normal;
       color: $colorTextBody;
+      margin-bottom: 15px;
       a {
         display: inline-block;
         @extend %text-normal;
@@ -2445,4 +2446,7 @@ h3 {
         }
     }
   }
+}
+.fb-comments, .fb-comments > span, .fb-comments span iframe {
+	width: 100% !important;
 }

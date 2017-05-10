@@ -6946,8 +6946,9 @@ h3,
 /* line 2342, ../../sass/partials/custom.scss */
 #article-wrapper .article-content .article-all-tags {
   color: #000;
+  margin-bottom: 15px;
 }
-/* line 2345, ../../sass/partials/custom.scss */
+/* line 2346, ../../sass/partials/custom.scss */
 #article-wrapper .article-content .article-all-tags a {
   display: inline-block;
   color: #000;
@@ -6955,34 +6956,34 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 2352, ../../sass/partials/custom.scss */
+/* line 2353, ../../sass/partials/custom.scss */
 #article-wrapper .article-content .article-all-tags a:hover {
   color: #ee5c74;
 }
-/* line 2358, ../../sass/partials/custom.scss */
+/* line 2359, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles {
   margin-bottom: 30px;
 }
-/* line 2360, ../../sass/partials/custom.scss */
+/* line 2361, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles > h2, #article-wrapper .related-articles > .h2 {
   color: #ee5c74;
   margin: 0px 0px 30px 0px;
 }
-/* line 2370, ../../sass/partials/custom.scss */
+/* line 2371, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article:hover .featured-article-img img {
   transform: scale(1.1);
 }
-/* line 2374, ../../sass/partials/custom.scss */
+/* line 2375, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article:hover .featured-article-img .hover-layout {
   opacity: 1;
 }
-/* line 2380, ../../sass/partials/custom.scss */
+/* line 2381, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .featured-article-img {
   overflow: hidden;
   position: relative;
   margin-bottom: 15px;
 }
-/* line 2385, ../../sass/partials/custom.scss */
+/* line 2386, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .featured-article-img img {
   width: 100%;
   vertical-align: middle;
@@ -6991,31 +6992,31 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 2395, ../../sass/partials/custom.scss */
+/* line 2396, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .datetime-comments {
   color: #666666;
   margin-bottom: 15px;
 }
-/* line 2400, ../../sass/partials/custom.scss */
+/* line 2401, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .datetime-comments span {
   display: inline-block;
 }
-/* line 2403, ../../sass/partials/custom.scss */
+/* line 2404, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .datetime-comments span:first-child {
   padding-right: 5px;
   margin-right: 5px;
   border-right: 1px solid #666666;
 }
-/* line 2411, ../../sass/partials/custom.scss */
+/* line 2412, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .featured-article-title {
   margin-bottom: 15px;
 }
-/* line 2414, ../../sass/partials/custom.scss */
+/* line 2415, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .featured-article-title h3, #article-wrapper .related-articles .featured-article .featured-article-title .h3 {
   margin: 0;
   padding: 0;
 }
-/* line 2418, ../../sass/partials/custom.scss */
+/* line 2419, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .featured-article-title h3 a, #article-wrapper .related-articles .featured-article .featured-article-title .h3 a {
   display: block;
   font-size: 16px;
@@ -7024,17 +7025,22 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 2426, ../../sass/partials/custom.scss */
+/* line 2427, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .featured-article-title h3 a:hover, #article-wrapper .related-articles .featured-article .featured-article-title .h3 a:hover {
   color: #ee5c74;
 }
-/* line 2433, ../../sass/partials/custom.scss */
+/* line 2434, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .featured-article-desc {
   color: #666666;
   margin-bottom: 15px;
 }
-/* line 2440, ../../sass/partials/custom.scss */
+/* line 2441, ../../sass/partials/custom.scss */
 #article-wrapper .related-articles .featured-article .featured-article-action a {
   display: inline-block;
   color: #ee5c74;
+}
+
+/* line 2450, ../../sass/partials/custom.scss */
+.fb-comments, .fb-comments > span, .fb-comments span iframe {
+  width: 100% !important;
 }
