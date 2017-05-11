@@ -10,21 +10,21 @@
   font-style: normal;
 }
 $socialIconFontStack: 'icons';*/
-/* line 76, ../../sass/partials/variables.scss */
+/* line 77, ../../sass/partials/variables.scss */
 .payment-icons li {
   color: #ff0000;
 }
 
-/* line 83, ../../sass/partials/variables.scss */
+/* line 84, ../../sass/partials/variables.scss */
 .social-icons li a {
   color: #ff0000;
 }
-/* line 86, ../../sass/partials/variables.scss */
+/* line 87, ../../sass/partials/variables.scss */
 .social-icons li a:hover {
   color: #cc0000;
 }
 
-/* line 92, ../../sass/partials/variables.scss */
+/* line 93, ../../sass/partials/variables.scss */
 select {
   /*background: {
     image: url('{{ "ico-select.svg" | asset_url }}');
