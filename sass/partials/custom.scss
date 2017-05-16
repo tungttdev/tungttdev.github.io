@@ -65,9 +65,11 @@
 .pd-side-20 {
     padding: 0 20px;
 }
+
 .pd-left20 {
     padding-left: 20px !important;
 }
+
 .pd-left15 {
     padding-left: 15px !important;
 }
@@ -575,46 +577,49 @@ h3 {
                         display: none;
 
                         #owl-home-main-banners-slider {
-                          &:hover {
+                            &:hover {
+                                .owl-buttons {
+                                    > div {
+                                        display: inline-block !important;
+                                    }
+                                }
+                            }
+
+                            .item {
+                                .mini:last-child {
+                                    margin-bottom: 0 !important;
+                                }
+                            }
+
+                            .owl-controls {
+                                margin: 0;
+                            }
+
                             .owl-buttons {
                                 > div {
-                                  display: inline-block !important;
-                                }}
-                          }
-                          .item {
-                            .mini:last-child {
-                              margin-bottom: 0px !important;
+                                    position: absolute;
+                                    height: 38px;
+                                    width: 38px;
+                                    text-align: center;
+                                    line-height: 38px;
+                                    top: calc(50% - 19px);
+                                    display: inline-block;
+                                    background: #7fd0d4;
+                                    color: #fff;
+                                    padding: 0;
+                                    margin: 0;
+                                    font-size: 18px;
+                                    display: none;
+
+                                    &.owl-prev {
+                                        left: 30px;
+                                    }
+
+                                    &.owl-next {
+                                        right: 0;
+                                    }
+                                }
                             }
-                          }
-                          .owl-controls {
-                              margin: 0;
-                          }
-
-                          .owl-buttons {
-                              > div {
-                                  position: absolute;
-                                  height: 38px;
-                                  width: 38px;
-                                  text-align: center;
-                                  line-height: 38px;
-                                  top: calc(50% - 19px);
-                                  display: inline-block;
-                                  background: #7fd0d4;
-                                  color: #fff;
-                                  padding: 0;
-                                  margin: 0;
-                                  font-size: 18px;
-                                  display: none;
-
-                                  &.owl-prev {
-                                      left: 30px;
-                                  }
-
-                                  &.owl-next {
-                                      right: 0;
-                                  }
-                              }
-                          }
                         }
 
                         .tab {
@@ -660,9 +665,10 @@ h3 {
                                     margin: 0 !important;
                                     padding: 0 !important;
                                     border: 0 !important;
+
                                     img {
-                                      vertical-align: middle;
-                                      width: 100%;
+                                        vertical-align: middle;
+                                        width: 100%;
                                     }
                                 }
                             }
@@ -1082,7 +1088,7 @@ h3 {
     #owl-home-collection-slider2,
     #owl-home-collection-slider3,
     #owl-home-collection-slider4 {
-        padding: 0px 40px;
+        padding: 0 40px;
 
         .owl-controls {
             margin: 0;
@@ -1382,7 +1388,7 @@ h3 {
 }
 
 .pagination-custom {
-    margin-bottom: 70px;
+    margin-bottom: 30px;
 
     span {
         display: inline-block;
@@ -1459,8 +1465,8 @@ h3 {
             display: inline-block;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
             height: 30px;
             line-height: 30px;
             float: left;
@@ -1470,13 +1476,19 @@ h3 {
             @extend %text-small;
             color: $colorTextBody;
             position: relative;
-            margin-left: -10px;
+            margin-left: -5px;
             z-index: 1;
-            border-right: 1px solid #fff;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+          color: $colorSecondary;
         }
 
         > a:first-child {
-            background: darken(#ebebeb, 10%);
+            background: #e1e1e1;
             margin: 0 !important;
             z-index: 3;
         }
@@ -1532,16 +1544,27 @@ h3 {
             color: $colorSecondary;
         }
 
+        a.accordion.active {
+            @extend %text-bold;
+        }
+
+        a.accordion:hover::after {
+            color: $colorSecondary;
+        }
+
         a.accordion:after {
-            content: '\f105';
+            content: '\f0da';
             font-family: FontAwesome;
             color: $colorTextBody;
             float: right;
             margin-left: 5px;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
         }
 
         a.accordion.active:after {
-            content: "\f107";
+            content: "\f0d7";
             font-family: FontAwesome;
             color: $colorSecondary;
             float: right;
@@ -1554,21 +1577,40 @@ h3 {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.2s ease-out;
+
+            ul {
+                li {
+                    a {
+                        @extend %text-normal;
+                        color: $colorTextBody;
+                        -webkit-transition: all 0.3s ease;
+                        -moz-transition: all 0.3s ease;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            color: $colorSecondary;
+                        }
+                    }
+                }
+            }
         }
 
         .collection-sidebar-content {
-            margin-bottom: 30px;
+            margin-bottom: 45px;
+            border: 3px solid #f6f6f6;
+            border-radius: 10px;
 
             .collection-sidebar-title {
-                padding: 0 15px;
-                height: 40px;
-                line-height: 40px;
-                color: $colorThird;
-                @extend %text-normal;
-                @extend %text-bold;
-                background: #707070;
-                border-top-left-radius: 5px;
-                border-top-right-radius: 5px;
+                h2 {
+                    color: $colorSecondary;
+                    @extend %text-normal;
+                    @extend %text-bold;
+                    @extend %text-uppercase;
+                    display: inline-block;
+                    padding: 0 15px;
+                    background: #fff;
+                    transform: translateY(-15px);
+                }
             }
 
             .collection-categories,
@@ -1576,20 +1618,124 @@ h3 {
             .collection-sort-brands,
             .collection-sort-countries,
             .collection-sort-prices {
-                padding: 15px;
-                border: 1px solid #7fd0d4;
-                border-top: 0 !important;
+                padding: 0 15px 10px;
+                margin-top: -15px;
                 @extend %text-normal;
                 color: $colorTextBody;
-                border-bottom-left-radius: 5px;
-                border-bottom-right-radius: 5px;
+
+                > label {
+                  display: block !important;
+                }
+
+                input[type="checkbox"] + span,
+                input[type="checkbox"] + span::before,
+                input[type="radio"] + span,
+                input[type="radio"] + span::before,
+                label,
+                label {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                label *,
+                label * {
+                    cursor: pointer;
+                }
+
+                input[type="checkbox"],
+                input[type="radio"] {
+                    opacity: 0;
+                    position: absolute;
+                }
+
+                input[type="checkbox"] + span,
+                input[type="radio"] + span {
+                    @extend %text-normal;
+                    color: $colorTextBody;
+                }
+
+                label:hover span::before,
+                label:hover span::before {
+                    -moz-box-shadow: 0 0 2px #ccc;
+                    -webkit-box-shadow: 0 0 2px #ccc;
+                    box-shadow: 0 0 2px #ccc;
+                }
+
+                label:hover span,
+                label:hover span {
+                    color: #000;
+                }
+
+                input[type="checkbox"] + span::before,
+                input[type="radio"] + span::before {
+                    content: "";
+                    width: 17px;
+                    height: 17px;
+                    margin: 0 8px 0 0;
+                    border: solid 1px #a8a8a8;
+                    line-height: 17px;
+                    text-align: center;
+                    -moz-border-radius: 100%;
+                    -webkit-border-radius: 100%;
+                    border-radius: 100%;
+                    background: #f6f6f6;
+                    background: -moz-radial-gradient(#f6f6f6, #dfdfdf);
+                    background: -webkit-radial-gradient(#f6f6f6, #dfdfdf);
+                    background: -ms-radial-gradient(#f6f6f6, #dfdfdf);
+                    background: -o-radial-gradient(#f6f6f6, #dfdfdf);
+                    background: radial-gradient(#f6f6f6, #dfdfdf);
+                }
+
+                input[type="checkbox"]:checked + span::before,
+                input[type="radio"]:checked + span::before {
+                    color: #666;
+                }
+
+                input[type="checkbox"]:disabled + span,
+                input[type="radio"]:disabled + span {
+                    cursor: default;
+                    -moz-opacity: 0.4;
+                    -webkit-opacity: 0.4;
+                    opacity: 0.4;
+                }
+
+                input[type="checkbox"] + span::before {
+                    -moz-border-radius: 2px;
+                    -webkit-border-radius: 2px;
+                    border-radius: 2px;
+                }
+
+                input[type="radio"]:checked + span::before {
+                    content: "\2022";
+                    font-size: 30px;
+                    margin-top: -1px;
+                }
+
+                input[type="checkbox"]:checked + span::before {
+                    content: "\2714";
+                    font-size: 14px;
+                }
+
+                input[class="original"] + span::before {
+                    border: solid 1px $colorSecondary;
+                    background: #fff;
+                    background: -moz-radial-gradient(#fff, #fff);
+                    background: -webkit-radial-gradient(#fff, #fff);
+                    background: -ms-radial-gradient(#fff, #fff);
+                    background: -o-radial-gradient(#fff, #fff);
+                    background: radial-gradient(#fff, #fff);
+                }
+
+                input[class="original"]:checked + span::before {
+                    color: $colorSecondary;
+                }
             }
         }
     }
 
     .collection-content-wrapper {
         .collection-banner {
-            margin-bottom: 40px;
+            margin-bottom: 30px;
 
             a {
                 display: block;
@@ -1605,7 +1751,8 @@ h3 {
             h1 {
                 @extend %text-title;
                 @extend %text-bold;
-                margin: 0 0 20px;
+                @extend %text-uppercase;
+                margin: 0 0 30px;
                 padding: 0;
                 color: $colorTextBody;
             }
@@ -1633,20 +1780,27 @@ h3 {
         .collection-desc {
             @extend %text-normal;
             color: $colorTextBody;
-            margin-bottom: 70px;
+            margin-bottom: 15px;
         }
 
         .product-item {
-            margin-bottom: 70px;
+            padding: 5px;
+            margin-bottom: 15px;
             position: relative;
+            border: 1px solid transparent;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
 
             &:hover {
+                border: 1px solid #e1e1e1;
+
                 .product-actions {
                     a {
                         &.btnAddToCart,
                         &.btnFavourite,
                         &.btnQuickView {
-                            transform: translateX(0);
+                            transform: translateY(0);
                             opacity: 0.9;
                         }
                     }
@@ -1662,6 +1816,7 @@ h3 {
             .product-img {
                 overflow: hidden;
                 margin-bottom: 10px;
+                padding-top: 20px;
 
                 a {
                     display: block;
@@ -1679,7 +1834,7 @@ h3 {
             }
 
             .product-title {
-                margin-bottom: 10px;
+                margin-bottom: 5px;
 
                 a {
                     display: block;
@@ -1689,6 +1844,7 @@ h3 {
                     -webkit-transition: all 0.3s ease;
                     -moz-transition: all 0.3s ease;
                     transition: all 0.3s ease;
+                    height: 44px;
 
                     &:hover {
                         color: $colorSecondary;
@@ -1704,14 +1860,14 @@ h3 {
                     margin-right: 5px;
 
                     &.current-price {
-                        font-size: 16px;
+                        @extend %text-normal;
                         color: $colorSecondary;
                         @extend %text-bold;
                     }
 
                     &.original-price {
-                        font-size: 14px;
-                        color: #c2c2c2;
+                        font-size: 10px;
+                        color: $colorTextBody;
                         margin: 0;
                     }
                 }
@@ -1719,49 +1875,65 @@ h3 {
 
             .product-sale-tag {
                 position: absolute;
-                top: 0;
-                right: 0;
-                height: 40px;
-                line-height: 40px;
-                padding: 0 10px;
-                background: $colorSecondary;
-                color: $colorThird;
-                @extend %text-normal;
-                border-bottom-left-radius: 10px;
-                border-bottom-right-radius: 10px;
+                top: 5px;
+                left: 5px;
+
+                span {
+                    display: inline-block;
+                    text-align: center;
+                    margin-right: 3px;
+                    height: 28px;
+                    line-height: 28px;
+                    width: 28px;
+                    padding: 0;
+                    color: $colorThird;
+                    border-radius: 50%;
+                    float: left;
+
+                    &.sale-off {
+                        background: $colorSecondary;
+                        font-size: 11px;
+                    }
+
+                    &.gift {
+                        background: #a4dada;
+                        position: relative;
+                        overflow: hidden;
+
+                        img {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    }
+
+                    &.new {
+                        background: #f3a938;
+                        font-size: 11px;
+                    }
+                }
             }
 
             .product-actions {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 90%;
+                text-align: center;
+                padding: 5px 0;
 
                 a {
                     display: inline-block;
-                    height: 50px;
-                    width: 50px;
-                    line-height: 50px;
+                    height: 30px;
+                    width: 45%;
+                    line-height: 30px;
                     text-align: center;
                     padding: 0;
-                    border-radius: 50%;
-                    margin: 5px;
+                    border-radius: 10px;
+                    margin: 0;
                     background: $colorSecondary;
                     color: $colorThird;
                     @extend %text-title;
-                    -webkit-transition: all 0.3s ease;
-                    -moz-transition: all 0.3s ease;
-                    transition: all 0.3s ease;
-
-                    &.btnFavourite {
-                        transform: translateX(-50px);
-                        opacity: 0;
-
-                        &:hover {
-                            opacity: 1;
-                        }
-                    }
+                    -webkit-transition: all 0.8s ease;
+                    -moz-transition: all 0.8s ease;
+                    transition: all 0.8s ease;
 
                     &.btnAddToCart {
                         transform: translateY(50px);
@@ -1773,7 +1945,7 @@ h3 {
                     }
 
                     &.btnQuickView {
-                        transform: translateX(50px);
+                        transform: translateY(50px);
                         opacity: 0;
 
                         &:hover {
