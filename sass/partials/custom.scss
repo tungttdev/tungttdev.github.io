@@ -323,7 +323,7 @@ h3 {
                 top: 100%;
                 right: 10px;
                 width: 100%;
-                max-width: 240px;
+                max-width: 270px;
                 background: #fff;
                 border: 1px solid #e1e1e1;
                 z-index: 9999;
@@ -566,11 +566,54 @@ h3 {
                     .main-banners {
                         margin: 0;
                         position: absolute;
-                        min-width: 1140px;
+                        width: 1140px;
                         top: 100%;
                         left: 0;
                         margin-top: 20px;
                         display: none;
+
+                        #owl-home-main-banners-slider {
+                          &:hover {
+                            .owl-buttons {
+                                > div {
+                                  display: inline-block !important;
+                                }}
+                          }
+                          .item {
+                            .mini:last-child {
+                              margin-bottom: 0px !important;
+                            }
+                          }
+                          .owl-controls {
+                              margin: 0;
+                          }
+
+                          .owl-buttons {
+                              > div {
+                                  position: absolute;
+                                  height: 38px;
+                                  width: 38px;
+                                  text-align: center;
+                                  line-height: 38px;
+                                  top: calc(50% - 19px);
+                                  display: inline-block;
+                                  background: #7fd0d4;
+                                  color: #fff;
+                                  padding: 0;
+                                  margin: 0;
+                                  font-size: 18px;
+                                  display: none;
+
+                                  &.owl-prev {
+                                      left: 30px;
+                                  }
+
+                                  &.owl-next {
+                                      right: 0;
+                                  }
+                              }
+                          }
+                        }
 
                         .tab {
                             overflow: hidden;
@@ -615,6 +658,10 @@ h3 {
                                     margin: 0 !important;
                                     padding: 0 !important;
                                     border: 0 !important;
+                                    img {
+                                      vertical-align: middle;
+                                      width: 100%;
+                                    }
                                 }
                             }
 
@@ -815,7 +862,7 @@ h3 {
                         &.btnAddToCart,
                         &.btnFavourite,
                         &.btnQuickView {
-                            transform: translateX(0);
+                            transform: translateY(0);
                             opacity: 0.9;
                         }
                     }
@@ -831,7 +878,7 @@ h3 {
             .product-img {
                 overflow: hidden;
                 margin-bottom: 10px;
-                padding-top: 40px;
+                padding-top: 20px;
 
                 a {
                     display: block;
@@ -849,7 +896,7 @@ h3 {
             }
 
             .product-title {
-                margin-bottom: 10px;
+                margin-bottom: 5px;
 
                 a {
                     display: block;
@@ -859,6 +906,7 @@ h3 {
                     -webkit-transition: all 0.3s ease;
                     -moz-transition: all 0.3s ease;
                     transition: all 0.3s ease;
+                    height: 44px;
 
                     &:hover {
                         color: $colorSecondary;
@@ -896,32 +944,42 @@ h3 {
                     display: inline-block;
                     text-align: center;
                     margin-right: 3px;
-                    height: 30px;
-                    line-height: 30px;
-                    width: 30px;
+                    height: 28px;
+                    line-height: 28px;
+                    width: 28px;
+                    padding: 0;
                     color: $colorThird;
                     border-radius: 50%;
+                    float: left;
 
                     &.sale-off {
                         background: $colorSecondary;
-                        font-size: 12px;
+                        font-size: 11px;
                     }
 
                     &.gift {
                         background: #a4dada;
-                        font-size: 16px;
+                        position: relative;
+                        overflow: hidden;
+
+                        img {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
                     }
 
                     &.new {
                         background: #f3a938;
-                        font-size: 12px;
+                        font-size: 11px;
                     }
                 }
             }
 
             .product-actions {
                 text-align: center;
-                padding: 17px 0 12px;
+                padding: 5px 0;
 
                 a {
                     display: inline-block;
@@ -931,16 +989,16 @@ h3 {
                     text-align: center;
                     padding: 0;
                     border-radius: 10px;
-                    margin: 2px;
+                    margin: 0;
                     background: $colorSecondary;
                     color: $colorThird;
                     @extend %text-title;
-                    -webkit-transition: all 0.3s ease;
-                    -moz-transition: all 0.3s ease;
-                    transition: all 0.3s ease;
+                    -webkit-transition: all 0.8s ease;
+                    -moz-transition: all 0.8s ease;
+                    transition: all 0.8s ease;
 
                     &.btnAddToCart {
-                        transform: translateX(-50px);
+                        transform: translateY(50px);
                         opacity: 0;
 
                         &:hover {
@@ -949,7 +1007,7 @@ h3 {
                     }
 
                     &.btnQuickView {
-                        transform: translateX(50px);
+                        transform: translateY(50px);
                         opacity: 0;
 
                         &:hover {
@@ -1394,8 +1452,8 @@ h3 {
     margin: 30px 0;
 
     .breadcrumb-wrapper {
-         > a,
-        > span {
+         > span,
+        > a {
             display: inline-block;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
@@ -1909,30 +1967,30 @@ h3 {
     }
 
     #sync2 {
-      padding: 0px 30px;
-      .owl-controls {
-        margin: 0px;
-      }
-      .owl-buttons {
-          > div {
-              position: absolute;
-              top: calc(50% - 22px);
-              color: $colorSecondary;
-              background: transparent !important;
-              font-size: 24px;
+        padding: 0 30px;
 
-              &.owl-prev {
-                  left: 0px;
-              }
+        .owl-controls {
+            margin: 0;
+        }
 
-              &.owl-next {
-                  right: 0;
-              }
-          }
-      }
+        .owl-buttons {
+            > div {
+                position: absolute;
+                top: calc(50% - 22px);
+                color: $colorSecondary;
+                background: transparent !important;
+                font-size: 24px;
+
+                &.owl-prev {
+                    left: 0;
+                }
+
+                &.owl-next {
+                    right: 0;
+                }
+            }
+        }
     }
-
-
 
     #sync2 .item {
         margin: 5px;
@@ -1947,12 +2005,10 @@ h3 {
     }
 
     .owl-item.synced {
-      > .item {
-        border: 1px solid $colorSecondary !important;
-      }
+        > .item {
+            border: 1px solid $colorSecondary !important;
+        }
     }
-
-
 }
 
 .product-content-wrapper {
@@ -2017,14 +2073,13 @@ h3 {
                 text-align: center;
                 margin: 3px;
                 cursor: pointer;
-
                 -webkit-transition: all 0.3s ease;
                 -moz-transition: all 0.3s ease;
                 transition: all 0.3s ease;
 
                 &:hover {
-                  background: $colorSecondary;
-                  color: $colorThird;
+                    background: $colorSecondary;
+                    color: $colorThird;
                 }
             }
         }
@@ -2032,23 +2087,26 @@ h3 {
 
     .product-color {
         margin-bottom: 15px;
+
         .color-wrapper {
-          display: inline-block;
-          width: 32px;
-          height: 32px;
-          border-radius: 50%;
-          margin: 3px;
-          overflow: hidden;
-          -webkit-transition: all 0.3s ease;
-          -moz-transition: all 0.3s ease;
-          transition: all 0.3s ease;
-          border: 1px solid transparent;
-          cursor: pointer;
-          padding: 2px;
-          &:hover {
-            border: 1px solid #c5c5c5;
-          }
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            margin: 3px;
+            overflow: hidden;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            border: 1px solid transparent;
+            cursor: pointer;
+            padding: 2px;
+
+            &:hover {
+                border: 1px solid #c5c5c5;
+            }
         }
+
         span {
             color: $colorTextBody;
             @extend %text-normal;
@@ -2056,7 +2114,7 @@ h3 {
             display: inline-block;
 
             &.title {
-              transform: translateY(-12px);
+                transform: translateY(-12px);
             }
 
             &.color {
@@ -2117,36 +2175,37 @@ h3 {
             border-radius: 5px;
             outline: 0 !important;
             border: 1px solid #d7d7d7;
-            padding: 0px 5px;
+            padding: 0 5px;
         }
     }
-    .product-quickview-actions {
-      .btnBuyNow {
-          display: inline-block;
-          height: 40px;
-          line-height: 40px;
-          padding: 0 15px;
-          border-radius: 10px;
-          color: $colorThird;
-          background: $colorSecondary;
-          border: 1px solid $colorSecondary;
-          @extend %text-normal;
-          @extend %text-bold;
-          margin-right: 10px;
-      }
 
-      .btnAddToCart {
-          display: inline-block;
-          height: 40px;
-          line-height: 40px;
-          padding: 0 15px;
-          border-radius: 10px;
-          color: $colorSecondary;
-          background: $colorThird;
-          border: 1px solid $colorSecondary;
-          @extend %text-normal;
-          @extend %text-bold;
-      }
+    .product-quickview-actions {
+        .btnBuyNow {
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            padding: 0 15px;
+            border-radius: 10px;
+            color: $colorThird;
+            background: $colorSecondary;
+            border: 1px solid $colorSecondary;
+            @extend %text-normal;
+            @extend %text-bold;
+            margin-right: 10px;
+        }
+
+        .btnAddToCart {
+            display: inline-block;
+            height: 40px;
+            line-height: 40px;
+            padding: 0 15px;
+            border-radius: 10px;
+            color: $colorSecondary;
+            background: $colorThird;
+            border: 1px solid $colorSecondary;
+            @extend %text-normal;
+            @extend %text-bold;
+        }
     }
 }
 
@@ -3537,61 +3596,58 @@ h3 {
     }
 }
 
-
 .quickViewWrapper {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 999999999;
-  /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: rgb(0,0,0);
-  /* Fallback color */
-  background-color: rgba(0,0,0,0.8);
-  /* Black w/ opacity */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 999999999;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0,0,0);
+    /* Fallback color */
+    background-color: rgba(0,0,0,0.8);
+    /* Black w/ opacity */
 }
-
 /* Modal Content */
 .quickViewWrapper-content {
-  background: #fff;
-  margin: auto;
-  padding: 30px;
-  max-width: 750px;
-  width: 70%;
-  top: 20%;
-  position: relative;
-  border-radius: 10px;
-  overflow: hidden;
+    background: #fff;
+    margin: auto;
+    padding: 30px;
+    max-width: 750px;
+    width: 70%;
+    top: 20%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
 }
-
 /* The Close Button */
 .btnCloseQuickView {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  color: $colorThird;
-  font-size: 18px;
-  font-weight: bold;
-  display: block;
-  height: 30px;
-  width: 30px;
-  background-color: $colorSecondary;
-  text-align: center;
-  z-index: 9999;
-  border-radius: 50%;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: $colorThird;
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-color: $colorSecondary;
+    text-align: center;
+    z-index: 9999;
+    border-radius: 50%;
 }
 
-.btnCloseQuickView:hover,
-.btnCloseQuickView:focus {
-  color: $colorThird;
-  text-decoration: none;
-  cursor: pointer;
+.btnCloseQuickView:focus,
+.btnCloseQuickView:hover {
+    color: $colorThird;
+    text-decoration: none;
+    cursor: pointer;
 }
