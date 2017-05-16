@@ -65,7 +65,9 @@
 .pd-side-20 {
     padding: 0 20px;
 }
-
+.pd-left20 {
+    padding-left: 20px !important;
+}
 .pd-left15 {
     padding-left: 15px !important;
 }
@@ -837,7 +839,7 @@ h3 {
                 font-size: 18px;
 
                 &.owl-prev {
-                    left: 30px;
+                    left: 20px;
                 }
 
                 &.owl-next {
@@ -1080,7 +1082,7 @@ h3 {
     #owl-home-collection-slider2,
     #owl-home-collection-slider3,
     #owl-home-collection-slider4 {
-        padding: 0 40px 0 60px;
+        padding: 0px 40px;
 
         .owl-controls {
             margin: 0;
