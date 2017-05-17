@@ -2198,7 +2198,7 @@ h3 {
 
 .product-comment-wrapper {
   .product-likeshare-fb {
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
   .product-comment {
@@ -2217,7 +2217,7 @@ h3 {
         @extend %text-uppercase;
         color: $colorSecondary;
         margin: 0;
-        padding: 0 15px;
+        padding: 0 15px 0px 0px;
         background: $colorBody;
         z-index: 2;
     }

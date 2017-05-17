@@ -6990,7 +6990,7 @@ h3,
 
 /* line 2200, ../sass/partials/custom.scss */
 .product-comment-wrapper .product-likeshare-fb {
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 /* line 2205, ../sass/partials/custom.scss */
 .product-comment-wrapper .product-comment .line {
@@ -7005,7 +7005,7 @@ h3,
   display: inline-block;
   color: #ee5c74;
   margin: 0;
-  padding: 0 15px;
+  padding: 0 15px 0px 0px;
   background: #fff;
   z-index: 2;
 }
