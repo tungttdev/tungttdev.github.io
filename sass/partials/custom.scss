@@ -50,6 +50,10 @@
     margin-left: -15px !important;
 }
 
+.mg-left-5 {
+  margin-left: -5px !important;
+}
+
 .mg-left-20 {
     margin-left: -20px !important;
 }
@@ -65,7 +69,9 @@
 .pd-side-20 {
     padding: 0 20px;
 }
-
+.pd-left5 {
+    padding-left: 5px !important;
+}
 .pd-left20 {
     padding-left: 20px !important;
 }
@@ -1461,8 +1467,8 @@ h3 {
     margin: 30px 0;
 
     .breadcrumb-wrapper {
-         > a,
-        > span {
+         > span,
+        > a {
             display: inline-block;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
@@ -1489,7 +1495,7 @@ h3 {
         }
 
         > a:first-child {
-            background: #e1e1e1;
+            background: darken(#ebebeb, 10%);
             margin: 0 !important;
             z-index: 3;
         }
@@ -2133,6 +2139,7 @@ h3 {
 }
 
 .product-img-wrapper {
+  margin-bottom: 30px;
     #sync1 .item {
         margin: 5px;
         text-align: center;
@@ -2153,10 +2160,10 @@ h3 {
         .owl-buttons {
             > div {
                 position: absolute;
-                top: calc(50% - 22px);
+                top: calc(50% - 32px);
                 color: $colorSecondary;
                 background: transparent !important;
-                font-size: 24px;
+                font-size: 36px;
 
                 &.owl-prev {
                     left: 0;
@@ -2188,9 +2195,38 @@ h3 {
     }
 }
 
+
+.product-comment-wrapper {
+  .product-likeshare-fb {
+    margin-bottom: 5px;
+  }
+
+  .product-comment {
+    .line {
+        width: 100%;
+        height: 4px;
+        background: #f6f6f6;
+        z-index: 1;
+        margin-top: -10px;
+    }
+
+    > h3 {
+        display: inline-block;
+        @extend %text-title;
+        @extend %text-bold;
+        @extend %text-uppercase;
+        color: $colorSecondary;
+        margin: 0;
+        padding: 0 15px;
+        background: $colorBody;
+        z-index: 2;
+    }
+  }
+}
+
 .product-content-wrapper {
     .product-title {
-        margin-bottom: 30px;
+        margin-bottom: 5px;
 
         h1 {
             @extend %text-title;
@@ -2202,20 +2238,48 @@ h3 {
         }
     }
 
-    .product-brand,
-    .product-hotline-order,
-    .product-sku,
-    .product-status {
-        @extend %text-normal;
-        color: $colorTextBody;
+    .product-brand-sku {
+        margin-bottom: 30px;
+
+        a,
+        span {
+            @extend %text-small;
+            color: $colorTextBody;
+            display: inline-block;
+            margin-right: 5px;
+            float: left;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+        }
+
+        .brand-name {
+            padding-right: 5px;
+            border-right: 1px solid $colorTextBody;
+
+            &:hover {
+                color: $colorSecondary;
+            }
+        }
     }
 
-    .product-hotline-order {
-        margin-bottom: 30px;
+    .product-rating-fb {
+      margin-bottom: 30px;
+      .product-rating {
+        > i {
+          @extend %text-title;
+          color: #fcd41a;
+        }
+        span {
+          @extend %text-small;
+          color: $colorTextBody;
+        }
+      }
     }
+
 
     .product-price {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
 
         .current-price {
             display: inline-block;
@@ -2229,6 +2293,12 @@ h3 {
             @extend %text-small;
             color: $colorTextBody;
         }
+    }
+
+    .product-status {
+      @extend %text-normal;
+      color: $colorTextBody;
+      margin-bottom: 15px;
     }
 
     .product-size {
@@ -2316,7 +2386,7 @@ h3 {
     }
 
     .product-quantity {
-        margin-bottom: 30px;
+        margin-bottom: 15px;
 
         span {
             color: $colorTextBody;
@@ -2356,11 +2426,73 @@ h3 {
         }
     }
 
+    .product-gift {
+      background: url('../images/gift-icon.png');
+      background-repeat: no-repeat;
+      background-position: 10px 5px;
+      padding: 5px 15px 5px 45px;
+      border-radius: 10px;
+      border: 1px solid $colorSecondary;
+      margin-bottom: 30px;
+      > h3 {
+        @extend %text-normal;
+        @extend %text-bold;
+        color: $colorSecondary;
+      }
+      ul {
+        margin: 0px;
+        li {
+          margin-bottom: 5px;
+          position: relative;
+          padding-left: 10px;
+
+          &:last-child {
+              margin: 0 !important;
+          }
+
+          &:after {
+              content: '\f111';
+              font-family: FontAwesome;
+              position: absolute;
+              top: 8px;
+              left: 0;
+              font-size: 6px;
+              color: $colorSecondary;
+          }
+          @extend %text-normal;
+          color: $colorTextBody;
+        }
+      }
+    }
+
+    .product-policy-wrapper {
+      margin-bottom: 15px;
+      .product-policy {
+        .policy-img {
+          float: left;
+          img {
+            vertical-align: middle;
+            max-width: 31px;
+          }
+        }
+        .policy-title, .policy-desc {
+          @extend %text-small;
+          color: $colorTextBody;
+          padding-left: 35px;
+        }
+        .policy-title {
+          @extend %text-uppercase;
+          @extend %text-bold;
+        }
+      }
+    }
+
     .product-quickview-actions {
+      margin-bottom: 30px;
         .btnBuyNow {
             display: inline-block;
-            height: 40px;
-            line-height: 40px;
+            height: 32px;
+            line-height: 32px;
             padding: 0 15px;
             border-radius: 10px;
             color: $colorThird;
@@ -2368,20 +2500,22 @@ h3 {
             border: 1px solid $colorSecondary;
             @extend %text-normal;
             @extend %text-bold;
+            @extend %text-uppercase;
             margin-right: 10px;
         }
 
         .btnAddToCart {
             display: inline-block;
-            height: 40px;
-            line-height: 40px;
+            height: 32px;
+            line-height: 32px;
             padding: 0 15px;
             border-radius: 10px;
-            color: $colorSecondary;
-            background: $colorThird;
-            border: 1px solid $colorSecondary;
+            color: $colorPrimary;
+            background: #d7d7d7;
+            border: 1px solid #d7d7d7;
             @extend %text-normal;
             @extend %text-bold;
+            @extend %text-uppercase;
         }
     }
 }
@@ -2393,6 +2527,7 @@ h3 {
 .product-detail-accordion {
     button.accordion {
         color: $colorTextBody;
+        @extend %text-normal;
         @extend %text-bold;
         cursor: pointer;
         padding: 10px 0;
@@ -2403,18 +2538,38 @@ h3 {
         transition: 0.4s;
     }
 
+    button.accordion.active,
+    button.accordion:hover {
+        color: $colorSecondary;
+    }
+
+    button.accordion.active {
+        @extend %text-bold;
+    }
+
+    button.accordion:hover::after {
+        color: $colorSecondary;
+    }
+
     button.accordion:after {
         content: '\f0da';
         font-family: FontAwesome;
         color: $colorTextBody;
         float: right;
         margin-left: 5px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
     }
 
     button.accordion.active:after {
         content: "\f0d7";
         font-family: FontAwesome;
+        color: $colorSecondary;
+        float: right;
+        margin-left: 5px;
     }
+
 
     div.panel {
         padding: 0;
@@ -3873,7 +4028,7 @@ h3 {
                         @extend %text-normal;
                         color: $colorTextBody;
                         display: inline-block;
-                        padding: 5px 0px;
+                        padding: 5px 0;
                         -webkit-transition: all 0.3s ease;
                         -moz-transition: all 0.3s ease;
                         transition: all 0.3s ease;
@@ -3888,115 +4043,135 @@ h3 {
     }
 
     .account-content {
-      padding-bottom: 30px;
-      .account-content-title {
-          margin-bottom: 30px;
+        padding-bottom: 30px;
 
-          .line {
-              width: 100%;
-              height: 4px;
-              background: #f6f6f6;
-              z-index: 1;
-              margin-top: -10px;
-          }
+        .account-content-title {
+            margin-bottom: 30px;
 
-          h1 {
-              display: inline-block;
-              @extend %text-title;
-              @extend %text-bold;
-              @extend %text-uppercase;
-              color: $colorSecondary;
-              margin: 0;
-              padding: 0 15px;
-              background: $colorBody;
-              z-index: 2;
-          }
-      }
+            .line {
+                width: 100%;
+                height: 4px;
+                background: #f6f6f6;
+                z-index: 1;
+                margin-top: -10px;
+            }
 
-      .account-user-info, .account-default-address, .account-other-address-wrapper {
-        > h3 {
-          @extend %text-normal;
-          @extend %text-bold;
-          color: $colorTextBody;
-          margin: 0px 0px 5px 0px;
-        }
-      }
-
-      .account-user-name, .account-user-email, .account-user-address, .account-user-tel {
-        @extend %text-normal;
-        color: $colorTextBody;
-      }
-
-      .account-user-info {
-        .account-user-actions > a {
-          float: left !important;
-        }
-      }
-
-      .account-user-actions > a {
-        @extend %text-normal;
-        color: $colorSecondary;
-        &:first-child {
-          float: left;
-        }
-        &:last-child {
-          float: right;
-        }
-      }
-
-      .account-other-address {
-        border-bottom: 3px solid #f6f6f6;
-        padding-bottom: 15px;
-        margin-bottom: 15px;
-        &:last-child {
-          border-bottom: none !important;
-          padding-bottom: 0px !important;
-          margin-bottom: 0px !important;
-        }
-      }
-
-      form {
-        label, input, select, textarea {
-          display: block;
-          width: 100%;
-          @extend %text-normal;
-          color: $colorTextBody;
+            h1 {
+                display: inline-block;
+                @extend %text-title;
+                @extend %text-bold;
+                @extend %text-uppercase;
+                color: $colorSecondary;
+                margin: 0;
+                padding: 0 15px;
+                background: $colorBody;
+                z-index: 2;
+            }
         }
 
-        input, select, textarea {
-          border-radius: 5px;
-          border: 1px solid $colorSecondary;
-          outline: 0px !important;
+        .account-default-address,
+        .account-other-address-wrapper,
+        .account-user-info {
+            > h3 {
+                @extend %text-normal;
+                @extend %text-bold;
+                color: $colorTextBody;
+                margin: 0 0 5px;
+            }
         }
 
-        #txtName, #txtPhone, #txtAddress, .form-note, select {
-          margin-bottom: 15px;
-        }
-
-        .form-actions {
-          > button {
-            height: 40px;
-            line-height: 40px;
-            width: 140px;
-            margin-right: 5px;
-            padding: 0px;
-            display: inline-block;
-            text-align: center;
-            border-radius: 5px;
+        .account-user-address,
+        .account-user-email,
+        .account-user-name,
+        .account-user-tel {
             @extend %text-normal;
-            @extend %text-bold;
-            @extend %text-uppercase;
-            outline: 0px !important;
-            &.btnCancel {
-              color: $colorTextBody;
-              background: #d7d7d7;
-            }
-            &.btnUpdate {
-              background: $colorSecondary;
-              color: $colorThird;
-            }
-          }
+            color: $colorTextBody;
         }
-      }
+
+        .account-user-info {
+            .account-user-actions > a {
+                float: left !important;
+            }
+        }
+
+        .account-user-actions > a {
+            @extend %text-normal;
+            color: $colorSecondary;
+
+            &:first-child {
+                float: left;
+            }
+
+            &:last-child {
+                float: right;
+            }
+        }
+
+        .account-other-address {
+            border-bottom: 3px solid #f6f6f6;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+
+            &:last-child {
+                border-bottom: none !important;
+                padding-bottom: 0 !important;
+                margin-bottom: 0 !important;
+            }
+        }
+
+        form {
+            input,
+            label,
+            select,
+            textarea {
+                display: block;
+                width: 100%;
+                @extend %text-normal;
+                color: $colorTextBody;
+            }
+
+            input,
+            select,
+            textarea {
+                border-radius: 5px;
+                border: 1px solid $colorSecondary;
+                outline: 0 !important;
+            }
+
+            #txtAddress,
+            #txtName,
+            #txtPhone,
+            .form-note,
+            select {
+                margin-bottom: 15px;
+            }
+
+            .form-actions {
+                > button {
+                    height: 40px;
+                    line-height: 40px;
+                    width: 140px;
+                    margin-right: 5px;
+                    padding: 0;
+                    display: inline-block;
+                    text-align: center;
+                    border-radius: 5px;
+                    @extend %text-normal;
+                    @extend %text-bold;
+                    @extend %text-uppercase;
+                    outline: 0 !important;
+
+                    &.btnCancel {
+                        color: $colorTextBody;
+                        background: #d7d7d7;
+                    }
+
+                    &.btnUpdate {
+                        background: $colorSecondary;
+                        color: $colorThird;
+                    }
+                }
+            }
+        }
     }
 }
