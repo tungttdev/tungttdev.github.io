@@ -7323,7 +7323,7 @@ h3,
 }
 /* line 2574, ../sass/partials/custom.scss */
 .product-detail-accordion div.panel {
-  padding: 0;
+  padding: 0 15px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
