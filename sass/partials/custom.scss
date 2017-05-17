@@ -861,6 +861,7 @@ h3 {
             -webkit-transition: all 0.3s ease;
             -moz-transition: all 0.3s ease;
             transition: all 0.3s ease;
+            overflow: hidden;
 
             &:hover {
                 border: 1px solid #e1e1e1;
@@ -1006,7 +1007,7 @@ h3 {
                     transition: all 0.8s ease;
 
                     &.btnAddToCart {
-                        transform: translateY(50px);
+                        transform: translateY(40px);
                         opacity: 0;
 
                         &:hover {
@@ -1015,7 +1016,7 @@ h3 {
                     }
 
                     &.btnQuickView {
-                        transform: translateY(50px);
+                        transform: translateY(40px);
                         opacity: 0;
 
                         &:hover {
@@ -1460,8 +1461,8 @@ h3 {
     margin: 30px 0;
 
     .breadcrumb-wrapper {
-         > span,
-        > a {
+         > a,
+        > span {
             display: inline-block;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
@@ -1484,7 +1485,7 @@ h3 {
         }
 
         a:hover {
-          color: $colorSecondary;
+            color: $colorSecondary;
         }
 
         > a:first-child {
@@ -1597,6 +1598,7 @@ h3 {
 
         .collection-sidebar-content {
             margin-bottom: 45px;
+            margin-top: 15px;
             border: 3px solid #f6f6f6;
             border-radius: 10px;
 
@@ -1624,7 +1626,7 @@ h3 {
                 color: $colorTextBody;
 
                 > label {
-                  display: block !important;
+                    display: block !important;
                 }
 
                 input[type="checkbox"] + span,
@@ -1791,6 +1793,7 @@ h3 {
             -webkit-transition: all 0.3s ease;
             -moz-transition: all 0.3s ease;
             transition: all 0.3s ease;
+            overflow: hidden;
 
             &:hover {
                 border: 1px solid #e1e1e1;
@@ -1936,7 +1939,7 @@ h3 {
                     transition: all 0.8s ease;
 
                     &.btnAddToCart {
-                        transform: translateY(50px);
+                        transform: translateY(40px);
                         opacity: 0;
 
                         &:hover {
@@ -1945,7 +1948,7 @@ h3 {
                     }
 
                     &.btnQuickView {
-                        transform: translateY(50px);
+                        transform: translateY(40px);
                         opacity: 0;
 
                         &:hover {
@@ -2483,6 +2486,7 @@ h3 {
     .product-item {
         padding-bottom: 20px;
         position: relative;
+        overflow: hidden;
 
         &:hover {
             .product-actions {
@@ -2599,7 +2603,7 @@ h3 {
                 transition: all 0.3s ease;
 
                 &.btnFavourite {
-                    transform: translateX(-50px);
+                    transform: translateY(40px);
                     opacity: 0;
 
                     &:hover {
@@ -2608,7 +2612,7 @@ h3 {
                 }
 
                 &.btnAddToCart {
-                    transform: translateY(50px);
+                    transform: translateY(40px);
                     opacity: 0;
 
                     &:hover {
@@ -2617,7 +2621,7 @@ h3 {
                 }
 
                 &.btnQuickView {
-                    transform: translateX(50px);
+                    transform: translateY(40px);
                     opacity: 0;
 
                     &:hover {
@@ -3177,6 +3181,7 @@ h3 {
     .product-item {
         position: relative;
         margin-bottom: 70px;
+        overflow: hidden;
 
         &:hover {
             .product-actions {
@@ -3293,7 +3298,7 @@ h3 {
                 transition: all 0.3s ease;
 
                 &.btnFavourite {
-                    transform: translateX(-50px);
+                    transform: translateY(40px);
                     opacity: 0;
 
                     &:hover {
@@ -3302,7 +3307,7 @@ h3 {
                 }
 
                 &.btnAddToCart {
-                    transform: translateY(50px);
+                    transform: translateY(40px);
                     opacity: 0;
 
                     &:hover {
@@ -3311,7 +3316,7 @@ h3 {
                 }
 
                 &.btnQuickView {
-                    transform: translateX(50px);
+                    transform: translateY(40px);
                     opacity: 0;
 
                     &:hover {
@@ -3615,6 +3620,7 @@ h3 {
     .product-item {
         position: relative;
         margin-bottom: 70px;
+        overflow: hidden;
 
         &:hover {
             .product-actions {
@@ -3731,7 +3737,7 @@ h3 {
                 transition: all 0.3s ease;
 
                 &.btnFavourite {
-                    transform: translateX(-50px);
+                    transform: translateY(40px);
                     opacity: 0;
 
                     &:hover {
@@ -3740,7 +3746,7 @@ h3 {
                 }
 
                 &.btnAddToCart {
-                    transform: translateY(50px);
+                    transform: translateY(40px);
                     opacity: 0;
 
                     &:hover {
@@ -3824,4 +3830,173 @@ h3 {
     color: $colorThird;
     text-decoration: none;
     cursor: pointer;
+}
+
+#account-wrapper {
+    .account-sidebar-content {
+        margin-bottom: 30px;
+        margin-top: 15px;
+        border: 3px solid #f6f6f6;
+        border-radius: 10px;
+
+        .account-sidebar-title {
+            h2 {
+                color: $colorSecondary;
+                @extend %text-normal;
+                @extend %text-bold;
+                @extend %text-uppercase;
+                display: inline-block;
+                padding: 0 15px;
+                background: #fff;
+                transform: translateY(-15px);
+            }
+        }
+
+        .account-sidebar-management {
+            ul {
+                margin: 0;
+                padding: 0 15px 10px;
+                margin-top: -15px;
+
+                li {
+                    margin: 0;
+                    display: block;
+
+                    &.active {
+                        a {
+                            color: $colorSecondary;
+                            @extend %text-bold;
+                        }
+                    }
+
+                    a {
+                        @extend %text-normal;
+                        color: $colorTextBody;
+                        display: inline-block;
+                        padding: 5px 0px;
+                        -webkit-transition: all 0.3s ease;
+                        -moz-transition: all 0.3s ease;
+                        transition: all 0.3s ease;
+
+                        &:hover {
+                            color: $colorSecondary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .account-content {
+      padding-bottom: 30px;
+      .account-content-title {
+          margin-bottom: 30px;
+
+          .line {
+              width: 100%;
+              height: 4px;
+              background: #f6f6f6;
+              z-index: 1;
+              margin-top: -10px;
+          }
+
+          h1 {
+              display: inline-block;
+              @extend %text-title;
+              @extend %text-bold;
+              @extend %text-uppercase;
+              color: $colorSecondary;
+              margin: 0;
+              padding: 0 15px;
+              background: $colorBody;
+              z-index: 2;
+          }
+      }
+
+      .account-user-info, .account-default-address, .account-other-address-wrapper {
+        > h3 {
+          @extend %text-normal;
+          @extend %text-bold;
+          color: $colorTextBody;
+          margin: 0px 0px 5px 0px;
+        }
+      }
+
+      .account-user-name, .account-user-email, .account-user-address, .account-user-tel {
+        @extend %text-normal;
+        color: $colorTextBody;
+      }
+
+      .account-user-info {
+        .account-user-actions > a {
+          float: left !important;
+        }
+      }
+
+      .account-user-actions > a {
+        @extend %text-normal;
+        color: $colorSecondary;
+        &:first-child {
+          float: left;
+        }
+        &:last-child {
+          float: right;
+        }
+      }
+
+      .account-other-address {
+        border-bottom: 3px solid #f6f6f6;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        &:last-child {
+          border-bottom: none !important;
+          padding-bottom: 0px !important;
+          margin-bottom: 0px !important;
+        }
+      }
+
+      form {
+        label, input, select, textarea {
+          display: block;
+          width: 100%;
+          @extend %text-normal;
+          color: $colorTextBody;
+        }
+
+        input, select, textarea {
+          border-radius: 5px;
+          border: 1px solid $colorSecondary;
+          outline: 0px !important;
+        }
+
+        #txtName, #txtPhone, #txtAddress, .form-note, select {
+          margin-bottom: 15px;
+        }
+
+        .form-actions {
+          > button {
+            height: 40px;
+            line-height: 40px;
+            width: 140px;
+            margin-right: 5px;
+            padding: 0px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 5px;
+            @extend %text-normal;
+            @extend %text-bold;
+            @extend %text-uppercase;
+            outline: 0px !important;
+            &.btnCancel {
+              color: $colorTextBody;
+              background: #d7d7d7;
+            }
+            &.btnUpdate {
+              background: $colorSecondary;
+              color: $colorThird;
+            }
+          }
+        }
+      }
+    }
 }
