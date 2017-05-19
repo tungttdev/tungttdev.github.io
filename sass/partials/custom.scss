@@ -564,8 +564,8 @@ h3 {
                         background: #fff !important;
 
                         > .wrapper {
-                          padding: 0px !important;
-                          margin: 0px !important;
+                            padding: 0 !important;
+                            margin: 0 !important;
                         }
 
                         .mega-img {
@@ -1033,8 +1033,8 @@ h3 {
                             background: #fff !important;
 
                             > .wrapper {
-                              padding: 0px !important;
-                              margin: 0px !important;
+                                padding: 0 !important;
+                                margin: 0 !important;
                             }
 
                             .mega-img {
@@ -2061,8 +2061,9 @@ h3 {
                     img {
                         transform: scale(1.1);
                     }
+
                     .hover-layout {
-                      opacity: 1;
+                        opacity: 1;
                     }
                 }
 
@@ -2135,6 +2136,7 @@ h3 {
                 width: 90%;
                 text-align: center;
                 z-index: 2;
+
                 > a {
                     display: inline-block;
                     height: 38px;
@@ -2430,8 +2432,8 @@ h3 {
     margin: 30px 0;
 
     .breadcrumb-wrapper {
-         > a,
-        > span {
+         > span,
+        > a {
             display: inline-block;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
@@ -5154,6 +5156,62 @@ h3 {
 
     .account-content {
         padding-bottom: 30px;
+
+        .account-list-orders {
+          h2 {
+            @extend %text-normal;
+            @extend %text-bold;
+            @extend %text-uppercase;
+            color: $colorTextBody;
+            margin: 0px;
+          }
+          .order-date {
+            @extend %text-normal;
+            color: $colorTextBody;
+          }
+          table {
+            margin-top: 15px;
+          }
+            table,
+            td,
+            th {
+                border: 1px solid #e9e9e9;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            th, td {
+              padding: 10px 15px !important;
+            }
+            thead {
+              @extend %text-normal;
+              @extend %text-bold;
+              font-weight: normal !important;
+              color: $colorTextBody;
+            }
+            td {
+              @extend %text-normal;
+              color: $colorTextBody;
+              &.totalSum {
+                @extend %text-bold;
+                @extend %text-uppercase;
+              }
+              a {
+                @extend %text-normal;
+                color: $colorTextBody;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+                &.order-detail, &.product-order-detail {
+                  @extend %text-normal;
+                  color: $colorTextBody;
+                    &:hover {
+                      color: $colorSecondary;
+                    }
+                }
+              }
+
+            }
+        }
 
         .account-content-title {
             margin-bottom: 30px;
