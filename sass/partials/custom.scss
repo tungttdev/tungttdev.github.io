@@ -2432,8 +2432,8 @@ h3 {
     margin: 30px 0;
 
     .breadcrumb-wrapper {
-         > span,
-        > a {
+         > a,
+        > span {
             display: inline-block;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
@@ -3916,7 +3916,7 @@ h3 {
 
         .datetime-comments {
             @extend %text-small;
-            color: #666666;
+            color: $colorTextBody;
             margin-bottom: 15px;
 
             span {
@@ -4069,7 +4069,7 @@ h3 {
 
             .datetime-comments {
                 @extend %text-small;
-                color: #666666;
+                color: $colorTextBody;
                 margin-bottom: 15px;
 
                 span {
@@ -4122,29 +4122,33 @@ h3 {
     }
 }
 
+.our-facebook {
+    margin-bottom: 45px;
+}
+
 .blog-sidebar-content {
-    margin-bottom: 25px;
+  margin-bottom: 45px;
+  margin-top: 15px;
+  border: 3px solid #f6f6f6;
+  border-radius: 10px;
+  padding: 0px 15px 15px 15px;
 
     .blog-sidebar-title {
-        padding: 0 15px;
-        height: 40px;
-        line-height: 40px;
-        color: $colorThird;
-        @extend %text-normal;
-        @extend %text-bold;
-        background: #707070;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+        h2 {
+            color: $colorSecondary;
+            @extend %text-normal;
+            @extend %text-bold;
+            @extend %text-uppercase;
+            display: inline-block;
+            padding: 0 15px;
+            background: #fff;
+            transform: translateY(-15px);
+        }
     }
 
     .all-tags-content {
-        padding: 15px;
-        border: 1px solid #7fd0d4;
-        border-top: 0 !important;
-        border-bottom-left-radius: 5px;
-        border-bottom-right-radius: 5px;
-
         a {
+            margin-top: -15px;
             display: inline-block;
             margin-right: 5px;
             @extend %text-normal;
@@ -4161,6 +4165,7 @@ h3 {
 
     &.sidebar-subscribe {
         form {
+          margin-top: -15px;
             .form-desc {
                 @extend %text-normal;
                 color: $colorTextBody;
@@ -4168,15 +4173,14 @@ h3 {
             }
 
             input {
-                width: 95%;
+                width: 98%;
                 height: 32px;
                 line-height: 32px;
                 padding: 0 15px;
                 @extend %text-normal;
-                color: $colorThird;
-                background: #b7b7b7;
+                color: $colorTextBody;
                 outline: 0 !important;
-                border: 0;
+                border: 1px solid $colorSecondary;
                 border-radius: 5px;
             }
 
@@ -4190,22 +4194,7 @@ h3 {
                 background: $colorSecondary;
                 outline: 0 !important;
                 border-radius: 5px;
-            }
-
-            input::-webkit-input-placeholder {
-                color: #fff !important;
-            }
-
-            input:-moz-placeholder {
-                color: #fff !important;
-            }
-
-            input::-moz-placeholder {
-                color: #fff !important;
-            }
-
-            input:-ms-input-placeholder {
-                color: #fff !important;
+                border: 1px solid $colorSecondary;
             }
         }
     }
@@ -4213,9 +4202,20 @@ h3 {
 
 #article-wrapper {
     .article-content {
-        padding-bottom: 30px;
         margin-bottom: 30px;
-        border-bottom: 1px dashed $colorSecondary;
+
+        .article-fb-comments,
+        .article-fb-like {
+            margin-bottom: 15px;
+        }
+
+        .article-fb-comments {
+            .section-title {
+                h2 {
+                    padding-left: 0 !important;
+                }
+            }
+        }
 
         .article-title {
             h1 {
@@ -4228,17 +4228,11 @@ h3 {
 
         .datetime-comments {
             @extend %text-normal;
-            color: #666666;
+            color: $colorTextBody;
             margin-bottom: 15px;
 
             span {
                 display: inline-block;
-
-                &:first-child {
-                    padding-right: 5px;
-                    margin-right: 5px;
-                    border-right: 1px solid #666666;
-                }
             }
         }
 
@@ -4273,96 +4267,155 @@ h3 {
             }
         }
     }
+}
 
-    .related-articles {
+.related-articles {
+    margin-bottom: 30px;
+
+    .section-title {
         margin-bottom: 30px;
+    }
 
-        > h2 {
-            @extend %text-title;
-            @extend %text-bold;
-            @extend %text-uppercase;
-            color: $colorSecondary;
-            margin: 0 0 30px;
+    #related-articles-slider {
+        &:hover {
+            .owl-buttons {
+                > div {
+                    display: inline-block !important;
+                }
+            }
         }
 
-        .featured-article {
-            &:hover {
-                .featured-article-img {
-                    img {
-                        transform: scale(1.1);
-                    }
+        .owl-controls {
+            margin: 0;
+        }
 
+        .owl-buttons {
+            > div {
+                position: absolute;
+                height: 38px;
+                width: 38px;
+                text-align: center;
+                line-height: 38px;
+                top: calc(50% - 19px);
+                display: inline-block;
+                background: #7fd0d4;
+                color: #fff;
+                padding: 0;
+                margin: 0;
+                font-size: 18px;
+                display: none;
+
+                &.owl-prev {
+                    left: 30px;
+                }
+
+                &.owl-next {
+                    right: 0;
+                }
+            }
+        }
+
+        .related-article-item {
+            &:hover {
+                .related-article-img {
                     .hover-layout {
                         opacity: 1;
                     }
+
+                    a {
+                        img {
+                            transform: scale(1.1);
+                        }
+                    }
+                    .like-comment-count {
+                      opacity: 1;
+                    }
+                }
+
+                .related-article-title {
+                    a {
+                        color: $colorSecondary;
+                    }
                 }
             }
+        }
 
-            .featured-article-img {
+        .related-article-img {
+            position: relative;
+            margin-bottom: 5px;
+
+            a {
+                display: block;
                 overflow: hidden;
-                position: relative;
-                margin-bottom: 15px;
 
                 img {
                     width: 100%;
                     vertical-align: middle;
-                    transform: scale(1);
                     -webkit-transition: all 0.3s ease;
                     -moz-transition: all 0.3s ease;
                     transition: all 0.3s ease;
+                    transform: scale(1);
                 }
             }
 
-            .datetime-comments {
-                @extend %text-small;
-                color: #666666;
-                margin-bottom: 15px;
-
+            .like-comment-count {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 90%;
+                z-index: 999;
+                opacity: 0;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                transition: all 0.3s ease;
                 span {
-                    display: inline-block;
-
-                    &:first-child {
-                        padding-right: 5px;
-                        margin-right: 5px;
-                        border-right: 1px solid #666666;
-                    }
+                  display: inline-block;
+                  margin-right: 5px;
+                  @extend %text-title;
+                  color: #fff;
+                  &:last-child {
+                    margin-right: 0px;
+                  }
                 }
             }
+        }
 
-            .featured-article-title {
-                margin-bottom: 15px;
+        .datetime-comments {
+            @extend %text-small;
+            color: $colorTextBody;
+            margin-bottom: 5px;
 
-                h3 {
-                    margin: 0;
-                    padding: 0;
-
-                    a {
-                        display: block;
-                        font-size: 16px;
-                        color: $colorTextBody;
-                        -webkit-transition: all 0.3s ease;
-                        -moz-transition: all 0.3s ease;
-                        transition: all 0.3s ease;
-
-                        &:hover {
-                            color: $colorSecondary;
-                        }
-                    }
-                }
+            span {
+                display: inline-block;
             }
+        }
 
-            .featured-article-desc {
-                @extend %text-small;
-                color: #666666;
-                margin-bottom: 15px;
+        .related-article-title {
+            margin-bottom: 5px;
+
+            a {
+                display: block;
+                @extend %text-normal;
+                @extend %text-bold;
+                color: $colorTextBody;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                transition: all 0.3s ease;
             }
+        }
 
-            .featured-article-action {
-                a {
-                    display: inline-block;
-                    @extend %text-small;
-                    color: $colorSecondary;
-                }
+        .related-article-desc {
+            @extend %text-normal;
+            color: $colorTextBody;
+            margin-bottom: 5px;
+        }
+
+        .related-article-view {
+            a {
+                display: inline-block;
+                @extend %text-normal;
+                color: $colorSecondary;
             }
         }
     }
@@ -5158,20 +5211,23 @@ h3 {
         padding-bottom: 30px;
 
         .account-list-orders {
-          h2 {
-            @extend %text-normal;
-            @extend %text-bold;
-            @extend %text-uppercase;
-            color: $colorTextBody;
-            margin: 0px;
-          }
-          .order-date {
-            @extend %text-normal;
-            color: $colorTextBody;
-          }
-          table {
-            margin-top: 15px;
-          }
+            h2 {
+                @extend %text-normal;
+                @extend %text-bold;
+                @extend %text-uppercase;
+                color: $colorTextBody;
+                margin: 0;
+            }
+
+            .order-date {
+                @extend %text-normal;
+                color: $colorTextBody;
+            }
+
+            table {
+                margin-top: 15px;
+            }
+
             table,
             td,
             th {
@@ -5179,37 +5235,45 @@ h3 {
                 border-collapse: collapse;
                 text-align: center;
             }
-            th, td {
-              padding: 10px 15px !important;
+
+            td,
+            th {
+                padding: 10px 15px !important;
             }
+
             thead {
-              @extend %text-normal;
-              @extend %text-bold;
-              font-weight: normal !important;
-              color: $colorTextBody;
-            }
-            td {
-              @extend %text-normal;
-              color: $colorTextBody;
-              &.totalSum {
+                @extend %text-normal;
                 @extend %text-bold;
-                @extend %text-uppercase;
-              }
-              a {
+                font-weight: normal !important;
+                color: $colorTextBody;
+            }
+
+            td {
                 @extend %text-normal;
                 color: $colorTextBody;
-                -webkit-transition: all 0.3s ease;
-                -moz-transition: all 0.3s ease;
-                transition: all 0.3s ease;
-                &.order-detail, &.product-order-detail {
-                  @extend %text-normal;
-                  color: $colorTextBody;
-                    &:hover {
-                      color: $colorSecondary;
+
+                &.totalSum {
+                    @extend %text-bold;
+                    @extend %text-uppercase;
+                }
+
+                a {
+                    @extend %text-normal;
+                    color: $colorTextBody;
+                    -webkit-transition: all 0.3s ease;
+                    -moz-transition: all 0.3s ease;
+                    transition: all 0.3s ease;
+
+                    &.order-detail,
+                    &.product-order-detail {
+                        @extend %text-normal;
+                        color: $colorTextBody;
+
+                        &:hover {
+                            color: $colorSecondary;
+                        }
                     }
                 }
-              }
-
             }
         }
 

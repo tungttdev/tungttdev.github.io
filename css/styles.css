@@ -4759,10 +4759,10 @@ label.error {
 /* line 17, ../sass/partials/custom.scss */
 #header .header-top .header-top-contact a, #header .header-top .header-top-account a, #header .desktop-main-header .search-form form .input-group .search-suggest ul li .search-product-info .search-product-title a, #header .desktop-main-header .cart-wrapper .cart-inside ul li .cart-item-info a,
 #header .desktop-main-header .cart-wrapper .cart-inside ul li .cart-item-info span, #header .desktop-main-header .cart-wrapper .cart-inside .cart-detail .cart-actions a, #header .desktop-navbar ul li.mega-menu > ul li.mega-menu-lv2 > ul > li > a, #header-scrolldown.scroll-effect .toggle-navbar > ul li.mega-menu > ul li.mega-menu-lv2 > ul > li > a, #header-scrolldown.scroll-effect .search-form form .input-group .search-suggest1 ul li .search-product-info .search-product-title a, #header-scrolldown.scroll-effect .cart-wrapper .cart-inside1 ul li .cart-item-info a,
-#header-scrolldown.scroll-effect .cart-wrapper .cart-inside1 ul li .cart-item-info span, #header-scrolldown.scroll-effect .cart-wrapper .cart-inside1 .cart-detail .cart-actions a, #header-scrolldown.scroll-effect .cart-wrapper .cart-icon-wrapper .cart-items-count, #breadcrumb-citylocation .breadcrumb-wrapper > span,
-#breadcrumb-citylocation .breadcrumb-wrapper > a, .popup-content .popup-desc, .popup-content .popup-list ul li, .popup-content .form-desc, .product-content-wrapper .product-brand-sku a,
+#header-scrolldown.scroll-effect .cart-wrapper .cart-inside1 ul li .cart-item-info span, #header-scrolldown.scroll-effect .cart-wrapper .cart-inside1 .cart-detail .cart-actions a, #header-scrolldown.scroll-effect .cart-wrapper .cart-icon-wrapper .cart-items-count, #breadcrumb-citylocation .breadcrumb-wrapper > a,
+#breadcrumb-citylocation .breadcrumb-wrapper > span, .popup-content .popup-desc, .popup-content .popup-list ul li, .popup-content .form-desc, .product-content-wrapper .product-brand-sku a,
 .product-content-wrapper .product-brand-sku span, .product-content-wrapper .product-rating-fb .product-rating span, .product-content-wrapper .product-price .original-price, .product-content-wrapper .product-policy-wrapper .product-policy .policy-desc,
-.product-content-wrapper .product-policy-wrapper .product-policy .policy-title, #blog-wrapper .featured-article .datetime-comments, #blog-wrapper .featured-article .featured-article-desc, #blog-wrapper .featured-article .featured-article-action a, #blog-wrapper .blog-category .category-featured-articles .datetime-comments, #blog-wrapper .blog-category .category-featured-articles .featured-article-desc, #blog-wrapper .blog-category .category-featured-articles .featured-article-action a, #article-wrapper .related-articles .featured-article .datetime-comments, #article-wrapper .related-articles .featured-article .featured-article-desc, #article-wrapper .related-articles .featured-article .featured-article-action a {
+.product-content-wrapper .product-policy-wrapper .product-policy .policy-title, #blog-wrapper .featured-article .datetime-comments, #blog-wrapper .featured-article .featured-article-desc, #blog-wrapper .featured-article .featured-article-action a, #blog-wrapper .blog-category .category-featured-articles .datetime-comments, #blog-wrapper .blog-category .category-featured-articles .featured-article-desc, #blog-wrapper .blog-category .category-featured-articles .featured-article-action a, .related-articles #related-articles-slider .datetime-comments {
   font-size: 12px;
 }
 
@@ -4787,7 +4787,7 @@ label.error {
 #collection-wrapper .collection-sidebar-wrapper .collection-sidebar-content .collection-sort-countries input[type="radio"] + span,
 #collection-wrapper .collection-sidebar-wrapper .collection-sidebar-content .collection-sort-prices input[type="checkbox"] + span,
 #collection-wrapper .collection-sidebar-wrapper .collection-sidebar-content .collection-sort-prices input[type="radio"] + span, #collection-wrapper .collection-content-wrapper .collection-sort > span, #collection-wrapper .collection-content-wrapper .collection-desc, #collection-wrapper .collection-content-wrapper .product-item .product-title a, #collection-wrapper .collection-content-wrapper .product-item .product-price span.current-price, .popup-content form input, .popup-content form button, .popup-content .popup-social-network, .product-content-wrapper .product-status, .product-content-wrapper .product-size span, .product-content-wrapper .product-color span, .product-content-wrapper .product-quantity span, .product-content-wrapper .product-quantity .decreaseVal,
-.product-content-wrapper .product-quantity .increaseVal, .product-content-wrapper .product-quantity .val, .product-content-wrapper .product-gift > h3, .product-content-wrapper .product-gift > .h3, .product-content-wrapper .product-gift ul li, .product-content-wrapper .product-quickview-actions .btnBuyNow, .product-content-wrapper .product-quickview-actions .btnAddToCart, .product-detail-accordion button.accordion, .product-detail-accordion div.panel, .related-products-wrapper .product-item .product-title a, .related-products-wrapper .product-item .product-price span.current-price, #blog-wrapper .blog-category .blog-category-title > a, #blog-wrapper .blog-category .category-featured-articles .featured-article-title h3 a, #blog-wrapper .blog-category .category-featured-articles .featured-article-title .h3 a, .blog-sidebar-content .blog-sidebar-title, .blog-sidebar-content .all-tags-content a, .blog-sidebar-content.sidebar-subscribe form .form-desc, .blog-sidebar-content.sidebar-subscribe form input, .blog-sidebar-content.sidebar-subscribe form button, #article-wrapper .article-content .datetime-comments, #article-wrapper .article-content .article-short-desc, #article-wrapper .article-content .article-description, #article-wrapper .article-content .article-all-tags, #article-wrapper .article-content .article-all-tags a, #sameprice-intro .sameprice-desc, #sameprice-products .product-item .product-title a, #sameprice-products .product-item .product-sale-tag, #sameprice-products .product-item .product-actions a, #optin-intro .optin-desc, #optin-subscribe .optin-form form input,
+.product-content-wrapper .product-quantity .increaseVal, .product-content-wrapper .product-quantity .val, .product-content-wrapper .product-gift > h3, .product-content-wrapper .product-gift > .h3, .product-content-wrapper .product-gift ul li, .product-content-wrapper .product-quickview-actions .btnBuyNow, .product-content-wrapper .product-quickview-actions .btnAddToCart, .product-detail-accordion button.accordion, .product-detail-accordion div.panel, .related-products-wrapper .product-item .product-title a, .related-products-wrapper .product-item .product-price span.current-price, #blog-wrapper .blog-category .blog-category-title > a, #blog-wrapper .blog-category .category-featured-articles .featured-article-title h3 a, #blog-wrapper .blog-category .category-featured-articles .featured-article-title .h3 a, .blog-sidebar-content .blog-sidebar-title h2, .blog-sidebar-content .blog-sidebar-title .h2, .blog-sidebar-content .all-tags-content a, .blog-sidebar-content.sidebar-subscribe form .form-desc, .blog-sidebar-content.sidebar-subscribe form input, .blog-sidebar-content.sidebar-subscribe form button, #article-wrapper .article-content .datetime-comments, #article-wrapper .article-content .article-short-desc, #article-wrapper .article-content .article-description, #article-wrapper .article-content .article-all-tags, #article-wrapper .article-content .article-all-tags a, .related-articles #related-articles-slider .related-article-title a, .related-articles #related-articles-slider .related-article-desc, .related-articles #related-articles-slider .related-article-view a, #sameprice-intro .sameprice-desc, #sameprice-products .product-item .product-title a, #sameprice-products .product-item .product-sale-tag, #sameprice-products .product-item .product-actions a, #optin-intro .optin-desc, #optin-subscribe .optin-form form input,
 #optin-subscribe .optin-form form select, #new-product-wrapper .new-product-title .new-product-shortdesc, #new-product-wrapper .new-product-desc, #new-product-wrapper .product-specification td,
 #new-product-wrapper .product-specification th, #flash-sale-wrapper .flash-sale-title .flash-sale-shortdesc, #flash-sale-wrapper .product-item .product-title a, #flash-sale-wrapper .product-item .product-sale-tag, #flash-sale-wrapper .product-item .product-actions a, #account-wrapper .account-sidebar-content .account-sidebar-title h2, #account-wrapper .account-sidebar-content .account-sidebar-title .h2, #account-wrapper .account-sidebar-content .account-sidebar-management ul li a, #account-wrapper .account-content .account-list-orders h2, #account-wrapper .account-content .account-list-orders .h2, #account-wrapper .account-content .account-list-orders .order-date, #account-wrapper .account-content .account-list-orders thead, #account-wrapper .account-content .account-list-orders td, #account-wrapper .account-content .account-list-orders td a, #account-wrapper .account-content .account-list-orders td a.order-detail, #account-wrapper .account-content .account-list-orders td a.product-order-detail, #account-wrapper .account-content .account-default-address > h3, #account-wrapper .account-content .account-default-address > .h3,
 #account-wrapper .account-content .account-other-address-wrapper > h3,
@@ -4809,7 +4809,7 @@ label.error {
 #home-collection #owl-home-collection-slider3 .collection-item .collection-actions > a,
 #home-collection #owl-home-collection-slider4 .collection-item .collection-actions > a, #collection-wrapper .collection-content-wrapper .collection-info h1, #collection-wrapper .collection-content-wrapper .collection-info .h1, #collection-wrapper .collection-content-wrapper .product-item .product-actions a, .popup-content .popup-title, .product-comment-wrapper .product-comment > h3, .product-comment-wrapper .product-comment > .h3, .product-content-wrapper .product-title h1, .product-content-wrapper .product-title .h1,
 .product-content-wrapper .product-title h2,
-.product-content-wrapper .product-title .h2, .product-content-wrapper .product-rating-fb .product-rating > i, .product-content-wrapper .product-price .current-price, .related-products-wrapper .related-product-title, .related-products-wrapper .product-item .product-actions a, #blog-wrapper .blog-category .blog-category-title h2 a, #blog-wrapper .blog-category .blog-category-title .h2 a, #article-wrapper .article-content .article-title h1, #article-wrapper .article-content .article-title .h1, #article-wrapper .related-articles > h2, #article-wrapper .related-articles > .h2, #sameprice-intro .sameprice-title h2, #sameprice-intro .sameprice-title .h2, #optin-intro .optin-title h2, #optin-intro .optin-title .h2, #optin-subscribe .optin-form .form-title, #new-product-wrapper .new-product-title h1, #new-product-wrapper .new-product-title .h1, #flash-sale-wrapper .flash-sale-title h1, #flash-sale-wrapper .flash-sale-title .h1, #flash-sale-wrapper .flash-sale-countdown .day > div,
+.product-content-wrapper .product-title .h2, .product-content-wrapper .product-rating-fb .product-rating > i, .product-content-wrapper .product-price .current-price, .related-products-wrapper .related-product-title, .related-products-wrapper .product-item .product-actions a, #blog-wrapper .blog-category .blog-category-title h2 a, #blog-wrapper .blog-category .blog-category-title .h2 a, #article-wrapper .article-content .article-title h1, #article-wrapper .article-content .article-title .h1, .related-articles #related-articles-slider .related-article-img .like-comment-count span, #sameprice-intro .sameprice-title h2, #sameprice-intro .sameprice-title .h2, #optin-intro .optin-title h2, #optin-intro .optin-title .h2, #optin-subscribe .optin-form .form-title, #new-product-wrapper .new-product-title h1, #new-product-wrapper .new-product-title .h1, #flash-sale-wrapper .flash-sale-title h1, #flash-sale-wrapper .flash-sale-title .h1, #flash-sale-wrapper .flash-sale-countdown .day > div,
 #flash-sale-wrapper .flash-sale-countdown .hour > div,
 #flash-sale-wrapper .flash-sale-countdown .minute > div,
 #flash-sale-wrapper .flash-sale-countdown .second > div, #account-wrapper .account-content .account-content-title h1, #account-wrapper .account-content .account-content-title .h1 {
@@ -4828,7 +4828,7 @@ label.error {
 #home-collection #owl-home-collection-slider4 .collection-item .collection-price-range span.collection-price, #home-showroom .showroom-location h3, #home-showroom .showroom-location .h3, #home-showroom .openning-hours h3, #home-showroom .openning-hours .h3, #home-showroom .contact-email a span,
 #home-showroom .contact-hotline a span, #footer h3, #footer .h3, #footer .footer-subscribe-form button, #online-support .online-support-desc, #collection-wrapper .collection-sidebar-wrapper a.accordion.active, #collection-wrapper .collection-sidebar-wrapper .collection-sidebar-content .collection-sidebar-title h2, #collection-wrapper .collection-sidebar-wrapper .collection-sidebar-content .collection-sidebar-title .h2, #collection-wrapper .collection-content-wrapper .collection-info h1, #collection-wrapper .collection-content-wrapper .collection-info .h1, #collection-wrapper .collection-content-wrapper .product-item .product-title a, #collection-wrapper .collection-content-wrapper .product-item .product-price span.current-price, .popup-content .popup-title, .popup-content form button, .product-comment-wrapper .product-comment > h3, .product-comment-wrapper .product-comment > .h3, .product-content-wrapper .product-title h1, .product-content-wrapper .product-title .h1,
 .product-content-wrapper .product-title h2,
-.product-content-wrapper .product-title .h2, .product-content-wrapper .product-price .current-price, .product-content-wrapper .product-size span, .product-content-wrapper .product-color span, .product-content-wrapper .product-quantity span, .product-content-wrapper .product-gift > h3, .product-content-wrapper .product-gift > .h3, .product-content-wrapper .product-policy-wrapper .product-policy .policy-title, .product-content-wrapper .product-quickview-actions .btnBuyNow, .product-content-wrapper .product-quickview-actions .btnAddToCart, .product-detail-accordion button.accordion, .product-detail-accordion button.accordion.active, .related-products-wrapper .related-product-title, .related-products-wrapper .product-item .product-title a, .related-products-wrapper .product-item .product-price span.current-price, #blog-wrapper .blog-category .blog-category-title h2 a, #blog-wrapper .blog-category .blog-category-title .h2 a, .blog-sidebar-content .blog-sidebar-title, #article-wrapper .article-content .article-title h1, #article-wrapper .article-content .article-title .h1, #article-wrapper .related-articles > h2, #article-wrapper .related-articles > .h2, #sameprice-intro .sameprice-title h2, #sameprice-intro .sameprice-title .h2, #sameprice-products .sameprice-title h2, #sameprice-products .sameprice-title .h2, #sameprice-products .product-item .product-title a, #sameprice-products .product-item .product-price span.current-price, #optin-intro .optin-title h2, #optin-intro .optin-title .h2, #optin-subscribe .optin-form .form-title, #new-product-wrapper .new-product-title h1, #new-product-wrapper .new-product-title .h1, #flash-sale-wrapper .flash-sale-title h1, #flash-sale-wrapper .flash-sale-title .h1, #flash-sale-wrapper .flash-sale-countdown .day,
+.product-content-wrapper .product-title .h2, .product-content-wrapper .product-price .current-price, .product-content-wrapper .product-size span, .product-content-wrapper .product-color span, .product-content-wrapper .product-quantity span, .product-content-wrapper .product-gift > h3, .product-content-wrapper .product-gift > .h3, .product-content-wrapper .product-policy-wrapper .product-policy .policy-title, .product-content-wrapper .product-quickview-actions .btnBuyNow, .product-content-wrapper .product-quickview-actions .btnAddToCart, .product-detail-accordion button.accordion, .product-detail-accordion button.accordion.active, .related-products-wrapper .related-product-title, .related-products-wrapper .product-item .product-title a, .related-products-wrapper .product-item .product-price span.current-price, #blog-wrapper .blog-category .blog-category-title h2 a, #blog-wrapper .blog-category .blog-category-title .h2 a, .blog-sidebar-content .blog-sidebar-title h2, .blog-sidebar-content .blog-sidebar-title .h2, #article-wrapper .article-content .article-title h1, #article-wrapper .article-content .article-title .h1, .related-articles #related-articles-slider .related-article-title a, #sameprice-intro .sameprice-title h2, #sameprice-intro .sameprice-title .h2, #sameprice-products .sameprice-title h2, #sameprice-products .sameprice-title .h2, #sameprice-products .product-item .product-title a, #sameprice-products .product-item .product-price span.current-price, #optin-intro .optin-title h2, #optin-intro .optin-title .h2, #optin-subscribe .optin-form .form-title, #new-product-wrapper .new-product-title h1, #new-product-wrapper .new-product-title .h1, #flash-sale-wrapper .flash-sale-title h1, #flash-sale-wrapper .flash-sale-title .h1, #flash-sale-wrapper .flash-sale-countdown .day,
 #flash-sale-wrapper .flash-sale-countdown .hour,
 #flash-sale-wrapper .flash-sale-countdown .minute,
 #flash-sale-wrapper .flash-sale-countdown .second, #flash-sale-wrapper .flash-sale-countdown .day > div,
@@ -4846,7 +4846,7 @@ label.error {
 /* line 37, ../sass/partials/custom.scss */
 #header .header-top .header-top-contact a, #header .desktop-main-header .search-form form .input-group .search-suggest h2, #header .desktop-main-header .search-form form .input-group .search-suggest .h2, #header .desktop-navbar ul li.hot-sale .main-banners .tab button, #header-scrolldown.scroll-effect .toggle-navbar > ul li.hot-sale .main-banners .tab button, #header-scrolldown.scroll-effect .hotline > a, #header-scrolldown.scroll-effect .search-form form .input-group .search-suggest1 h2, #header-scrolldown.scroll-effect .search-form form .input-group .search-suggest1 .h2, .section-title h2, .section-title .h2, #home-showroom .showroom-location h3, #home-showroom .showroom-location .h3, #footer h3, #footer .h3, #collection-wrapper .collection-sidebar-wrapper .collection-sidebar-content .collection-sidebar-title h2, #collection-wrapper .collection-sidebar-wrapper .collection-sidebar-content .collection-sidebar-title .h2, #collection-wrapper .collection-content-wrapper .collection-info h1, #collection-wrapper .collection-content-wrapper .collection-info .h1, .popup-content .popup-title, .product-comment-wrapper .product-comment > h3, .product-comment-wrapper .product-comment > .h3, .product-content-wrapper .product-title h1, .product-content-wrapper .product-title .h1,
 .product-content-wrapper .product-title h2,
-.product-content-wrapper .product-title .h2, .product-content-wrapper .product-policy-wrapper .product-policy .policy-title, .product-content-wrapper .product-quickview-actions .btnBuyNow, .product-content-wrapper .product-quickview-actions .btnAddToCart, .related-products-wrapper .related-product-title, #article-wrapper .related-articles > h2, #article-wrapper .related-articles > .h2, #optin-subscribe .optin-form form button, #new-product-wrapper .new-product-title h1, #new-product-wrapper .new-product-title .h1, #flash-sale-wrapper .flash-sale-title h1, #flash-sale-wrapper .flash-sale-title .h1, #flash-sale-wrapper .flash-sale-countdown .day > div,
+.product-content-wrapper .product-title .h2, .product-content-wrapper .product-policy-wrapper .product-policy .policy-title, .product-content-wrapper .product-quickview-actions .btnBuyNow, .product-content-wrapper .product-quickview-actions .btnAddToCart, .related-products-wrapper .related-product-title, .blog-sidebar-content .blog-sidebar-title h2, .blog-sidebar-content .blog-sidebar-title .h2, #optin-subscribe .optin-form form button, #new-product-wrapper .new-product-title h1, #new-product-wrapper .new-product-title .h1, #flash-sale-wrapper .flash-sale-title h1, #flash-sale-wrapper .flash-sale-title .h1, #flash-sale-wrapper .flash-sale-countdown .day > div,
 #flash-sale-wrapper .flash-sale-countdown .hour > div,
 #flash-sale-wrapper .flash-sale-countdown .minute > div,
 #flash-sale-wrapper .flash-sale-countdown .second > div, #account-wrapper .account-sidebar-content .account-sidebar-title h2, #account-wrapper .account-sidebar-content .account-sidebar-title .h2, #account-wrapper .account-content .account-list-orders h2, #account-wrapper .account-content .account-list-orders .h2, #account-wrapper .account-content .account-list-orders td.totalSum, #account-wrapper .account-content .account-content-title h1, #account-wrapper .account-content .account-content-title .h1, #account-wrapper .account-content form .form-actions > button, #hot-sale .main-banners .tab button {
@@ -7103,8 +7103,8 @@ h3,
   margin: 30px 0;
 }
 /* line 2435, ../sass/partials/custom.scss */
-#breadcrumb-citylocation .breadcrumb-wrapper > span,
-#breadcrumb-citylocation .breadcrumb-wrapper > a {
+#breadcrumb-citylocation .breadcrumb-wrapper > a,
+#breadcrumb-citylocation .breadcrumb-wrapper > span {
   display: inline-block;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -8561,7 +8561,7 @@ h3,
 }
 /* line 3917, ../sass/partials/custom.scss */
 #blog-wrapper .featured-article .datetime-comments {
-  color: #666666;
+  color: #000;
   margin-bottom: 15px;
 }
 /* line 3922, ../sass/partials/custom.scss */
@@ -8701,7 +8701,7 @@ h3,
 }
 /* line 4070, ../sass/partials/custom.scss */
 #blog-wrapper .blog-category .category-featured-articles .datetime-comments {
-  color: #666666;
+  color: #000;
   margin-bottom: 15px;
 }
 /* line 4075, ../sass/partials/custom.scss */
@@ -8747,29 +8747,29 @@ h3,
 }
 
 /* line 4125, ../sass/partials/custom.scss */
+.our-facebook {
+  margin-bottom: 45px;
+}
+
+/* line 4129, ../sass/partials/custom.scss */
 .blog-sidebar-content {
-  margin-bottom: 25px;
+  margin-bottom: 45px;
+  margin-top: 15px;
+  border: 3px solid #f6f6f6;
+  border-radius: 10px;
+  padding: 0px 15px 15px 15px;
 }
-/* line 4128, ../sass/partials/custom.scss */
-.blog-sidebar-content .blog-sidebar-title {
+/* line 4137, ../sass/partials/custom.scss */
+.blog-sidebar-content .blog-sidebar-title h2, .blog-sidebar-content .blog-sidebar-title .h2 {
+  color: #ee5c74;
+  display: inline-block;
   padding: 0 15px;
-  height: 40px;
-  line-height: 40px;
-  color: #fff;
-  background: #707070;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  background: #fff;
+  transform: translateY(-15px);
 }
-/* line 4140, ../sass/partials/custom.scss */
-.blog-sidebar-content .all-tags-content {
-  padding: 15px;
-  border: 1px solid #7fd0d4;
-  border-top: 0 !important;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-/* line 4147, ../sass/partials/custom.scss */
+/* line 4150, ../sass/partials/custom.scss */
 .blog-sidebar-content .all-tags-content a {
+  margin-top: -15px;
   display: inline-block;
   margin-right: 5px;
   color: #000;
@@ -8777,28 +8777,31 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4156, ../sass/partials/custom.scss */
+/* line 4160, ../sass/partials/custom.scss */
 .blog-sidebar-content .all-tags-content a:hover {
   color: #ee5c74;
 }
-/* line 4164, ../sass/partials/custom.scss */
+/* line 4167, ../sass/partials/custom.scss */
+.blog-sidebar-content.sidebar-subscribe form {
+  margin-top: -15px;
+}
+/* line 4169, ../sass/partials/custom.scss */
 .blog-sidebar-content.sidebar-subscribe form .form-desc {
   color: #000;
   margin-bottom: 15px;
 }
-/* line 4170, ../sass/partials/custom.scss */
+/* line 4175, ../sass/partials/custom.scss */
 .blog-sidebar-content.sidebar-subscribe form input {
-  width: 95%;
+  width: 98%;
   height: 32px;
   line-height: 32px;
   padding: 0 15px;
-  color: #fff;
-  background: #b7b7b7;
+  color: #000;
   outline: 0 !important;
-  border: 0;
+  border: 1px solid #ee5c74;
   border-radius: 5px;
 }
-/* line 4183, ../sass/partials/custom.scss */
+/* line 4187, ../sass/partials/custom.scss */
 .blog-sidebar-content.sidebar-subscribe form button {
   height: 32px;
   padding: 0 15px;
@@ -8808,29 +8811,21 @@ h3,
   background: #ee5c74;
   outline: 0 !important;
   border-radius: 5px;
-}
-/* line 4195, ../sass/partials/custom.scss */
-.blog-sidebar-content.sidebar-subscribe form input::-webkit-input-placeholder {
-  color: #fff !important;
-}
-/* line 4199, ../sass/partials/custom.scss */
-.blog-sidebar-content.sidebar-subscribe form input:-moz-placeholder {
-  color: #fff !important;
-}
-/* line 4203, ../sass/partials/custom.scss */
-.blog-sidebar-content.sidebar-subscribe form input::-moz-placeholder {
-  color: #fff !important;
-}
-/* line 4207, ../sass/partials/custom.scss */
-.blog-sidebar-content.sidebar-subscribe form input:-ms-input-placeholder {
-  color: #fff !important;
+  border: 1px solid #ee5c74;
 }
 
-/* line 4215, ../sass/partials/custom.scss */
+/* line 4204, ../sass/partials/custom.scss */
 #article-wrapper .article-content {
-  padding-bottom: 30px;
   margin-bottom: 30px;
-  border-bottom: 1px dashed #ee5c74;
+}
+/* line 4207, ../sass/partials/custom.scss */
+#article-wrapper .article-content .article-fb-comments,
+#article-wrapper .article-content .article-fb-like {
+  margin-bottom: 15px;
+}
+/* line 4214, ../sass/partials/custom.scss */
+#article-wrapper .article-content .article-fb-comments .section-title h2, #article-wrapper .article-content .article-fb-comments .section-title .h2 {
+  padding-left: 0 !important;
 }
 /* line 4221, ../sass/partials/custom.scss */
 #article-wrapper .article-content .article-title h1, #article-wrapper .article-content .article-title .h1 {
@@ -8839,35 +8834,29 @@ h3,
 }
 /* line 4229, ../sass/partials/custom.scss */
 #article-wrapper .article-content .datetime-comments {
-  color: #666666;
+  color: #000;
   margin-bottom: 15px;
 }
 /* line 4234, ../sass/partials/custom.scss */
 #article-wrapper .article-content .datetime-comments span {
   display: inline-block;
 }
-/* line 4237, ../sass/partials/custom.scss */
-#article-wrapper .article-content .datetime-comments span:first-child {
-  padding-right: 5px;
-  margin-right: 5px;
-  border-right: 1px solid #666666;
-}
-/* line 4245, ../sass/partials/custom.scss */
+/* line 4239, ../sass/partials/custom.scss */
 #article-wrapper .article-content .article-short-desc {
   margin-bottom: 15px;
   color: #000;
 }
-/* line 4251, ../sass/partials/custom.scss */
+/* line 4245, ../sass/partials/custom.scss */
 #article-wrapper .article-content .article-description {
   margin-bottom: 15px;
   color: #000;
 }
-/* line 4257, ../sass/partials/custom.scss */
+/* line 4251, ../sass/partials/custom.scss */
 #article-wrapper .article-content .article-all-tags {
   color: #000;
   margin-bottom: 15px;
 }
-/* line 4262, ../sass/partials/custom.scss */
+/* line 4256, ../sass/partials/custom.scss */
 #article-wrapper .article-content .article-all-tags a {
   display: inline-block;
   color: #000;
@@ -8875,128 +8864,179 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4270, ../sass/partials/custom.scss */
+/* line 4264, ../sass/partials/custom.scss */
 #article-wrapper .article-content .article-all-tags a:hover {
   color: #ee5c74;
 }
-/* line 4277, ../sass/partials/custom.scss */
-#article-wrapper .related-articles {
+
+/* line 4272, ../sass/partials/custom.scss */
+.related-articles {
   margin-bottom: 30px;
 }
-/* line 4280, ../sass/partials/custom.scss */
-#article-wrapper .related-articles > h2, #article-wrapper .related-articles > .h2 {
-  color: #ee5c74;
-  margin: 0 0 30px;
+/* line 4275, ../sass/partials/custom.scss */
+.related-articles .section-title {
+  margin-bottom: 30px;
 }
-/* line 4291, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article:hover .featured-article-img img {
-  transform: scale(1.1);
+/* line 4282, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider:hover .owl-buttons > div {
+  display: inline-block !important;
 }
-/* line 4295, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article:hover .featured-article-img .hover-layout {
+/* line 4288, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .owl-controls {
+  margin: 0;
+}
+/* line 4293, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .owl-buttons > div {
+  position: absolute;
+  height: 38px;
+  width: 38px;
+  text-align: center;
+  line-height: 38px;
+  top: calc(50% - 19px);
+  display: inline-block;
+  background: #7fd0d4;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  display: none;
+}
+/* line 4308, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .owl-buttons > div.owl-prev {
+  left: 30px;
+}
+/* line 4312, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .owl-buttons > div.owl-next {
+  right: 0;
+}
+/* line 4321, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-item:hover .related-article-img .hover-layout {
   opacity: 1;
 }
-/* line 4301, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .featured-article-img {
-  overflow: hidden;
-  position: relative;
-  margin-bottom: 15px;
+/* line 4326, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-item:hover .related-article-img a img {
+  transform: scale(1.1);
 }
-/* line 4306, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .featured-article-img img {
+/* line 4330, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-item:hover .related-article-img .like-comment-count {
+  opacity: 1;
+}
+/* line 4336, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-item:hover .related-article-title a {
+  color: #ee5c74;
+}
+/* line 4343, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-img {
+  position: relative;
+  margin-bottom: 5px;
+}
+/* line 4347, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-img a {
+  display: block;
+  overflow: hidden;
+}
+/* line 4351, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-img a img {
   width: 100%;
   vertical-align: middle;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   transform: scale(1);
+}
+/* line 4361, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-img .like-comment-count {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  z-index: 999;
+  opacity: 0;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4316, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .datetime-comments {
-  color: #666666;
-  margin-bottom: 15px;
+/* line 4372, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-img .like-comment-count span {
+  display: inline-block;
+  margin-right: 5px;
+  color: #fff;
 }
-/* line 4321, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .datetime-comments span {
+/* line 4377, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-img .like-comment-count span:last-child {
+  margin-right: 0px;
+}
+/* line 4384, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .datetime-comments {
+  color: #000;
+  margin-bottom: 5px;
+}
+/* line 4389, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .datetime-comments span {
   display: inline-block;
 }
-/* line 4324, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .datetime-comments span:first-child {
-  padding-right: 5px;
-  margin-right: 5px;
-  border-right: 1px solid #666666;
+/* line 4394, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-title {
+  margin-bottom: 5px;
 }
-/* line 4332, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .featured-article-title {
-  margin-bottom: 15px;
-}
-/* line 4335, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .featured-article-title h3, #article-wrapper .related-articles .featured-article .featured-article-title .h3 {
-  margin: 0;
-  padding: 0;
-}
-/* line 4339, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .featured-article-title h3 a, #article-wrapper .related-articles .featured-article .featured-article-title .h3 a {
+/* line 4397, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-title a {
   display: block;
-  font-size: 16px;
   color: #000;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4347, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .featured-article-title h3 a:hover, #article-wrapper .related-articles .featured-article .featured-article-title .h3 a:hover {
-  color: #ee5c74;
+/* line 4408, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-desc {
+  color: #000;
+  margin-bottom: 5px;
 }
-/* line 4354, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .featured-article-desc {
-  color: #666666;
-  margin-bottom: 15px;
-}
-/* line 4361, ../sass/partials/custom.scss */
-#article-wrapper .related-articles .featured-article .featured-article-action a {
+/* line 4415, ../sass/partials/custom.scss */
+.related-articles #related-articles-slider .related-article-view a {
   display: inline-block;
   color: #ee5c74;
 }
 
-/* line 4371, ../sass/partials/custom.scss */
+/* line 4424, ../sass/partials/custom.scss */
 .fb-comments,
 .fb-comments > span,
 .fb-comments span iframe {
   width: 100% !important;
 }
 
-/* line 4377, ../sass/partials/custom.scss */
+/* line 4430, ../sass/partials/custom.scss */
 #sameprice-intro {
   margin-bottom: 30px;
 }
-/* line 4380, ../sass/partials/custom.scss */
+/* line 4433, ../sass/partials/custom.scss */
 #sameprice-intro .sameprice-banner {
   margin-bottom: 30px;
 }
-/* line 4383, ../sass/partials/custom.scss */
+/* line 4436, ../sass/partials/custom.scss */
 #sameprice-intro .sameprice-banner img {
   width: 100%;
   vertical-align: middle;
 }
-/* line 4389, ../sass/partials/custom.scss */
+/* line 4442, ../sass/partials/custom.scss */
 #sameprice-intro .sameprice-title {
   margin-bottom: 15px;
 }
-/* line 4392, ../sass/partials/custom.scss */
+/* line 4445, ../sass/partials/custom.scss */
 #sameprice-intro .sameprice-title h2, #sameprice-intro .sameprice-title .h2 {
   color: #000;
   margin: 0;
   padding: 0;
 }
-/* line 4401, ../sass/partials/custom.scss */
+/* line 4454, ../sass/partials/custom.scss */
 #sameprice-intro .sameprice-desc {
   width: 66.6%;
   margin: auto;
   color: #000;
 }
 
-/* line 4410, ../sass/partials/custom.scss */
+/* line 4463, ../sass/partials/custom.scss */
 #sameprice-products .sameprice-title {
   display: block;
   background: transparent;
@@ -9004,7 +9044,7 @@ h3,
   border-bottom: 1px solid #ee5c74;
   margin-bottom: 30px;
 }
-/* line 4417, ../sass/partials/custom.scss */
+/* line 4470, ../sass/partials/custom.scss */
 #sameprice-products .sameprice-title h2, #sameprice-products .sameprice-title .h2 {
   display: inline-block;
   padding: 0 15px;
@@ -9014,32 +9054,32 @@ h3,
   font-size: 16px;
   color: #fff;
 }
-/* line 4429, ../sass/partials/custom.scss */
+/* line 4482, ../sass/partials/custom.scss */
 #sameprice-products .product-item {
   position: relative;
   margin-bottom: 70px;
   overflow: hidden;
 }
-/* line 4437, ../sass/partials/custom.scss */
+/* line 4490, ../sass/partials/custom.scss */
 #sameprice-products .product-item:hover .product-actions a.btnAddToCart, #sameprice-products .product-item:hover .product-actions a.btnFavourite, #sameprice-products .product-item:hover .product-actions a.btnQuickView {
   transform: translateX(0);
   opacity: 0.9;
 }
-/* line 4447, ../sass/partials/custom.scss */
+/* line 4500, ../sass/partials/custom.scss */
 #sameprice-products .product-item:hover .product-img img {
   transform: scale(1.1);
 }
-/* line 4453, ../sass/partials/custom.scss */
+/* line 4506, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-img {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 4457, ../sass/partials/custom.scss */
+/* line 4510, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-img a {
   display: block;
   overflow: hidden;
 }
-/* line 4461, ../sass/partials/custom.scss */
+/* line 4514, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-img a img {
   width: 100%;
   vertical-align: middle;
@@ -9048,11 +9088,11 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4472, ../sass/partials/custom.scss */
+/* line 4525, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-title {
   margin-bottom: 10px;
 }
-/* line 4475, ../sass/partials/custom.scss */
+/* line 4528, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-title a {
   display: block;
   color: #000;
@@ -9060,29 +9100,29 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4484, ../sass/partials/custom.scss */
+/* line 4537, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-title a:hover {
   color: #ee5c74;
 }
-/* line 4491, ../sass/partials/custom.scss */
+/* line 4544, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-price span {
   display: inline-block;
   color: #4f4f4f;
   font-size: 12px;
   margin-right: 5px;
 }
-/* line 4497, ../sass/partials/custom.scss */
+/* line 4550, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-price span.current-price {
   font-size: 16px;
   color: #ee5c74;
 }
-/* line 4503, ../sass/partials/custom.scss */
+/* line 4556, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-price span.original-price {
   font-size: 14px;
   color: #c2c2c2;
   margin: 0;
 }
-/* line 4511, ../sass/partials/custom.scss */
+/* line 4564, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-sale-tag {
   position: absolute;
   top: 0;
@@ -9095,7 +9135,7 @@ h3,
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-/* line 4525, ../sass/partials/custom.scss */
+/* line 4578, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-actions {
   position: absolute;
   top: 50%;
@@ -9103,7 +9143,7 @@ h3,
   transform: translate(-50%, -50%);
   width: 90%;
 }
-/* line 4532, ../sass/partials/custom.scss */
+/* line 4585, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-actions a {
   display: inline-block;
   height: 32px;
@@ -9119,58 +9159,58 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4548, ../sass/partials/custom.scss */
+/* line 4601, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-actions a.btnFavourite {
   transform: translateY(40px);
   opacity: 0;
 }
-/* line 4552, ../sass/partials/custom.scss */
+/* line 4605, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-actions a.btnFavourite:hover {
   opacity: 1;
 }
-/* line 4557, ../sass/partials/custom.scss */
+/* line 4610, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-actions a.btnAddToCart {
   transform: translateY(40px);
   opacity: 0;
 }
-/* line 4561, ../sass/partials/custom.scss */
+/* line 4614, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-actions a.btnAddToCart:hover {
   opacity: 1;
 }
-/* line 4566, ../sass/partials/custom.scss */
+/* line 4619, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-actions a.btnQuickView {
   transform: translateY(40px);
   opacity: 0;
 }
-/* line 4570, ../sass/partials/custom.scss */
+/* line 4623, ../sass/partials/custom.scss */
 #sameprice-products .product-item .product-actions a.btnQuickView:hover {
   opacity: 1;
 }
 
-/* line 4579, ../sass/partials/custom.scss */
+/* line 4632, ../sass/partials/custom.scss */
 #optin-intro {
   margin-bottom: 30px;
 }
-/* line 4582, ../sass/partials/custom.scss */
+/* line 4635, ../sass/partials/custom.scss */
 #optin-intro .optin-banner {
   margin-bottom: 30px;
 }
-/* line 4585, ../sass/partials/custom.scss */
+/* line 4638, ../sass/partials/custom.scss */
 #optin-intro .optin-banner img {
   width: 100%;
   vertical-align: middle;
 }
-/* line 4591, ../sass/partials/custom.scss */
+/* line 4644, ../sass/partials/custom.scss */
 #optin-intro .optin-title {
   margin-bottom: 15px;
 }
-/* line 4594, ../sass/partials/custom.scss */
+/* line 4647, ../sass/partials/custom.scss */
 #optin-intro .optin-title h2, #optin-intro .optin-title .h2 {
   color: #000;
   margin: 0;
   padding: 0;
 }
-/* line 4603, ../sass/partials/custom.scss */
+/* line 4656, ../sass/partials/custom.scss */
 #optin-intro .optin-desc {
   width: 66.6%;
   margin: auto;
@@ -9179,16 +9219,16 @@ h3,
   border-bottom: 1px solid #ee5c74;
 }
 
-/* line 4613, ../sass/partials/custom.scss */
+/* line 4666, ../sass/partials/custom.scss */
 #optin-subscribe {
   margin-bottom: 100px;
 }
-/* line 4617, ../sass/partials/custom.scss */
+/* line 4670, ../sass/partials/custom.scss */
 #optin-subscribe .optin-subscribe-img img {
   vertical-align: middle;
   width: 100%;
 }
-/* line 4624, ../sass/partials/custom.scss */
+/* line 4677, ../sass/partials/custom.scss */
 #optin-subscribe .optin-form .form-title {
   padding: 10px 15px;
   background: #707070;
@@ -9196,13 +9236,13 @@ h3,
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-/* line 4634, ../sass/partials/custom.scss */
+/* line 4687, ../sass/partials/custom.scss */
 #optin-subscribe .optin-form form {
   padding: 30px 15px;
   border: 1px solid #82d0d3;
   border-top: none;
 }
-/* line 4639, ../sass/partials/custom.scss */
+/* line 4692, ../sass/partials/custom.scss */
 #optin-subscribe .optin-form form input,
 #optin-subscribe .optin-form form select {
   height: 32px;
@@ -9215,7 +9255,7 @@ h3,
   margin-bottom: 30px;
   color: #000;
 }
-/* line 4653, ../sass/partials/custom.scss */
+/* line 4706, ../sass/partials/custom.scss */
 #optin-subscribe .optin-form form button {
   height: 32px;
   line-height: 32px;
@@ -9226,39 +9266,39 @@ h3,
   border-radius: 5px;
   font-size: 16px;
 }
-/* line 4665, ../sass/partials/custom.scss */
+/* line 4718, ../sass/partials/custom.scss */
 #optin-subscribe .optin-form form input::-webkit-input-placeholder {
   color: #000 !important;
 }
-/* line 4669, ../sass/partials/custom.scss */
+/* line 4722, ../sass/partials/custom.scss */
 #optin-subscribe .optin-form form input:-moz-placeholder {
   color: #000 !important;
 }
-/* line 4673, ../sass/partials/custom.scss */
+/* line 4726, ../sass/partials/custom.scss */
 #optin-subscribe .optin-form form input::-moz-placeholder {
   color: #000 !important;
 }
-/* line 4677, ../sass/partials/custom.scss */
+/* line 4730, ../sass/partials/custom.scss */
 #optin-subscribe .optin-form form input:-ms-input-placeholder {
   color: #000 !important;
 }
 
-/* line 4685, ../sass/partials/custom.scss */
+/* line 4738, ../sass/partials/custom.scss */
 #new-product-wrapper .new-product-banner {
   margin-bottom: 40px;
 }
-/* line 4688, ../sass/partials/custom.scss */
+/* line 4741, ../sass/partials/custom.scss */
 #new-product-wrapper .new-product-banner img {
   width: 100%;
   vertical-align: middle;
 }
-/* line 4695, ../sass/partials/custom.scss */
+/* line 4748, ../sass/partials/custom.scss */
 #new-product-wrapper .new-product-title h1, #new-product-wrapper .new-product-title .h1 {
   color: #000;
   margin: 0 0 15px;
   padding: 0;
 }
-/* line 4704, ../sass/partials/custom.scss */
+/* line 4757, ../sass/partials/custom.scss */
 #new-product-wrapper .new-product-title .new-product-shortdesc {
   display: inline-block;
   color: #000;
@@ -9266,67 +9306,67 @@ h3,
   margin-bottom: 40px;
   border-bottom: 1px solid #ee5c74;
 }
-/* line 4715, ../sass/partials/custom.scss */
+/* line 4768, ../sass/partials/custom.scss */
 #new-product-wrapper .new-product-img img {
   vertical-align: middle;
 }
-/* line 4720, ../sass/partials/custom.scss */
+/* line 4773, ../sass/partials/custom.scss */
 #new-product-wrapper .new-product-desc {
   color: #000;
 }
-/* line 4725, ../sass/partials/custom.scss */
+/* line 4778, ../sass/partials/custom.scss */
 #new-product-wrapper .product-specification {
   margin: 15px 0;
 }
-/* line 4728, ../sass/partials/custom.scss */
+/* line 4781, ../sass/partials/custom.scss */
 #new-product-wrapper .product-specification td,
 #new-product-wrapper .product-specification th {
   border: 1px solid #82d0d3;
   padding: 5px 15px;
   color: #686868;
 }
-/* line 4736, ../sass/partials/custom.scss */
+/* line 4789, ../sass/partials/custom.scss */
 #new-product-wrapper .product-specification th {
   background: #b7b7b7;
 }
-/* line 4741, ../sass/partials/custom.scss */
+/* line 4794, ../sass/partials/custom.scss */
 #new-product-wrapper .new-product-gallery {
   padding: 40px 0;
 }
 
-/* line 4747, ../sass/partials/custom.scss */
+/* line 4800, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-banner {
   margin-bottom: 40px;
 }
-/* line 4750, ../sass/partials/custom.scss */
+/* line 4803, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-banner img {
   width: 100%;
   vertical-align: middle;
 }
-/* line 4757, ../sass/partials/custom.scss */
+/* line 4810, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-title h1, #flash-sale-wrapper .flash-sale-title .h1 {
   color: #000;
   margin: 0 0 15px;
   padding: 0;
 }
-/* line 4766, ../sass/partials/custom.scss */
+/* line 4819, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-title .flash-sale-shortdesc {
   display: inline-block;
   color: #000;
   margin-bottom: 40px;
 }
-/* line 4774, ../sass/partials/custom.scss */
+/* line 4827, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-countdown {
   max-width: 400px;
   text-align: center;
   width: 80%;
   margin: 0 auto 40px;
 }
-/* line 4780, ../sass/partials/custom.scss */
+/* line 4833, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-countdown .second {
   margin-right: 0 !important;
 }
-/* line 4784, ../sass/partials/custom.scss */
+/* line 4837, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-countdown .day,
 #flash-sale-wrapper .flash-sale-countdown .hour,
 #flash-sale-wrapper .flash-sale-countdown .minute,
@@ -9341,7 +9381,7 @@ h3,
   font-size: 48px;
   margin-right: 20px;
 }
-/* line 4799, ../sass/partials/custom.scss */
+/* line 4852, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-countdown .day > div,
 #flash-sale-wrapper .flash-sale-countdown .hour > div,
 #flash-sale-wrapper .flash-sale-countdown .minute > div,
@@ -9352,18 +9392,18 @@ h3,
   margin-top: 15px;
   color: #000;
 }
-/* line 4812, ../sass/partials/custom.scss */
+/* line 4865, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-tab-wrapper {
   /* Style the tab */
   /* Style the buttons inside the tab */
   /* Style the tab content */
 }
-/* line 4814, ../sass/partials/custom.scss */
+/* line 4867, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-tab-wrapper div.flash-sale-tab {
   overflow: hidden;
   border-bottom: 1px solid #ee5c74;
 }
-/* line 4819, ../sass/partials/custom.scss */
+/* line 4872, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-tab-wrapper div.flash-sale-tab button {
   background-color: #ebebeb;
   color: #000;
@@ -9377,17 +9417,17 @@ h3,
   cursor: pointer;
   transition: 0.3s;
 }
-/* line 4832, ../sass/partials/custom.scss */
+/* line 4885, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-tab-wrapper div.flash-sale-tab button.active {
   background: #ee5c74;
   color: #fff;
 }
-/* line 4838, ../sass/partials/custom.scss */
+/* line 4891, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-tab-wrapper .flash-sale-tabcontent {
   display: none;
   padding: 70px 0 0;
 }
-/* line 4843, ../sass/partials/custom.scss */
+/* line 4896, ../sass/partials/custom.scss */
 #flash-sale-wrapper .flash-sale-tab-wrapper .flash-sale-tabcontent {
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
@@ -9409,32 +9449,32 @@ h3,
     opacity: 1;
   }
 }
-/* line 4868, ../sass/partials/custom.scss */
+/* line 4921, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item {
   position: relative;
   margin-bottom: 70px;
   overflow: hidden;
 }
-/* line 4876, ../sass/partials/custom.scss */
+/* line 4929, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item:hover .product-actions a.btnAddToCart, #flash-sale-wrapper .product-item:hover .product-actions a.btnFavourite, #flash-sale-wrapper .product-item:hover .product-actions a.btnQuickView {
   transform: translateX(0);
   opacity: 0.9;
 }
-/* line 4886, ../sass/partials/custom.scss */
+/* line 4939, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item:hover .product-img img {
   transform: scale(1.1);
 }
-/* line 4892, ../sass/partials/custom.scss */
+/* line 4945, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-img {
   overflow: hidden;
   margin-bottom: 10px;
 }
-/* line 4896, ../sass/partials/custom.scss */
+/* line 4949, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-img a {
   display: block;
   overflow: hidden;
 }
-/* line 4900, ../sass/partials/custom.scss */
+/* line 4953, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-img a img {
   width: 100%;
   vertical-align: middle;
@@ -9443,11 +9483,11 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4911, ../sass/partials/custom.scss */
+/* line 4964, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-title {
   margin-bottom: 10px;
 }
-/* line 4914, ../sass/partials/custom.scss */
+/* line 4967, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-title a {
   display: block;
   color: #000;
@@ -9455,29 +9495,29 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4923, ../sass/partials/custom.scss */
+/* line 4976, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-title a:hover {
   color: #ee5c74;
 }
-/* line 4930, ../sass/partials/custom.scss */
+/* line 4983, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-price span {
   display: inline-block;
   color: #4f4f4f;
   font-size: 12px;
   margin-right: 5px;
 }
-/* line 4936, ../sass/partials/custom.scss */
+/* line 4989, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-price span.current-price {
   font-size: 16px;
   color: #ee5c74;
 }
-/* line 4942, ../sass/partials/custom.scss */
+/* line 4995, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-price span.original-price {
   font-size: 14px;
   color: #c2c2c2;
   margin: 0;
 }
-/* line 4950, ../sass/partials/custom.scss */
+/* line 5003, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-sale-tag {
   position: absolute;
   top: 0;
@@ -9490,7 +9530,7 @@ h3,
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
-/* line 4964, ../sass/partials/custom.scss */
+/* line 5017, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-actions {
   position: absolute;
   top: 50%;
@@ -9498,7 +9538,7 @@ h3,
   transform: translate(-50%, -50%);
   width: 90%;
 }
-/* line 4971, ../sass/partials/custom.scss */
+/* line 5024, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-actions a {
   display: inline-block;
   height: 32px;
@@ -9514,35 +9554,35 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 4987, ../sass/partials/custom.scss */
+/* line 5040, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-actions a.btnFavourite {
   transform: translateY(40px);
   opacity: 0;
 }
-/* line 4991, ../sass/partials/custom.scss */
+/* line 5044, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-actions a.btnFavourite:hover {
   opacity: 1;
 }
-/* line 4996, ../sass/partials/custom.scss */
+/* line 5049, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-actions a.btnAddToCart {
   transform: translateY(40px);
   opacity: 0;
 }
-/* line 5000, ../sass/partials/custom.scss */
+/* line 5053, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-actions a.btnAddToCart:hover {
   opacity: 1;
 }
-/* line 5005, ../sass/partials/custom.scss */
+/* line 5058, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-actions a.btnQuickView {
   transform: translateX(50px);
   opacity: 0;
 }
-/* line 5009, ../sass/partials/custom.scss */
+/* line 5062, ../sass/partials/custom.scss */
 #flash-sale-wrapper .product-item .product-actions a.btnQuickView:hover {
   opacity: 1;
 }
 
-/* line 5019, ../sass/partials/custom.scss */
+/* line 5072, ../sass/partials/custom.scss */
 #cart-wrapper table,
 #cart-wrapper td,
 #cart-wrapper th {
@@ -9550,7 +9590,7 @@ h3,
   border-collapse: collapse;
 }
 
-/* line 5027, ../sass/partials/custom.scss */
+/* line 5080, ../sass/partials/custom.scss */
 .quickViewWrapper {
   display: none;
   /* Hidden by default */
@@ -9573,7 +9613,7 @@ h3,
 }
 
 /* Modal Content */
-/* line 5048, ../sass/partials/custom.scss */
+/* line 5101, ../sass/partials/custom.scss */
 .quickViewWrapper-content {
   background: #fff;
   margin: auto;
@@ -9585,23 +9625,23 @@ h3,
   border-radius: 10px;
   overflow: hidden;
 }
-/* line 5060, ../sass/partials/custom.scss */
+/* line 5113, ../sass/partials/custom.scss */
 .quickViewWrapper-content .product-content-wrapper .product-brand-sku,
 .quickViewWrapper-content .product-content-wrapper .product-gift,
 .quickViewWrapper-content .product-content-wrapper .product-rating-fb {
   margin-bottom: 15px !important;
 }
-/* line 5066, ../sass/partials/custom.scss */
+/* line 5119, ../sass/partials/custom.scss */
 .quickViewWrapper-content .product-content-wrapper .product-quickview-actions {
   margin-bottom: 0 !important;
 }
-/* line 5071, ../sass/partials/custom.scss */
+/* line 5124, ../sass/partials/custom.scss */
 .quickViewWrapper-content .product-content-wrapper .product-rating-fb .product-rating > span {
   display: inline-block !important;
 }
 
 /* The Close Button */
-/* line 5078, ../sass/partials/custom.scss */
+/* line 5131, ../sass/partials/custom.scss */
 .btnCloseQuickView {
   position: absolute;
   top: 15px;
@@ -9619,7 +9659,7 @@ h3,
   border-radius: 50%;
 }
 
-/* line 5095, ../sass/partials/custom.scss */
+/* line 5148, ../sass/partials/custom.scss */
 .btnCloseQuickView:focus,
 .btnCloseQuickView:hover {
   color: #fff;
@@ -9627,14 +9667,14 @@ h3,
   cursor: pointer;
 }
 
-/* line 5103, ../sass/partials/custom.scss */
+/* line 5156, ../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content {
   margin-bottom: 30px;
   margin-top: 15px;
   border: 3px solid #f6f6f6;
   border-radius: 10px;
 }
-/* line 5110, ../sass/partials/custom.scss */
+/* line 5163, ../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-title h2, #account-wrapper .account-sidebar-content .account-sidebar-title .h2 {
   color: #ee5c74;
   display: inline-block;
@@ -9642,22 +9682,22 @@ h3,
   background: #fff;
   transform: translateY(-15px);
 }
-/* line 5123, ../sass/partials/custom.scss */
+/* line 5176, ../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul {
   margin: 0;
   padding: 0 15px 10px;
   margin-top: -15px;
 }
-/* line 5128, ../sass/partials/custom.scss */
+/* line 5181, ../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul li {
   margin: 0;
   display: block;
 }
-/* line 5133, ../sass/partials/custom.scss */
+/* line 5186, ../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul li.active a {
   color: #ee5c74;
 }
-/* line 5139, ../sass/partials/custom.scss */
+/* line 5192, ../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul li a {
   color: #000;
   display: inline-block;
@@ -9666,28 +9706,28 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5148, ../sass/partials/custom.scss */
+/* line 5201, ../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul li a:hover {
   color: #ee5c74;
 }
-/* line 5157, ../sass/partials/custom.scss */
+/* line 5210, ../sass/partials/custom.scss */
 #account-wrapper .account-content {
   padding-bottom: 30px;
 }
-/* line 5161, ../sass/partials/custom.scss */
+/* line 5214, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders h2, #account-wrapper .account-content .account-list-orders .h2 {
   color: #000;
-  margin: 0px;
+  margin: 0;
 }
-/* line 5168, ../sass/partials/custom.scss */
+/* line 5222, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders .order-date {
   color: #000;
 }
-/* line 5172, ../sass/partials/custom.scss */
+/* line 5227, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders table {
   margin-top: 15px;
 }
-/* line 5175, ../sass/partials/custom.scss */
+/* line 5231, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders table,
 #account-wrapper .account-content .account-list-orders td,
 #account-wrapper .account-content .account-list-orders th {
@@ -9695,39 +9735,40 @@ h3,
   border-collapse: collapse;
   text-align: center;
 }
-/* line 5182, ../sass/partials/custom.scss */
-#account-wrapper .account-content .account-list-orders th, #account-wrapper .account-content .account-list-orders td {
+/* line 5239, ../sass/partials/custom.scss */
+#account-wrapper .account-content .account-list-orders td,
+#account-wrapper .account-content .account-list-orders th {
   padding: 10px 15px !important;
 }
-/* line 5185, ../sass/partials/custom.scss */
+/* line 5244, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders thead {
   font-weight: normal !important;
   color: #000;
 }
-/* line 5191, ../sass/partials/custom.scss */
+/* line 5251, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders td {
   color: #000;
 }
-/* line 5198, ../sass/partials/custom.scss */
+/* line 5260, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders td a {
   color: #000;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5204, ../sass/partials/custom.scss */
+/* line 5267, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders td a.order-detail, #account-wrapper .account-content .account-list-orders td a.product-order-detail {
   color: #000;
 }
-/* line 5207, ../sass/partials/custom.scss */
+/* line 5272, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders td a.order-detail:hover, #account-wrapper .account-content .account-list-orders td a.product-order-detail:hover {
   color: #ee5c74;
 }
-/* line 5216, ../sass/partials/custom.scss */
+/* line 5280, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-content-title {
   margin-bottom: 30px;
 }
-/* line 5219, ../sass/partials/custom.scss */
+/* line 5283, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-content-title .line {
   width: 100%;
   height: 4px;
@@ -9735,7 +9776,7 @@ h3,
   z-index: 1;
   margin-top: -10px;
 }
-/* line 5227, ../sass/partials/custom.scss */
+/* line 5291, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-content-title h1, #account-wrapper .account-content .account-content-title .h1 {
   display: inline-block;
   color: #ee5c74;
@@ -9744,7 +9785,7 @@ h3,
   background: #fff;
   z-index: 2;
 }
-/* line 5243, ../sass/partials/custom.scss */
+/* line 5307, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-default-address > h3, #account-wrapper .account-content .account-default-address > .h3,
 #account-wrapper .account-content .account-other-address-wrapper > h3,
 #account-wrapper .account-content .account-other-address-wrapper > .h3,
@@ -9753,42 +9794,42 @@ h3,
   color: #000;
   margin: 0 0 5px;
 }
-/* line 5251, ../sass/partials/custom.scss */
+/* line 5315, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-address,
 #account-wrapper .account-content .account-user-email,
 #account-wrapper .account-content .account-user-name,
 #account-wrapper .account-content .account-user-tel {
   color: #000;
 }
-/* line 5260, ../sass/partials/custom.scss */
+/* line 5324, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-info .account-user-actions > a {
   float: left !important;
 }
-/* line 5265, ../sass/partials/custom.scss */
+/* line 5329, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-actions > a {
   color: #ee5c74;
 }
-/* line 5269, ../sass/partials/custom.scss */
+/* line 5333, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-actions > a:first-child {
   float: left;
 }
-/* line 5273, ../sass/partials/custom.scss */
+/* line 5337, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-actions > a:last-child {
   float: right;
 }
-/* line 5278, ../sass/partials/custom.scss */
+/* line 5342, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-other-address {
   border-bottom: 3px solid #f6f6f6;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
-/* line 5283, ../sass/partials/custom.scss */
+/* line 5347, ../sass/partials/custom.scss */
 #account-wrapper .account-content .account-other-address:last-child {
   border-bottom: none !important;
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
-/* line 5291, ../sass/partials/custom.scss */
+/* line 5355, ../sass/partials/custom.scss */
 #account-wrapper .account-content form input,
 #account-wrapper .account-content form label,
 #account-wrapper .account-content form select,
@@ -9797,7 +9838,7 @@ h3,
   width: 100%;
   color: #000;
 }
-/* line 5301, ../sass/partials/custom.scss */
+/* line 5365, ../sass/partials/custom.scss */
 #account-wrapper .account-content form input,
 #account-wrapper .account-content form select,
 #account-wrapper .account-content form textarea {
@@ -9805,7 +9846,7 @@ h3,
   border: 1px solid #ee5c74;
   outline: 0 !important;
 }
-/* line 5309, ../sass/partials/custom.scss */
+/* line 5373, ../sass/partials/custom.scss */
 #account-wrapper .account-content form #txtAddress,
 #account-wrapper .account-content form #txtName,
 #account-wrapper .account-content form #txtPhone,
@@ -9813,7 +9854,7 @@ h3,
 #account-wrapper .account-content form select {
   margin-bottom: 15px;
 }
-/* line 5318, ../sass/partials/custom.scss */
+/* line 5382, ../sass/partials/custom.scss */
 #account-wrapper .account-content form .form-actions > button {
   height: 40px;
   line-height: 40px;
@@ -9825,35 +9866,35 @@ h3,
   border-radius: 5px;
   outline: 0 !important;
 }
-/* line 5332, ../sass/partials/custom.scss */
+/* line 5396, ../sass/partials/custom.scss */
 #account-wrapper .account-content form .form-actions > button.btnCancel {
   color: #000;
   background: #d7d7d7;
 }
-/* line 5337, ../sass/partials/custom.scss */
+/* line 5401, ../sass/partials/custom.scss */
 #account-wrapper .account-content form .form-actions > button.btnUpdate {
   background: #ee5c74;
   color: #fff;
 }
 
-/* line 5348, ../sass/partials/custom.scss */
+/* line 5412, ../sass/partials/custom.scss */
 #hot-sale .main-banners {
   margin: 20px 0 0;
   /* Style the tab content */
 }
-/* line 5354, ../sass/partials/custom.scss */
+/* line 5418, ../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider:hover .owl-buttons > div {
   display: inline-block !important;
 }
-/* line 5361, ../sass/partials/custom.scss */
+/* line 5425, ../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .item .mini:last-child {
   margin-bottom: 0 !important;
 }
-/* line 5366, ../sass/partials/custom.scss */
+/* line 5430, ../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .owl-controls {
   margin: 0;
 }
-/* line 5371, ../sass/partials/custom.scss */
+/* line 5435, ../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .owl-buttons > div {
   position: absolute;
   height: 38px;
@@ -9869,19 +9910,19 @@ h3,
   font-size: 18px;
   display: none;
 }
-/* line 5386, ../sass/partials/custom.scss */
+/* line 5450, ../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .owl-buttons > div.owl-prev {
   left: 30px;
 }
-/* line 5390, ../sass/partials/custom.scss */
+/* line 5454, ../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .owl-buttons > div.owl-next {
   right: 0;
 }
-/* line 5397, ../sass/partials/custom.scss */
+/* line 5461, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tab {
   overflow: hidden;
 }
-/* line 5400, ../sass/partials/custom.scss */
+/* line 5464, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tab button {
   height: 40px !important;
   line-height: 40px;
@@ -9895,36 +9936,36 @@ h3,
   outline: 0 !important;
   padding: 0 20px;
 }
-/* line 5414, ../sass/partials/custom.scss */
+/* line 5478, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tab button:last-child {
   margin: 0 !important;
 }
-/* line 5418, ../sass/partials/custom.scss */
+/* line 5482, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tab button.active, #hot-sale .main-banners .tab button:hover {
   background: #ee5c74;
   color: #fff;
 }
-/* line 5427, ../sass/partials/custom.scss */
+/* line 5491, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent {
   display: none;
   margin: 20px 0;
 }
-/* line 5432, ../sass/partials/custom.scss */
+/* line 5496, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .img-banner.mini {
   margin-bottom: 25px;
 }
-/* line 5436, ../sass/partials/custom.scss */
+/* line 5500, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .img-banner a {
   margin: 0 !important;
   padding: 0 !important;
   border: 0 !important;
 }
-/* line 5441, ../sass/partials/custom.scss */
+/* line 5505, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .img-banner a img {
   vertical-align: middle;
   width: 100%;
 }
-/* line 5448, ../sass/partials/custom.scss */
+/* line 5512, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category {
   position: relative;
   padding: 0;
@@ -9933,19 +9974,19 @@ h3,
   margin-bottom: 24px;
   overflow: hidden;
 }
-/* line 5457, ../sass/partials/custom.scss */
+/* line 5521, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category:hover .category-name {
   color: #ee5c74;
 }
-/* line 5461, ../sass/partials/custom.scss */
+/* line 5525, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category:hover img {
   transform: scale(1.1);
 }
-/* line 5466, ../sass/partials/custom.scss */
+/* line 5530, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category .hover-layout {
   opacity: 1;
 }
-/* line 5470, ../sass/partials/custom.scss */
+/* line 5534, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category img {
   width: 100%;
   vertical-align: middle;
@@ -9954,7 +9995,7 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5479, ../sass/partials/custom.scss */
+/* line 5543, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category .category-name {
   position: absolute;
   top: 50%;
@@ -9969,7 +10010,7 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5496, ../sass/partials/custom.scss */
+/* line 5560, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand {
   position: relative;
   padding: 0;
@@ -9978,19 +10019,19 @@ h3,
   margin-bottom: 12px;
   overflow: hidden;
 }
-/* line 5505, ../sass/partials/custom.scss */
+/* line 5569, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand:hover .brand-name {
   color: #ee5c74;
 }
-/* line 5509, ../sass/partials/custom.scss */
+/* line 5573, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand:hover img {
   transform: scale(1.1);
 }
-/* line 5514, ../sass/partials/custom.scss */
+/* line 5578, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand .hover-layout {
   opacity: 1;
 }
-/* line 5518, ../sass/partials/custom.scss */
+/* line 5582, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand img {
   width: 100%;
   vertical-align: middle;
@@ -9999,7 +10040,7 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5527, ../sass/partials/custom.scss */
+/* line 5591, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand .brand-name {
   position: absolute;
   top: 50%;
@@ -10014,7 +10055,7 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5545, ../sass/partials/custom.scss */
+/* line 5609, ../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent {
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
