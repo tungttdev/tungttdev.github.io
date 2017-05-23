@@ -4789,7 +4789,8 @@ label.error {
 #collection-wrapper .collection-sidebar-wrapper .collection-sidebar-content .collection-sort-prices input[type="radio"] + span, #collection-wrapper .collection-content-wrapper .collection-sort > span, #collection-wrapper .collection-content-wrapper .collection-desc, #collection-wrapper .collection-content-wrapper .product-item .product-title a, #collection-wrapper .collection-content-wrapper .product-item .product-price span.current-price, .popup-content form input, .popup-content form button, .popup-content .popup-social-network, .product-content-wrapper .product-status, .product-content-wrapper .product-size span, .product-content-wrapper .product-color span, .product-content-wrapper .product-quantity span, .product-content-wrapper .product-quantity .decreaseVal,
 .product-content-wrapper .product-quantity .increaseVal, .product-content-wrapper .product-quantity .val, .product-content-wrapper .product-gift > h3, .product-content-wrapper .product-gift > .h3, .product-content-wrapper .product-gift ul li, .product-content-wrapper .product-quickview-actions .btnBuyNow, .product-content-wrapper .product-quickview-actions .btnAddToCart, .product-detail-accordion button.accordion, .product-detail-accordion div.panel, .related-products-wrapper .product-item .product-title a, .related-products-wrapper .product-item .product-price span.current-price, #blog-wrapper .btnLoadMoreArticle > a, #blog-wrapper .article-item .article-item-title a, .blog-sidebar-content .blog-sidebar-title h2, .blog-sidebar-content .blog-sidebar-title .h2, .blog-sidebar-content .all-tags-content a, .blog-sidebar-content.sidebar-subscribe form .form-desc, .blog-sidebar-content.sidebar-subscribe form input, .blog-sidebar-content.sidebar-subscribe form button, #article-wrapper .article-content .datetime-comments, #article-wrapper .article-content .article-short-desc, #article-wrapper .article-content .article-description, #article-wrapper .article-content .article-all-tags, #article-wrapper .article-content .article-all-tags a, .related-articles #related-articles-slider .related-article-title a, .related-articles #related-articles-slider .related-article-desc, .related-articles #related-articles-slider .related-article-view a, #sameprice-intro .sameprice-desc, .sameprice-products .product-item .product-title a, .sameprice-products .product-item .product-price span.current-price, #other-sameprice-events .other-sameprice-events-title > h2, #other-sameprice-events .other-sameprice-events-title > .h2, #optin-intro .optin-desc, #optin-subscribe .optin-form form input,
 #optin-subscribe .optin-form form select, #new-product-wrapper .new-product-title .new-product-shortdesc, #new-product-wrapper .new-product-desc, #new-product-wrapper .product-specification td,
-#new-product-wrapper .product-specification th, #flash-sale-wrapper .flash-sale-title .flash-sale-shortdesc, #flash-sale-wrapper .product-item .product-title a, #flash-sale-wrapper .product-item .product-price span.current-price, #account-wrapper .account-sidebar-content .account-sidebar-title h2, #account-wrapper .account-sidebar-content .account-sidebar-title .h2, #account-wrapper .account-sidebar-content .account-sidebar-management ul li a, #account-wrapper .account-content .account-list-orders h2, #account-wrapper .account-content .account-list-orders .h2, #account-wrapper .account-content .account-list-orders .order-date, #account-wrapper .account-content .account-list-orders thead, #account-wrapper .account-content .account-list-orders td, #account-wrapper .account-content .account-list-orders td a, #account-wrapper .account-content .account-list-orders td a.order-detail, #account-wrapper .account-content .account-list-orders td a.product-order-detail, #account-wrapper .account-content .account-default-address > h3, #account-wrapper .account-content .account-default-address > .h3,
+#new-product-wrapper .product-specification th, #flash-sale-wrapper .flash-sale-title .flash-sale-shortdesc, #flash-sale-wrapper .product-item .product-title a, #flash-sale-wrapper .product-item .product-price span.current-price, #cart-wrapper table th, #cart-wrapper table td.product-title > a, #cart-wrapper table td.product-money, #cart-wrapper table td.product-actions .decreaseVal,
+#cart-wrapper table td.product-actions .increaseVal, #cart-wrapper table td.product-actions .val, #cart-wrapper .cart-note-wrapper .cart-note form textarea, #cart-wrapper .cart-note-wrapper > a, #cart-wrapper .cart-checkout .cart-actions > a, #account-wrapper .account-sidebar-content .account-sidebar-title h2, #account-wrapper .account-sidebar-content .account-sidebar-title .h2, #account-wrapper .account-sidebar-content .account-sidebar-management ul li a, #account-wrapper .account-content .account-list-orders h2, #account-wrapper .account-content .account-list-orders .h2, #account-wrapper .account-content .account-list-orders .order-date, #account-wrapper .account-content .account-list-orders thead, #account-wrapper .account-content .account-list-orders td, #account-wrapper .account-content .account-list-orders td a, #account-wrapper .account-content .account-list-orders td a.order-detail, #account-wrapper .account-content .account-list-orders td a.product-order-detail, #account-wrapper .account-content .account-default-address > h3, #account-wrapper .account-content .account-default-address > .h3,
 #account-wrapper .account-content .account-other-address-wrapper > h3,
 #account-wrapper .account-content .account-other-address-wrapper > .h3,
 #account-wrapper .account-content .account-user-info > h3,
@@ -4812,7 +4813,7 @@ label.error {
 .product-content-wrapper .product-title .h2, .product-content-wrapper .product-rating-fb .product-rating > i, .product-content-wrapper .product-price .current-price, .related-products-wrapper .related-product-title, .related-products-wrapper .product-item .product-actions a, #blog-wrapper .featured-article-item .featured-article-img .featured-article-hover > a.featured-article-title, #blog-wrapper .blog-sidebar-wrapper .list-categories ul li > a, #blog-wrapper .blog-sidebar-wrapper .best-tags ul li a, #blog-wrapper .article-item .article-item-img .like-comment-count span, #article-wrapper .article-content .article-title h1, #article-wrapper .article-content .article-title .h1, .related-articles #related-articles-slider .related-article-img .like-comment-count span, #sameprice-intro .sameprice-title h2, #sameprice-intro .sameprice-title .h2, .sameprice-products .product-item .product-actions a, #optin-intro .optin-title h2, #optin-intro .optin-title .h2, #optin-subscribe .optin-form .form-title, #new-product-wrapper .new-product-title h1, #new-product-wrapper .new-product-title .h1, #flash-sale-wrapper .flash-sale-title h1, #flash-sale-wrapper .flash-sale-title .h1, #flash-sale-wrapper .flash-sale-countdown .day > div,
 #flash-sale-wrapper .flash-sale-countdown .hour > div,
 #flash-sale-wrapper .flash-sale-countdown .minute > div,
-#flash-sale-wrapper .flash-sale-countdown .second > div, #flash-sale-wrapper .product-item .product-actions a, #account-wrapper .account-content .account-content-title h1, #account-wrapper .account-content .account-content-title .h1 {
+#flash-sale-wrapper .flash-sale-countdown .second > div, #flash-sale-wrapper .product-item .product-actions a, #cart-wrapper table td.product-remove > a, #cart-wrapper .cart-checkout .cart-sum h3, #cart-wrapper .cart-checkout .cart-sum .h3, #account-wrapper .account-content .account-content-title h1, #account-wrapper .account-content .account-content-title .h1 {
   font-size: 18px;
 }
 
@@ -4834,7 +4835,7 @@ label.error {
 #flash-sale-wrapper .flash-sale-countdown .second, #flash-sale-wrapper .flash-sale-countdown .day > div,
 #flash-sale-wrapper .flash-sale-countdown .hour > div,
 #flash-sale-wrapper .flash-sale-countdown .minute > div,
-#flash-sale-wrapper .flash-sale-countdown .second > div, #flash-sale-wrapper .product-item .product-title a, #flash-sale-wrapper .product-item .product-price span.current-price, #account-wrapper .account-sidebar-content .account-sidebar-title h2, #account-wrapper .account-sidebar-content .account-sidebar-title .h2, #account-wrapper .account-sidebar-content .account-sidebar-management ul li.active a, #account-wrapper .account-content .account-list-orders h2, #account-wrapper .account-content .account-list-orders .h2, #account-wrapper .account-content .account-list-orders thead, #account-wrapper .account-content .account-list-orders td.totalSum, #account-wrapper .account-content .account-content-title h1, #account-wrapper .account-content .account-content-title .h1, #account-wrapper .account-content .account-default-address > h3, #account-wrapper .account-content .account-default-address > .h3,
+#flash-sale-wrapper .flash-sale-countdown .second > div, #flash-sale-wrapper .product-item .product-title a, #flash-sale-wrapper .product-item .product-price span.current-price, #cart-wrapper table th, #cart-wrapper table td.product-title > a, #cart-wrapper table td.product-money, #cart-wrapper .cart-checkout .cart-sum h3, #cart-wrapper .cart-checkout .cart-sum .h3, #cart-wrapper .cart-checkout .cart-actions > a, #account-wrapper .account-sidebar-content .account-sidebar-title h2, #account-wrapper .account-sidebar-content .account-sidebar-title .h2, #account-wrapper .account-sidebar-content .account-sidebar-management ul li.active a, #account-wrapper .account-content .account-list-orders h2, #account-wrapper .account-content .account-list-orders .h2, #account-wrapper .account-content .account-list-orders thead, #account-wrapper .account-content .account-list-orders td.totalSum, #account-wrapper .account-content .account-content-title h1, #account-wrapper .account-content .account-content-title .h1, #account-wrapper .account-content .account-default-address > h3, #account-wrapper .account-content .account-default-address > .h3,
 #account-wrapper .account-content .account-other-address-wrapper > h3,
 #account-wrapper .account-content .account-other-address-wrapper > .h3,
 #account-wrapper .account-content .account-user-info > h3,
@@ -9968,15 +9969,153 @@ h3,
   opacity: 1;
 }
 
-/* line 5507, ../../sass/partials/custom.scss */
+/* line 5506, ../../sass/partials/custom.scss */
+#cart-wrapper {
+  margin-bottom: 30px;
+}
+/* line 5508, ../../sass/partials/custom.scss */
 #cart-wrapper table,
 #cart-wrapper td,
 #cart-wrapper th {
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   border-collapse: collapse;
 }
-
 /* line 5515, ../../sass/partials/custom.scss */
+#cart-wrapper table {
+  margin-bottom: 30px;
+}
+/* line 5517, ../../sass/partials/custom.scss */
+#cart-wrapper table th {
+  padding: 15px !important;
+  color: #000;
+}
+/* line 5523, ../../sass/partials/custom.scss */
+#cart-wrapper table td {
+  padding: 15px !important;
+}
+/* line 5525, ../../sass/partials/custom.scss */
+#cart-wrapper table td.product-img {
+  text-align: center;
+}
+/* line 5529, ../../sass/partials/custom.scss */
+#cart-wrapper table td.product-title > a {
+  color: #000;
+  display: block;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 5537, ../../sass/partials/custom.scss */
+#cart-wrapper table td.product-title > a:hover {
+  color: #ee5c74;
+}
+/* line 5542, ../../sass/partials/custom.scss */
+#cart-wrapper table td.product-money {
+  color: #ee5c74;
+}
+/* line 5548, ../../sass/partials/custom.scss */
+#cart-wrapper table td.product-remove > a {
+  color: #000;
+  display: block;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 5555, ../../sass/partials/custom.scss */
+#cart-wrapper table td.product-remove > a:hover {
+  color: #ee5c74;
+}
+/* line 5561, ../../sass/partials/custom.scss */
+#cart-wrapper table td.product-actions .decreaseVal,
+#cart-wrapper table td.product-actions .increaseVal {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #d7d7d7;
+  color: #000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 5px;
+  outline: 0 !important;
+  border: 1px solid #d7d7d7;
+}
+/* line 5577, ../../sass/partials/custom.scss */
+#cart-wrapper table td.product-actions .val {
+  height: 30px;
+  width: 60px;
+  line-height: 30px;
+  text-align: center;
+  color: #000;
+  border-radius: 5px;
+  outline: 0 !important;
+  border: 1px solid #d7d7d7;
+  padding: 0 5px;
+}
+/* line 5593, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-note-wrapper .cart-note {
+  margin-bottom: 15px;
+}
+/* line 5597, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-note-wrapper .cart-note form > .input-group {
+  width: 100%;
+}
+/* line 5600, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-note-wrapper .cart-note form textarea {
+  width: 100%;
+  outline: 0px !important;
+  border-radius: 0px;
+  color: #000;
+}
+/* line 5609, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-note-wrapper > a {
+  color: #000;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+/* line 5615, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-note-wrapper > a:hover {
+  color: #ee5c74;
+}
+/* line 5621, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-checkout .cart-sum {
+  margin-bottom: 15px;
+}
+/* line 5623, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-checkout .cart-sum h3, #cart-wrapper .cart-checkout .cart-sum .h3 {
+  margin: 0px;
+  color: #000;
+}
+/* line 5628, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-checkout .cart-sum h3 span, #cart-wrapper .cart-checkout .cart-sum .h3 span {
+  color: #ee5c74;
+}
+/* line 5634, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-checkout .cart-actions > a {
+  height: 32px;
+  line-height: 32px;
+  padding: 0px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 5px;
+}
+/* line 5643, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-checkout .cart-actions > a:last-child {
+  margin-right: 0px;
+}
+/* line 5646, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-checkout .cart-actions > a.btnRefreshCart {
+  background: #e0e0e0;
+  color: #000;
+}
+/* line 5650, ../../sass/partials/custom.scss */
+#cart-wrapper .cart-checkout .cart-actions > a.btnProceedCheckout {
+  background: #ee5c74;
+  color: #fff;
+}
+
+/* line 5659, ../../sass/partials/custom.scss */
 .quickViewWrapper {
   display: none;
   /* Hidden by default */
@@ -9999,7 +10138,7 @@ h3,
 }
 
 /* Modal Content */
-/* line 5536, ../../sass/partials/custom.scss */
+/* line 5680, ../../sass/partials/custom.scss */
 .quickViewWrapper-content {
   background: #fff;
   margin: auto;
@@ -10011,23 +10150,23 @@ h3,
   border-radius: 10px;
   overflow: hidden;
 }
-/* line 5548, ../../sass/partials/custom.scss */
+/* line 5692, ../../sass/partials/custom.scss */
 .quickViewWrapper-content .product-content-wrapper .product-brand-sku,
 .quickViewWrapper-content .product-content-wrapper .product-gift,
 .quickViewWrapper-content .product-content-wrapper .product-rating-fb {
   margin-bottom: 15px !important;
 }
-/* line 5554, ../../sass/partials/custom.scss */
+/* line 5698, ../../sass/partials/custom.scss */
 .quickViewWrapper-content .product-content-wrapper .product-quickview-actions {
   margin-bottom: 0 !important;
 }
-/* line 5559, ../../sass/partials/custom.scss */
+/* line 5703, ../../sass/partials/custom.scss */
 .quickViewWrapper-content .product-content-wrapper .product-rating-fb .product-rating > span {
   display: inline-block !important;
 }
 
 /* The Close Button */
-/* line 5566, ../../sass/partials/custom.scss */
+/* line 5710, ../../sass/partials/custom.scss */
 .btnCloseQuickView {
   position: absolute;
   top: 15px;
@@ -10045,7 +10184,7 @@ h3,
   border-radius: 50%;
 }
 
-/* line 5583, ../../sass/partials/custom.scss */
+/* line 5727, ../../sass/partials/custom.scss */
 .btnCloseQuickView:focus,
 .btnCloseQuickView:hover {
   color: #fff;
@@ -10053,14 +10192,14 @@ h3,
   cursor: pointer;
 }
 
-/* line 5591, ../../sass/partials/custom.scss */
+/* line 5735, ../../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content {
   margin-bottom: 30px;
   margin-top: 15px;
   border: 3px solid #f6f6f6;
   border-radius: 10px;
 }
-/* line 5598, ../../sass/partials/custom.scss */
+/* line 5742, ../../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-title h2, #account-wrapper .account-sidebar-content .account-sidebar-title .h2 {
   color: #ee5c74;
   display: inline-block;
@@ -10068,22 +10207,22 @@ h3,
   background: #fff;
   transform: translateY(-15px);
 }
-/* line 5611, ../../sass/partials/custom.scss */
+/* line 5755, ../../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul {
   margin: 0;
   padding: 0 15px 10px;
   margin-top: -15px;
 }
-/* line 5616, ../../sass/partials/custom.scss */
+/* line 5760, ../../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul li {
   margin: 0;
   display: block;
 }
-/* line 5621, ../../sass/partials/custom.scss */
+/* line 5765, ../../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul li.active a {
   color: #ee5c74;
 }
-/* line 5627, ../../sass/partials/custom.scss */
+/* line 5771, ../../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul li a {
   color: #000;
   display: inline-block;
@@ -10092,28 +10231,28 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5636, ../../sass/partials/custom.scss */
+/* line 5780, ../../sass/partials/custom.scss */
 #account-wrapper .account-sidebar-content .account-sidebar-management ul li a:hover {
   color: #ee5c74;
 }
-/* line 5645, ../../sass/partials/custom.scss */
+/* line 5789, ../../sass/partials/custom.scss */
 #account-wrapper .account-content {
   padding-bottom: 30px;
 }
-/* line 5649, ../../sass/partials/custom.scss */
+/* line 5793, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders h2, #account-wrapper .account-content .account-list-orders .h2 {
   color: #000;
   margin: 0;
 }
-/* line 5657, ../../sass/partials/custom.scss */
+/* line 5801, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders .order-date {
   color: #000;
 }
-/* line 5662, ../../sass/partials/custom.scss */
+/* line 5806, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders table {
   margin-top: 15px;
 }
-/* line 5666, ../../sass/partials/custom.scss */
+/* line 5810, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders table,
 #account-wrapper .account-content .account-list-orders td,
 #account-wrapper .account-content .account-list-orders th {
@@ -10121,40 +10260,40 @@ h3,
   border-collapse: collapse;
   text-align: center;
 }
-/* line 5674, ../../sass/partials/custom.scss */
+/* line 5818, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders td,
 #account-wrapper .account-content .account-list-orders th {
   padding: 10px 15px !important;
 }
-/* line 5679, ../../sass/partials/custom.scss */
+/* line 5823, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders thead {
   font-weight: normal !important;
   color: #000;
 }
-/* line 5686, ../../sass/partials/custom.scss */
+/* line 5830, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders td {
   color: #000;
 }
-/* line 5695, ../../sass/partials/custom.scss */
+/* line 5839, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders td a {
   color: #000;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5702, ../../sass/partials/custom.scss */
+/* line 5846, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders td a.order-detail, #account-wrapper .account-content .account-list-orders td a.product-order-detail {
   color: #000;
 }
-/* line 5707, ../../sass/partials/custom.scss */
+/* line 5851, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-list-orders td a.order-detail:hover, #account-wrapper .account-content .account-list-orders td a.product-order-detail:hover {
   color: #ee5c74;
 }
-/* line 5715, ../../sass/partials/custom.scss */
+/* line 5859, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-content-title {
   margin-bottom: 30px;
 }
-/* line 5718, ../../sass/partials/custom.scss */
+/* line 5862, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-content-title .line {
   width: 100%;
   height: 4px;
@@ -10162,7 +10301,7 @@ h3,
   z-index: 1;
   margin-top: -10px;
 }
-/* line 5726, ../../sass/partials/custom.scss */
+/* line 5870, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-content-title h1, #account-wrapper .account-content .account-content-title .h1 {
   display: inline-block;
   color: #ee5c74;
@@ -10171,7 +10310,7 @@ h3,
   background: #fff;
   z-index: 2;
 }
-/* line 5742, ../../sass/partials/custom.scss */
+/* line 5886, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-default-address > h3, #account-wrapper .account-content .account-default-address > .h3,
 #account-wrapper .account-content .account-other-address-wrapper > h3,
 #account-wrapper .account-content .account-other-address-wrapper > .h3,
@@ -10180,42 +10319,42 @@ h3,
   color: #000;
   margin: 0 0 5px;
 }
-/* line 5750, ../../sass/partials/custom.scss */
+/* line 5894, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-address,
 #account-wrapper .account-content .account-user-email,
 #account-wrapper .account-content .account-user-name,
 #account-wrapper .account-content .account-user-tel {
   color: #000;
 }
-/* line 5759, ../../sass/partials/custom.scss */
+/* line 5903, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-info .account-user-actions > a {
   float: left !important;
 }
-/* line 5764, ../../sass/partials/custom.scss */
+/* line 5908, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-actions > a {
   color: #ee5c74;
 }
-/* line 5768, ../../sass/partials/custom.scss */
+/* line 5912, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-actions > a:first-child {
   float: left;
 }
-/* line 5772, ../../sass/partials/custom.scss */
+/* line 5916, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-user-actions > a:last-child {
   float: right;
 }
-/* line 5777, ../../sass/partials/custom.scss */
+/* line 5921, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-other-address {
   border-bottom: 3px solid #f6f6f6;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
-/* line 5782, ../../sass/partials/custom.scss */
+/* line 5926, ../../sass/partials/custom.scss */
 #account-wrapper .account-content .account-other-address:last-child {
   border-bottom: none !important;
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
-/* line 5790, ../../sass/partials/custom.scss */
+/* line 5934, ../../sass/partials/custom.scss */
 #account-wrapper .account-content form input,
 #account-wrapper .account-content form label,
 #account-wrapper .account-content form select,
@@ -10224,7 +10363,7 @@ h3,
   width: 100%;
   color: #000;
 }
-/* line 5800, ../../sass/partials/custom.scss */
+/* line 5944, ../../sass/partials/custom.scss */
 #account-wrapper .account-content form input,
 #account-wrapper .account-content form select,
 #account-wrapper .account-content form textarea {
@@ -10232,7 +10371,7 @@ h3,
   border: 1px solid #ee5c74;
   outline: 0 !important;
 }
-/* line 5808, ../../sass/partials/custom.scss */
+/* line 5952, ../../sass/partials/custom.scss */
 #account-wrapper .account-content form #txtAddress,
 #account-wrapper .account-content form #txtName,
 #account-wrapper .account-content form #txtPhone,
@@ -10240,7 +10379,7 @@ h3,
 #account-wrapper .account-content form select {
   margin-bottom: 15px;
 }
-/* line 5817, ../../sass/partials/custom.scss */
+/* line 5961, ../../sass/partials/custom.scss */
 #account-wrapper .account-content form .form-actions > button {
   height: 40px;
   line-height: 40px;
@@ -10252,35 +10391,35 @@ h3,
   border-radius: 5px;
   outline: 0 !important;
 }
-/* line 5831, ../../sass/partials/custom.scss */
+/* line 5975, ../../sass/partials/custom.scss */
 #account-wrapper .account-content form .form-actions > button.btnCancel {
   color: #000;
   background: #d7d7d7;
 }
-/* line 5836, ../../sass/partials/custom.scss */
+/* line 5980, ../../sass/partials/custom.scss */
 #account-wrapper .account-content form .form-actions > button.btnUpdate {
   background: #ee5c74;
   color: #fff;
 }
 
-/* line 5847, ../../sass/partials/custom.scss */
+/* line 5991, ../../sass/partials/custom.scss */
 #hot-sale .main-banners {
   margin: 20px 0 0;
   /* Style the tab content */
 }
-/* line 5853, ../../sass/partials/custom.scss */
+/* line 5997, ../../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider:hover .owl-buttons > div {
   display: inline-block !important;
 }
-/* line 5860, ../../sass/partials/custom.scss */
+/* line 6004, ../../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .item .mini:last-child {
   margin-bottom: 0 !important;
 }
-/* line 5865, ../../sass/partials/custom.scss */
+/* line 6009, ../../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .owl-controls {
   margin: 0;
 }
-/* line 5870, ../../sass/partials/custom.scss */
+/* line 6014, ../../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .owl-buttons > div {
   position: absolute;
   height: 38px;
@@ -10296,19 +10435,19 @@ h3,
   font-size: 18px;
   display: none;
 }
-/* line 5885, ../../sass/partials/custom.scss */
+/* line 6029, ../../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .owl-buttons > div.owl-prev {
   left: 30px;
 }
-/* line 5889, ../../sass/partials/custom.scss */
+/* line 6033, ../../sass/partials/custom.scss */
 #hot-sale .main-banners #owl-home-main-banners-slider .owl-buttons > div.owl-next {
   right: 0;
 }
-/* line 5896, ../../sass/partials/custom.scss */
+/* line 6040, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tab {
   overflow: hidden;
 }
-/* line 5899, ../../sass/partials/custom.scss */
+/* line 6043, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tab button {
   height: 40px !important;
   line-height: 40px;
@@ -10322,36 +10461,36 @@ h3,
   outline: 0 !important;
   padding: 0 20px;
 }
-/* line 5913, ../../sass/partials/custom.scss */
+/* line 6057, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tab button:last-child {
   margin: 0 !important;
 }
-/* line 5917, ../../sass/partials/custom.scss */
+/* line 6061, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tab button.active, #hot-sale .main-banners .tab button:hover {
   background: #ee5c74;
   color: #fff;
 }
-/* line 5926, ../../sass/partials/custom.scss */
+/* line 6070, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent {
   display: none;
   margin: 20px 0;
 }
-/* line 5931, ../../sass/partials/custom.scss */
+/* line 6075, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .img-banner.mini {
   margin-bottom: 25px;
 }
-/* line 5935, ../../sass/partials/custom.scss */
+/* line 6079, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .img-banner a {
   margin: 0 !important;
   padding: 0 !important;
   border: 0 !important;
 }
-/* line 5940, ../../sass/partials/custom.scss */
+/* line 6084, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .img-banner a img {
   vertical-align: middle;
   width: 100%;
 }
-/* line 5947, ../../sass/partials/custom.scss */
+/* line 6091, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category {
   position: relative;
   padding: 0;
@@ -10360,19 +10499,19 @@ h3,
   margin-bottom: 24px;
   overflow: hidden;
 }
-/* line 5956, ../../sass/partials/custom.scss */
+/* line 6100, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category:hover .category-name {
   color: #ee5c74;
 }
-/* line 5960, ../../sass/partials/custom.scss */
+/* line 6104, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category:hover img {
   transform: scale(1.1);
 }
-/* line 5965, ../../sass/partials/custom.scss */
+/* line 6109, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category .hover-layout {
   opacity: 1;
 }
-/* line 5969, ../../sass/partials/custom.scss */
+/* line 6113, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category img {
   width: 100%;
   vertical-align: middle;
@@ -10381,7 +10520,7 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5978, ../../sass/partials/custom.scss */
+/* line 6122, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-category .category-name {
   position: absolute;
   top: 50%;
@@ -10396,7 +10535,7 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 5995, ../../sass/partials/custom.scss */
+/* line 6139, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand {
   position: relative;
   padding: 0;
@@ -10405,19 +10544,19 @@ h3,
   margin-bottom: 12px;
   overflow: hidden;
 }
-/* line 6004, ../../sass/partials/custom.scss */
+/* line 6148, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand:hover .brand-name {
   color: #ee5c74;
 }
-/* line 6008, ../../sass/partials/custom.scss */
+/* line 6152, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand:hover img {
   transform: scale(1.1);
 }
-/* line 6013, ../../sass/partials/custom.scss */
+/* line 6157, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand .hover-layout {
   opacity: 1;
 }
-/* line 6017, ../../sass/partials/custom.scss */
+/* line 6161, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand img {
   width: 100%;
   vertical-align: middle;
@@ -10426,7 +10565,7 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 6026, ../../sass/partials/custom.scss */
+/* line 6170, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent .featured-brand .brand-name {
   position: absolute;
   top: 50%;
@@ -10441,7 +10580,7 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 6044, ../../sass/partials/custom.scss */
+/* line 6188, ../../sass/partials/custom.scss */
 #hot-sale .main-banners .tabcontent {
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
@@ -10463,7 +10602,7 @@ h3,
     opacity: 1;
   }
 }
-/* line 6070, ../../sass/partials/custom.scss */
+/* line 6214, ../../sass/partials/custom.scss */
 .fixed-left-like-share {
   position: fixed;
   left: 0;

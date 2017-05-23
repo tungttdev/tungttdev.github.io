@@ -5504,11 +5504,155 @@ h3 {
 }
 
 #cart-wrapper {
+    margin-bottom: 30px;
     table,
     td,
     th {
-        border: 1px solid black;
+        border-bottom: 1px solid black;
         border-collapse: collapse;
+    }
+
+    table {
+      margin-bottom: 30px;
+      th {
+        padding: 15px !important;
+        @extend %text-normal;
+        @extend %text-bold;
+        color: $colorTextBody;
+      }
+      td {
+        padding: 15px !important;
+        &.product-img {
+          text-align: center;
+        }
+        &.product-title {
+          > a {
+            @extend %text-normal;
+            @extend %text-bold;
+            color: $colorTextBody;
+            display: block;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            &:hover {
+              color: $colorSecondary;
+            }
+          }
+        }
+        &.product-money {
+          @extend %text-normal;
+          @extend %text-bold;
+          color: $colorSecondary;
+        }
+        &.product-remove {
+          > a {
+            @extend %text-title;
+            color: $colorTextBody;
+            display: block;
+            -webkit-transition: all 0.3s ease;
+            -moz-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            &:hover {
+              color: $colorSecondary;
+            }
+          }
+        }
+        &.product-actions {
+          .decreaseVal,
+          .increaseVal {
+              width: 30px;
+              height: 30px;
+              line-height: 30px;
+              background: #d7d7d7;
+              @extend %text-normal;
+              color: $colorTextBody;
+              text-align: center;
+              padding: 0;
+              margin: 0;
+              border-radius: 5px;
+              outline: 0 !important;
+              border: 1px solid #d7d7d7;
+          }
+
+          .val {
+              height: 30px;
+              width: 60px;
+              line-height: 30px;
+              text-align: center;
+              @extend %text-normal;
+              color: $colorTextBody;
+              border-radius: 5px;
+              outline: 0 !important;
+              border: 1px solid #d7d7d7;
+              padding: 0 5px;
+          }
+        }
+      }
+    }
+    .cart-note-wrapper {
+      .cart-note {
+        margin-bottom: 15px;
+        form {
+
+          > .input-group {
+            width: 100%;
+          }
+          textarea {
+            width: 100%;
+            outline: 0px !important;
+            border-radius: 0px;
+            @extend %text-normal;
+            color: $colorTextBody;
+          }
+        }
+      }
+      > a {
+        @extend %text-normal;
+        color: $colorTextBody;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        &:hover {
+          color: $colorSecondary;
+        }
+      }
+    }
+    .cart-checkout {
+      .cart-sum {
+        margin-bottom: 15px;
+        h3 {
+          @extend %text-title;
+          @extend %text-bold;
+          margin: 0px;
+          color: $colorTextBody;
+          span {
+            color: $colorSecondary;
+          }
+        }
+      }
+      .cart-actions {
+        > a {
+          height: 32px;
+          line-height: 32px;
+          padding: 0px 15px;
+          border-radius: 5px;
+          display: inline-block;
+          margin-right: 5px;
+          @extend %text-normal;
+          @extend %text-bold;
+          &:last-child {
+            margin-right: 0px;
+          }
+          &.btnRefreshCart {
+            background: #e0e0e0;
+            color: $colorTextBody;
+          }
+          &.btnProceedCheckout {
+            background: $colorSecondary;
+            color: #fff;
+          }
+        }
+      }
     }
 }
 
