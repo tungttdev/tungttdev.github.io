@@ -546,13 +546,100 @@ h3 {
                 text-align: center;
                 float: left;
 
+
+
                 &.mega-menu {
                     &:hover {
                         > ul {
                             display: block !important;
                         }
                     }
+                    .mini-category {
+                        .mega-menu-lv2 {
+                            padding-left: 30px !important;
+                            margin-bottom: 0px !important;
+                            &:hover {
+                                background: transparent !important;
+                            }
 
+                            .article-item {
+                                margin-bottom: 0 !important;
+
+                                &:hover {
+                                    .article-item-img {
+                                        .hover-layout,
+                                        .like-comment-count {
+                                            opacity: 1;
+                                        }
+                                        a {
+                                          img {
+                                            transform: scale(1.1);
+                                          }
+                                        }
+                                    }
+                                }
+
+                                .article-item-img {
+                                    position: relative;
+                                    margin-bottom: 5px;
+
+                                    a {
+                                        display: block;
+                                        overflow: hidden;
+                                        padding : 0px !important;
+
+                                        img {
+                                            vertical-align: middle;
+                                            width: 100%;
+                                            -webkit-transition: all 0.3s ease;
+                                            -moz-transition: all 0.3s ease;
+                                            transition: all 0.3s ease;
+                                            transform: scale(1);
+                                        }
+                                    }
+
+                                    .like-comment-count {
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        width: 90%;
+                                        z-index: 999;
+                                        opacity: 0;
+                                        -webkit-transition: all 0.3s ease;
+                                        -moz-transition: all 0.3s ease;
+                                        transition: all 0.3s ease;
+
+                                        span {
+                                            display: inline-block;
+                                            margin-right: 5px;
+                                            @extend %text-title;
+                                            color: #fff;
+
+                                            &:last-child {
+                                                margin-right: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                                .article-item-title {
+                                  a {
+                                    text-align: left;
+                                    display: block;
+                                    @extend %text-normal;
+                                    @extend %text-bold;
+                                    color: $colorTextBody;
+                                    -webkit-transition: all 0.3s ease;
+                                    -moz-transition: all 0.3s ease;
+                                    transition: all 0.3s ease;
+                                    &:hover {
+                                      color: $colorSecondary;
+                                    }
+                                  }
+                                }
+                            }
+                        }
+                    }
                     > ul {
                         position: absolute;
                         margin: auto;
@@ -1019,6 +1106,93 @@ h3 {
                         &:hover {
                             > ul {
                                 display: block !important;
+                            }
+                        }
+
+                        .mini-category {
+                            .mega-menu-lv2 {
+                                padding-left: 30px !important;
+                                margin-bottom: 0px !important;
+                                &:hover {
+                                    background: transparent !important;
+                                }
+
+                                .article-item {
+                                    margin-bottom: 0 !important;
+
+                                    &:hover {
+                                        .article-item-img {
+                                            .hover-layout,
+                                            .like-comment-count {
+                                                opacity: 1;
+                                            }
+                                            a {
+                                              img {
+                                                transform: scale(1.1);
+                                              }
+                                            }
+                                        }
+                                    }
+
+                                    .article-item-img {
+                                        position: relative;
+                                        margin-bottom: 5px;
+
+                                        a {
+                                            display: block;
+                                            overflow: hidden;
+                                            padding : 0px !important;
+
+                                            img {
+                                                vertical-align: middle;
+                                                width: 100%;
+                                                -webkit-transition: all 0.3s ease;
+                                                -moz-transition: all 0.3s ease;
+                                                transition: all 0.3s ease;
+                                                transform: scale(1);
+                                            }
+                                        }
+
+                                        .like-comment-count {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            width: 90%;
+                                            z-index: 999;
+                                            opacity: 0;
+                                            -webkit-transition: all 0.3s ease;
+                                            -moz-transition: all 0.3s ease;
+                                            transition: all 0.3s ease;
+
+                                            span {
+                                                display: inline-block;
+                                                margin-right: 5px;
+                                                @extend %text-title;
+                                                color: #fff;
+
+                                                &:last-child {
+                                                    margin-right: 0;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .article-item-title {
+                                      a {
+                                        text-align: left;
+                                        display: block;
+                                        @extend %text-normal;
+                                        @extend %text-bold;
+                                        color: $colorTextBody;
+                                        -webkit-transition: all 0.3s ease;
+                                        -moz-transition: all 0.3s ease;
+                                        transition: all 0.3s ease;
+                                        &:hover {
+                                          color: $colorSecondary;
+                                        }
+                                      }
+                                    }
+                                }
                             }
                         }
 
@@ -3931,7 +4105,7 @@ h3 {
                 background: -o-linear-gradient(top, rgba(255,255,255,0.05) 0%, rgba(0,0,0,1) 100%);
                 background: -ms-linear-gradient(top, rgba(255,255,255,0.05) 0%, rgba(0,0,0,1) 100%);
                 background: linear-gradient(to bottom, rgba(255,255,255,0.05) 0%, rgba(0,0,0,1) 100%);
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#ffffff', endColorstr='#000000', GradientType=0 );
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=  '#ffffff', endColorstr='#000000', GradientType=0 );
                 padding: 15px;
                 left: 0;
                 bottom: 0;
@@ -3951,8 +4125,10 @@ h3 {
                     }
 
                     &.featured-article-category {
-                        @extend %text-normal;
-                        margin-bottom: 10px;
+                        @extend %text-small;
+                        @extend %text-uppercase;
+                        color: $colorSecondary;
+                        margin-bottom: 5px;
                     }
 
                     &.featured-article-title {
@@ -4010,12 +4186,6 @@ h3 {
                     display: block;
                     position: relative;
 
-                    &:hover {
-                        .mini-category {
-                            display: block !important;
-                        }
-                    }
-
                     &.active {
                         > a {
                             color: $colorSecondary;
@@ -4034,24 +4204,6 @@ h3 {
 
                         &:hover {
                             color: $colorSecondary;
-                        }
-                    }
-
-                    .mini-category {
-                        position: absolute;
-                        left: 100%;
-                        top: 0;
-                        width: 800px;
-                        padding: 15px;
-                        background: #fff;
-                        z-index: 999;
-                        display: none;
-                        -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-                        -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-                        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
-
-                        .article-item {
-                            margin-bottom: 0 !important;
                         }
                     }
                 }
@@ -4782,66 +4934,67 @@ h3 {
 }
 
 #other-sameprice-events {
-  margin-bottom: 30px;
-#other-sameprice-events-slider {
-  &:hover {
-      .owl-buttons {
-          > div {
-              display: inline-block !important;
-          }
-      }
-  }
-
-  .owl-controls {
-      margin: 0;
-  }
-
-  .owl-buttons {
-      > div {
-          position: absolute;
-          height: 38px;
-          width: 38px;
-          text-align: center;
-          line-height: 38px;
-          top: calc(50% - 19px);
-          display: inline-block;
-          background: #7fd0d4;
-          color: #fff;
-          padding: 0;
-          margin: 0;
-          font-size: 18px;
-          display: none;
-
-          &.owl-prev {
-              left: 30px;
-          }
-
-          &.owl-next {
-              right: 0;
-          }
-      }
-  }
-}
-
-  .other-sameprice-events-title {
     margin-bottom: 30px;
-    > h2 {
-      height: 40px;
-      line-height: 40px !important;
-      @extend %text-normal;
-      @extend %text-bold;
-      color: #fff;
-      background: $colorSecondary;
-      text-align: center;
-      margin: 0px;
-      padding: 0px 15px;
-      display: inline-block;
+
+    #other-sameprice-events-slider {
+        &:hover {
+            .owl-buttons {
+                > div {
+                    display: inline-block !important;
+                }
+            }
+        }
+
+        .owl-controls {
+            margin: 0;
+        }
+
+        .owl-buttons {
+            > div {
+                position: absolute;
+                height: 38px;
+                width: 38px;
+                text-align: center;
+                line-height: 38px;
+                top: calc(50% - 19px);
+                display: inline-block;
+                background: #7fd0d4;
+                color: #fff;
+                padding: 0;
+                margin: 0;
+                font-size: 18px;
+                display: none;
+
+                &.owl-prev {
+                    left: 30px;
+                }
+
+                &.owl-next {
+                    right: 0;
+                }
+            }
+        }
     }
-  }
+
+    .other-sameprice-events-title {
+        margin-bottom: 30px;
+
+        > h2 {
+            height: 40px;
+            line-height: 40px !important;
+            @extend %text-normal;
+            @extend %text-bold;
+            color: #fff;
+            background: $colorSecondary;
+            text-align: center;
+            margin: 0;
+            padding: 0 15px;
+            display: inline-block;
+        }
+    }
 }
 
 #optin-intro {
-
     .optin-banner {
         margin-bottom: 30px;
 
@@ -4875,51 +5028,51 @@ h3 {
 #optin-subscribe {
     margin-bottom: 30px;
 
-
     #optin-banners-slider {
-      &:hover {
-          .owl-buttons {
-              > div {
-                  display: inline-block !important;
-              }
-          }
-      }
-
-      .owl-controls {
-          margin: 0;
-      }
-
-      .owl-buttons {
-          > div {
-              position: absolute;
-              height: 38px;
-              width: 38px;
-              text-align: center;
-              line-height: 38px;
-              top: calc(50% - 19px);
-              display: inline-block;
-              background: #7fd0d4;
-              color: #fff;
-              padding: 0;
-              margin: 0;
-              font-size: 18px;
-              display: none;
-
-              &.owl-prev {
-                  left: 30px;
-              }
-
-              &.owl-next {
-                  right: 0;
-              }
-          }
-      }
-      .optin-banner-item {
-        img {
-          vertical-align: middle;
-          width: 100%;
+        &:hover {
+            .owl-buttons {
+                > div {
+                    display: inline-block !important;
+                }
+            }
         }
-      }
+
+        .owl-controls {
+            margin: 0;
+        }
+
+        .owl-buttons {
+            > div {
+                position: absolute;
+                height: 38px;
+                width: 38px;
+                text-align: center;
+                line-height: 38px;
+                top: calc(50% - 19px);
+                display: inline-block;
+                background: #7fd0d4;
+                color: #fff;
+                padding: 0;
+                margin: 0;
+                font-size: 18px;
+                display: none;
+
+                &.owl-prev {
+                    left: 30px;
+                }
+
+                &.owl-next {
+                    right: 0;
+                }
+            }
+        }
+
+        .optin-banner-item {
+            img {
+                vertical-align: middle;
+                width: 100%;
+            }
+        }
     }
 
     .optin-form {
@@ -5046,8 +5199,9 @@ h3 {
 }
 
 #flash-sale-wrapper {
-  border-bottom: 1px solid $colorSecondary;
-  margin-bottom: 30px;
+    border-bottom: 1px solid $colorSecondary;
+    margin-bottom: 30px;
+
     .flash-sale-banner {
         margin-bottom: 40px;
 
@@ -5912,9 +6066,10 @@ h3 {
         }
     }
 }
+
 .fixed-left-like-share {
-  position: fixed;
-  left: 0;
-  top: 15%;
-  z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 15%;
+    z-index: 9999;
 }
