@@ -40,20 +40,21 @@
 /* ----------------------------------- */
 @media (max-width: 480px) {}
 @media (max-width:768px) {
+
+  #optin-subscribe > .wrapper > .inner,
+  #optin-intro > .wrapper > .inner,
+  #flash-sale-wrapper > .wrapper > .inner,
+  #flash-sale-wrapper > .flash-sale-tab-wrapper > .wrapper > .inner,
+  #other-sameprice-events > .wrapper > .inner,
+  #new-product-wrapper > .wrapper > .inner,
+  .sameprice-products > .wrapper > .inner {
+    padding: 0px !important;
+      }
     .optin-desc,
     .sameprice-desc,
     .sameprice-title,
     div.flash-sale-tab {
         width: 100% !important;
-    }
-    .flash-sale-tabcontent {
-      padding: 70px 0px 0px 0px !important;
-    }
-    .sameprice-products > .wrapper > .inner > .grid,
-    #other-sameprice-events > .wrapper > .inner,
-    #new-product-wrapper > .wrapper > .inner,
-    #optin-subscribe > .wrapper > .inner {
-      padding: 0px !important;
     }
 }
 /* ----------------------------------- */
@@ -63,6 +64,10 @@
 
 .mg-left-5 {
     margin-left: -5px !important;
+}
+
+.mg-left-10 {
+    margin-left: -10px !important;
 }
 
 .mg-left-20 {
@@ -91,6 +96,10 @@
 
 .pd-left15 {
     padding-left: 15px !important;
+}
+
+.pd-left10 {
+    padding-left: 10px !important;
 }
 
 body {
@@ -245,6 +254,7 @@ h3 {
             form {
                 position: relative;
                 width: 100%;
+                padding-left: 30px;
 
                 .input-group {
                     width: 100%;
@@ -2056,9 +2066,9 @@ h3 {
                     &.sale-off {
                         display: inline-block !important;
                         text-align: center;
-                        padding: 3px 5px;
+                        padding: 2px 3px;
                         color: #fff !important;
-                        background: red;
+                        background: #f3a938;
                         font-size: 11px !important;
                     }
                 }
@@ -2894,6 +2904,12 @@ h3 {
                     color: $colorSecondary;
                 }
             }
+            .collection-category-item {
+              border-bottom: 2px dashed #f6f6f6;
+              &:last-child {
+                border-bottom: none !important;
+              }
+            }
         }
     }
 
@@ -3041,9 +3057,9 @@ h3 {
                     &.sale-off {
                         display: inline-block !important;
                         text-align: center;
-                        padding: 3px 5px;
+                        padding: 2px 3px;
                         color: #fff !important;
-                        background: red;
+                        background: #f3a938;
                         font-size: 11px !important;
                     }
                 }
@@ -3321,11 +3337,6 @@ h3 {
             color: $colorThird;
             border-radius: 50%;
             float: left;
-
-            &.sale-off {
-                background: $colorSecondary;
-                font-size: 11px;
-            }
 
             &.gift {
                 background: #a4dada;
@@ -3995,9 +4006,9 @@ h3 {
                 &.sale-off {
                     display: inline-block !important;
                     text-align: center;
-                    padding: 3px 5px;
+                    padding: 2px 3px;
                     color: #fff !important;
-                    background: red;
+                    background: #f3a938;
                     font-size: 11px !important;
                 }
             }
@@ -4084,7 +4095,7 @@ h3 {
 
 #blog-wrapper {
     .featured-article-item {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
 
         .featured-article-img {
             position: relative;
@@ -4145,7 +4156,7 @@ h3 {
                     transition: all 0.3s ease;
 
                     &.featured-article-category {
-                        font-size: 10px;
+                        font-size: 9px;
                         @extend %text-uppercase;
                         color: #fff;
                         margin-bottom: 5px;
@@ -4155,7 +4166,7 @@ h3 {
                     }
 
                     &.featured-article-title {
-                        @extend %text-title;
+                        @extend %text-normal;
                         &:hover {
                             color: $colorSecondary;
                         }
@@ -4186,6 +4197,8 @@ h3 {
                     border-radius: 0;
                     padding: 0 15px;
                     outline: 0 !important;
+                    @extend %text-small;
+                    color: $colorTextBody;
                 }
 
                 button {
@@ -4196,6 +4209,8 @@ h3 {
                     border: 0;
                     background: #fff;
                     outline: 0 !important;
+                    @extend %text-normal;
+                    color: $colorTextBody;
                 }
             }
         }
@@ -4288,13 +4303,13 @@ h3 {
     }
 
     .btnLoadMoreArticle {
-        margin: 24px 0 48px;
+        margin-bottom: 24px;
 
         > a {
             display: inline-block;
-            height: 40px;
-            line-height: 40px;
-            padding: 0 48px;
+            height: 32px;
+            line-height: 32px;
+            padding: 0 15px;
             @extend %text-normal;
             @extend %text-bold;
             color: #fff;
@@ -4760,8 +4775,8 @@ h3 {
     margin-bottom: 30px;
     border-bottom: 1px solid $colorSecondary;
 
-    > .wrapper > .inner > .grid {
-      padding: 70px 135px 0 135px;
+    > .wrapper > .inner {
+      padding: 0px 50px;
     }
 
     .sameprice-title {
@@ -4782,6 +4797,7 @@ h3 {
             font-size: 16px;
             @extend %text-bold;
             color: $colorThird;
+            border-radius: 10px;
         }
     }
 
@@ -4879,9 +4895,9 @@ h3 {
                 &.sale-off {
                     display: inline-block !important;
                     text-align: center;
-                    padding: 3px 5px;
+                    padding: 2px 3px;
                     color: #fff !important;
-                    background: red;
+                    background: #f3a938;
                     font-size: 11px !important;
                 }
             }
@@ -4968,10 +4984,10 @@ h3 {
 
 #other-sameprice-events {
     margin-bottom: 30px;
-    > .wrapper > .inner {
-      padding: 0px 135px 0 135px;
-    }
 
+    > .wrapper > .inner {
+      padding: 0px 50px;
+    }
 
     #other-sameprice-events-slider {
         &:hover {
@@ -5027,12 +5043,15 @@ h3 {
             margin: 0;
             padding: 0 25px;
             display: inline-block;
-            border-radius: 5px;
+            border-radius: 10px;
         }
     }
 }
 
 #optin-intro {
+  > .wrapper > .inner {
+    padding: 0px 50px;
+  }
     .optin-banner {
         margin-bottom: 30px;
 
@@ -5055,7 +5074,7 @@ h3 {
     }
 
     .optin-desc {
-        width: 66.6%;
+        width: 80%;
         margin: auto;
         @extend %text-normal;
         color: $colorTextBody;
@@ -5067,7 +5086,7 @@ h3 {
     margin-bottom: 30px;
 
     > .wrapper > .inner {
-      padding: 0px 135px 0 135px;
+      padding: 0px 50px;
     }
 
     #optin-banners-slider {
@@ -5188,7 +5207,7 @@ h3 {
 #new-product-wrapper {
 
     > .wrapper > .inner {
-      padding: 0px 135px 0 135px;
+      padding: 0px 50px;
     }
     .new-product-banner {
         margin-bottom: 40px;
@@ -5261,6 +5280,11 @@ h3 {
     border-bottom: 1px solid $colorSecondary;
     margin-bottom: 30px;
 
+    > .wrapper > .inner,
+    > .flash-sale-tab-wrapper > .wrapper > .inner {
+      padding: 0px 50px;
+    }
+
     .flash-sale-banner {
         margin-bottom: 40px;
 
@@ -5331,6 +5355,7 @@ h3 {
         div.flash-sale-tab {
             overflow: hidden;
             border-bottom: 1px solid $colorSecondary;
+            margin-bottom: 15px;
         }
         /* Style the buttons inside the tab */
         div.flash-sale-tab button {
@@ -5345,7 +5370,7 @@ h3 {
             outline: none;
             cursor: pointer;
             transition: 0.3s;
-            border-radius: 5px;
+            border-radius: 10px;
 
             &.active {
                 background: $colorSecondary;
@@ -5355,7 +5380,6 @@ h3 {
         /* Style the tab content */
         .flash-sale-tabcontent {
             display: none;
-            padding: 70px 135px 0 135px;
         }
 
         .flash-sale-tabcontent {
@@ -5477,9 +5501,9 @@ h3 {
                 &.sale-off {
                     display: inline-block !important;
                     text-align: center;
-                    padding: 3px 5px;
+                    padding: 2px 3px;
                     color: #fff !important;
-                    background: red;
+                    background: #f3a938;
                     font-size: 11px !important;
                 }
             }
@@ -5501,11 +5525,6 @@ h3 {
                 color: $colorThird;
                 border-radius: 50%;
                 float: left;
-
-                &.sale-off {
-                    background: $colorSecondary;
-                    font-size: 11px;
-                }
 
                 &.gift {
                     background: #a4dada;
