@@ -79,19 +79,31 @@
       }
     }
   }
-
-  #owl-home-suggested-product-slider,
   #owl-home-collection-slider1,
   #owl-home-collection-slider2,
   #owl-home-collection-slider3,
   #owl-home-collection-slider4 {
+    padding: 0px !important;
+    .owl-controls {
+        .owl-pagination {
+          display: none !important;
+        }
+    }
+
+    .owl-buttons {
+        > div {
+            display: none !important;
+        }
+    }
+  }
+  #owl-home-suggested-product-slider {
     padding: 0px 0px 20px 0px !important;
       .owl-controls {
           .owl-pagination {
             display: block !important;
             position: absolute;
             bottom: -20px;
-            left: 20px;
+            left: 0px;
             right: 0px;
             .owl-page {
               padding: 2px;
@@ -2391,6 +2403,22 @@ h3 {
 
 #home-collection {
     margin-bottom: 40px;
+
+    .collection-view-more {
+      margin-top: 15px;
+      > a {
+        display: inline-block;
+        height: 40px;
+        line-height: 40px;
+        width: 150px;
+        @extend %text-normal;
+        @extend %text-uppercase;
+        @extend %text-bold;
+        border-radius: 10px;
+        background: $colorSecondary;
+        color: #fff;
+      }
+    }
 
     .collection-feature-img {
         position: relative;
