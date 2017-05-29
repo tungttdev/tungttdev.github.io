@@ -79,6 +79,20 @@
       }
     }
   }
+
+  #home-collection {
+    .home-collection-slider-wrapper {
+      margin-left: 0px !important;
+    }
+    #owl-home-collection-slider1,
+    #owl-home-collection-slider2,
+    #owl-home-collection-slider3,
+    #owl-home-collection-slider4 {
+      .item.grid__item.pd-left20 {
+        padding-left: 0px !important;
+      }
+    }
+  }
   #owl-home-collection-slider1,
   #owl-home-collection-slider2,
   #owl-home-collection-slider3,
