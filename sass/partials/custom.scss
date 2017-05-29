@@ -40,6 +40,56 @@
 /* ----------------------------------- */
 @media (max-width: 480px) {}
 @media (max-width:768px) {
+
+
+  #product-wrapper {
+    .product-comment-wrapper .product-comment > h3 {
+      font-size: 14px !important;
+    }
+    .product-mg-bottom {
+      margin-bottom: 30px !important;
+    }
+    .product-img-wrapper {
+      margin-bottom: 15px;
+      #sync1 {
+        .owl-buttons {
+          > div {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            padding: 0px;
+            text-align: center;
+            color: $colorSecondary;
+            position: absolute;
+            top: calc(50% - 20px);
+            background: transparent !important;
+            font-size: 48px;
+            &.owl-prev {
+              left: 0px;
+            }
+            &.owl-next {
+              right: 0px;
+            }
+          }
+        }
+      }
+      #sync2 {
+        display: none !important;
+      }
+    }
+    .product-content-wrapper {
+      .product-brand-sku, .product-rating-fb, .product-gift, .product-quickview-actions {
+        margin-bottom: 15px !important;
+      }
+      .product-policy-wrapper {
+        margin-bottom: 0px !important;
+        .product-policy {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
     #breadcrumb-citylocation {
         .breadcrumb-wrapper {
             margin-bottom: 15px;
@@ -85,12 +135,35 @@
         height: auto !important;
     }
 
+    .related-products-wrapper {
+      margin-bottom: 30px !important;
+      .related-products-slider-wrapper {
+        margin-left: 0px !important;
+        #owl-home-related-product-slider {
+          .item.grid__item {
+            padding-left: 0px !important;
+            .product-price {
+              height: auto !important;
+            }
+          }
+        }
+      }
+    }
+
+    .related-products-wrapper #owl-home-related-product-slider .owl-buttons > div {
+      opacity: 1 !important;
+      &.owl-prev {
+        left: 0px !important;
+      }
+    }
+
     #collection-wrapper .collection-content-wrapper .collection-desc {
       font-size: 12px !important;
     }
 
     #collection-wrapper .collection-content-wrapper .product-item .product-price span.original-price,
-    #suggested-products #owl-home-suggested-product-slider .product-item .product-price span.original-price {
+    #suggested-products #owl-home-suggested-product-slider .product-item .product-price span.original-price,
+    .related-products-wrapper .product-item .product-price span.original-price {
         font-size: 8px !important;
         margin-top: 3px;
     }
@@ -100,7 +173,8 @@
     #home-collection #owl-home-collection-slider2 .collection-item .collection-title a,
     #home-collection #owl-home-collection-slider3 .collection-item .collection-title a,
     #home-collection #owl-home-collection-slider4 .collection-item .collection-title a,
-    #suggested-products #owl-home-suggested-product-slider .product-item .product-title a {
+    #suggested-products #owl-home-suggested-product-slider .product-item .product-title a,
+    .related-products-wrapper .product-item .product-title a {
         font-size: 11px !important;
         height: 34px !important;
     }
@@ -110,7 +184,8 @@
     #home-collection #owl-home-collection-slider2 .collection-item .collection-price-range span.collection-price,
     #home-collection #owl-home-collection-slider3 .collection-item .collection-price-range span.collection-price,
     #home-collection #owl-home-collection-slider4 .collection-item .collection-price-range span.collection-price,
-    #suggested-products #owl-home-suggested-product-slider .product-item .product-price span.current-price {
+    #suggested-products #owl-home-suggested-product-slider .product-item .product-price span.current-price,
+    .related-products-wrapper .product-item .product-price span.current-price {
         font-size: 11px !important;
     }
 
@@ -3882,7 +3957,13 @@ h3 {
             }
         }
     }
-
+    #sync1 {
+      .owl-buttons {
+        > div {
+          display: none;
+        }
+      }
+    }
     #sync1 .item {
         margin: 5px;
         text-align: center;
@@ -4397,6 +4478,83 @@ h3 {
     }
 }
 
+.mobile-product-detail-tabs {
+  margin-bottom: 15px;
+  /* Style the tab */
+  div.tab {
+      overflow: hidden;
+  }
+
+  /* Style the buttons inside the tab */
+  div.tab button {
+      background-color: #fff;
+      float: left;
+      width: 33.33%;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      height: 40px;
+      line-height: 40px;
+      transition: 0.3s;
+      @extend %text-small;
+      color: $colorTextBody;
+      text-align: center;
+      border: 1px solid $colorSecondary;
+      border-right: none;
+      &:last-child {
+        border-right: 1px solid $colorSecondary !important;
+      }
+  }
+
+  /* Create an active/current tablink class */
+  div.tab button.active {
+      background-color: $colorSecondary;
+      color: #fff;
+      @extend %text-bold;
+  }
+
+  /* Style the tab content */
+  .productDetail-tabcontent {
+      display: none;
+      border: 1px solid $colorSecondary;
+      border-top: none;
+      padding: 6px 12px;
+      -webkit-animation: fadeEffect 1s;
+      animation: fadeEffect 1s;
+      @extend %text-small;
+      color: $colorTextBody;
+      max-height: 350px;
+      overflow-y: scroll;
+
+      table,
+      td,
+      th {
+          border: 1px solid #f2f2f2;
+          border-collapse: collapse;
+      }
+
+      table {
+          background-color: #fafafa;
+      }
+
+      td,
+      th {
+          padding: 5px !important;
+      }
+  }
+
+  /* Fade in tabs */
+  @-webkit-keyframes fadeEffect {
+      from {opacity: 0;}
+      to {opacity: 1;}
+  }
+
+  @keyframes fadeEffect {
+      from {opacity: 0;}
+      to {opacity: 1;}
+  }
+}
+
 .related-products-wrapper {
     margin-bottom: 60px;
 
@@ -4530,7 +4688,6 @@ h3 {
                 }
 
                 &.sale-off {
-                    display: inline-block !important;
                     text-align: center;
                     padding: 2px 3px;
                     color: #fff !important;

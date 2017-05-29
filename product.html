@@ -41,7 +41,7 @@
     </script>
     <div class="hover-layout1"></div>
     <section id="header">
-        <div class="header-top">
+        <div class="header-top medium--hide small--hide">
             <div class="wrapper">
                 <div class="inner">
                     <div class="grid">
@@ -76,8 +76,8 @@
                                 <form accept-charset="UTF-8" action="/subscribe" class="subscribe-form" method="post">
                                     <div class="input-group">
                                         <span class="input-group-btn">
-                                          <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                                        </span>
+                                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                      </span>
                                         <input type="text" id="txtSearchProduct" value="" placeholder="Bố mẹ cần tìm gì?" name="q" autocorrect="off" autocapitalize="off">
                                         <div id="search-suggest" class="search-suggest">
                                             <h2>Sản phẩm gợi ý</h2>
@@ -99,7 +99,7 @@
                                                                     <span class="original-price"><s>13.420.000đ</s></span>
                                                                 </div>
                                                                 <div class="search-product-gift">
-                                                                  <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                                                                    <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -142,7 +142,7 @@
                                                                     <span class="original-price"><s>13.420.000đ</s></span>
                                                                 </div>
                                                                 <div class="search-product-gift">
-                                                                  <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                                                                    <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -185,7 +185,7 @@
                                                                     <span class="original-price"><s>13.420.000đ</s></span>
                                                                 </div>
                                                                 <div class="search-product-gift">
-                                                                  <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                                                                    <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -347,7 +347,7 @@
                         <li>
                             <a href="collection.html">Khuyến mãi Hot</a>
                         </li>
-                        <li class="active dropdown-menu">
+                        <li class="dropdown-menu">
                             <a href="collection.html">Dành cho bé</a>
                             <ul class="no-bullets">
                                 <li class="dropdown-menu dropdown-menu--lv2">
@@ -797,6 +797,86 @@
                             </ul>
                         </li>
                     </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-header large--hide">
+            <div class="mobile-navbar">
+                <div class="wrapper">
+                    <div class="inner">
+                        <div class="grid mg-left-15">
+                            <div class="grid__item medium--three-twelfths small--three-twelfths pd-left15">
+                                <div class="mobile-bars text-left">
+                                    <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                                    <ul class="no-bullets">
+                                        <li>
+                                            <a href="/">Trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="/">Đồ dùng cho bé ăn</a>
+                                        </li>
+                                        <li>
+                                            <a href="/">Đồ vệ sinh cho bé</a>
+                                        </li>
+                                        <li>
+                                            <a href="/">Đồ dùng cho bé tắm</a>
+                                        </li>
+                                        <li>
+                                            <a href="/">Chăm sóc giấc ngủ của bé</a>
+                                        </li>
+                                        <li>
+                                            <a href="/">Đồ cho bé ra ngoài</a>
+                                        </li>
+                                        <li>
+                                            <a href="/">Đồ chăm sóc vệ sinh & bảo vệ bé</a>
+                                        </li>
+                                        <li>
+                                            <a href="/">Đồ chơi cho bé</a>
+                                        </li>
+                                        <li>
+                                            <a href="/">Thời trang cho bé</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="grid__item medium--six-twelfths small--six-twelfths pd-left15">
+                                <div class="mobile-logo text-center">
+                                    <a href="/">
+                                        <img src="images/mobile-header-logo.png" alt="" />
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid__item medium--three-twelfths small--three-twelfths pd-left15">
+                                <div class="mobile-actions clearfix text-right">
+                                    <div class="mobile-dots">
+                                        <a href="/">
+                                            <img src="images/mobile-dots.png" alt="" />
+                                        </a>
+                                    </div>
+                                    <div class="mobile-cart">
+                                        <a href="/">
+                                            <img src="images/cart-icon-mobile.png" alt="" />
+                                            <span>5</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mobile-search-form">
+                <div class="wrapper">
+                    <div class="inner">
+                        <form accept-charset="UTF-8" action="/search" class="mobile-search-form" method="post">
+                            <div class="input-group">
+                                <input type="text" id="txtMobileSearchProduct" value="" placeholder="Bố mẹ cần tìm gì?" name="q" autocorrect="off" autocapitalize="off">
+                                <span class="input-group-btn">
+                            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                          </span>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1273,8 +1353,8 @@
                             <form accept-charset="UTF-8" action="/subscribe" class="subscribe-form" method="post">
                                 <div class="input-group">
                                     <span class="input-group-btn">
-                            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
-                          </span>
+                          <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        </span>
                                     <input type="text" id="txtSearchProduct1" value="" placeholder="Bố mẹ cần tìm gì?" name="q" autocorrect="off" autocapitalize="off">
                                     <div id="search-suggest1" class="search-suggest1">
                                         <h2>Sản phẩm gợi ý</h2>
@@ -1296,7 +1376,7 @@
                                                                 <span class="original-price"><s>13.420.000đ</s></span>
                                                             </div>
                                                             <div class="search-product-gift">
-                                                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                                                                <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1339,7 +1419,7 @@
                                                                 <span class="original-price"><s>13.420.000đ</s></span>
                                                             </div>
                                                             <div class="search-product-gift">
-                                                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                                                                <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1382,7 +1462,7 @@
                                                                 <span class="original-price"><s>13.420.000đ</s></span>
                                                             </div>
                                                             <div class="search-product-gift">
-                                                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                                                                <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1613,9 +1693,9 @@
                                     <span class="new">New</span>
                                 </div>
                             </div>
-                            <div class="product-comment-wrapper">
+                            <div class="product-comment-wrapper medium--hide small--hide">
                                 <div class="product-likeshare-fb">
-<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                                 </div>
                                 <div class="product-comment">
                                     <h3>Bình luận</h3>
@@ -1631,10 +1711,12 @@
                                 <div class="product-title">
                                     <h1>Xe đẩy trẻ em Aprica Karoon PK</h1>
                                 </div>
+
                                 <div class="product-brand-sku clearfix">
                                     <span>Thương hiệu: </span><a href="/" class="brand-name">Aprica</a>
                                     <span>Mã sản phẩm: </span><span class="sku-number">496922092550</span>
                                 </div>
+
                                 <div class="product-rating-fb">
                                     <div class="grid">
                                         <div class="grid__item large--six-twelfths">
@@ -1649,7 +1731,7 @@
                                         </div>
                                         <div class="grid__item large--six-twelfths">
                                             <div class="product-fb-like">
-<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                                                <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -1658,7 +1740,6 @@
                                 <div class="product-price">
                                     <span class="current-price">13.420.000đ</span><span class="original-price"><s>14.000.000đ</s></span>
                                 </div>
-
 
                                 <div class="product-status">
                                     Tình trạng: <span>Còn 02 sản phẩm</span>
@@ -1670,6 +1751,7 @@
                                     <span class="size">M</span>
                                     <span class="size">L</span>
                                 </div>
+
                                 <div class="product-color">
                                     <span class="title">Màu sắc: </span>
                                     <div class="color-wrapper">
@@ -1754,9 +1836,7 @@
                                     <a class="btnAddToCart" href="/">Thêm vào giỏ hàng</a>
                                 </div>
 
-
-
-                                <div class="product-detail-accordion">
+                                <div class="product-detail-accordion medium--hide small--hide">
                                     <button class="accordion trigger-first">Mô tả sản phẩm</button>
                                     <div class="panel">
                                         Xe đẩy trẻ em Aprica Luxuna CTS Navy 92996 là sản phẩm xe đẩy trẻ em đặc biệt từ Aprica, được thiết kế để tích hợp với địu CTS, đặc biệt thích hợp với các chuyến đi xa, món quà từ thương hiệu Aprica dành cho mẹ và bé.<br
@@ -1823,6 +1903,87 @@
                                         động giúp tăng cường sự khả dụng và giúp dễ dàng điều khiển.<br /> - Đóng/ Mở chỉ với 1 chạm và xe tự đứng vững.<br />
                                     </div>
                                 </div>
+
+                                <div class="mobile-product-detail-tabs large--hide">
+                                    <div class="tab">
+                                        <button class="productDetail-tablinks" onclick="openProductDetailTab(event, 'productDesc')" id="defaultOpen2">Mô tả sản phẩm</button>
+                                        <button class="productDetail-tablinks" onclick="openProductDetailTab(event, 'productSpec')">Thông số kỹ thuật</button>
+                                        <button class="productDetail-tablinks" onclick="openProductDetailTab(event, 'productBrand')">Về thương hiệu</button>
+                                    </div>
+
+                                    <div id="productDesc" class="productDetail-tabcontent">
+                                        Xe đẩy trẻ em Aprica Luxuna CTS Navy 92996 là sản phẩm xe đẩy trẻ em đặc biệt từ Aprica, được thiết kế để tích hợp với địu CTS, đặc biệt thích hợp với các chuyến đi xa, món quà từ thương hiệu Aprica dành cho mẹ và bé.<br
+                                        />
+                                        <br /> Sự an toàn<br /> - Ghế cao 53cm, giúp bé tránh khỏi phản xạ nhiệt từ mặt đất và bụi bẩn.<br /> - Mái che đa nấc chặn 99% tia UV, bảo vệ bé khỏi ánh nắng mặt trời trực tiếp và tia cực tím.<br /> - Tấm đệm
+                                        y khoa Mamolu cố định phần đầu của bé, ngăn chặn nghiêng lệch phần cổ.<br /> - Đai cài an toàn 5 điểm.<br />
+                                        <br /> Sự thoải mái<br /> - Đệm ghế ngồi tháo ra dễ dàng và giặt được bằng máy.<br /> - Chất liệu Silky Air™ mềm mại và thoáng khí hơn gấp 1.8 lần.<br /> - Kết cấu hấp thụ lực đa diện cho những chuyến đi thoải mái
+                                        và những chuyển động êm ái nhất.<br /> - Hệ thống hấp thụ nhiệt y khoa kép giúp thoáng khí và giảm nhiệt.<br /> - Khung xe có độ bền cao và hệ thống giảm xóc hấp thụ lực trên các bánh xe.<br /> Sự thuận tiện<br
+                                        /> - Được trang bị hệ thống CTS (có thể tích hợp với địu CTS: Địu trẻ em Aprica Colan CTS Smart Brown 39551 hoặc Địu trẻ em Aprica Colan CTS Smart Gray 39552)<br /> - Cân nặng chỉ 5.3kg.<br /> - 4 bánh xe quay tự
+                                        động giúp tăng cường sự khả dụng và giúp dễ dàng điều khiển.<br /> - Đóng/ Mở chỉ với 1 chạm và xe tự đứng vững.<br />
+                                    </div>
+
+                                    <div id="productSpec" class="productDetail-tabcontent">
+                                      <table style="width:100%">
+                                          <tr>
+                                              <td>SKU</td>
+                                              <td>AP497TBAUJMHVNAMZ-479068</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Nhóm tuổi</td>
+                                              <td>Trẻ sơ sinh trở lên</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Chất liệu</td>
+                                              <td>Khung xe bằng thép, nhựa, vải và cao su</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Mẫu mã</td>
+                                              <td>Soc&Brothers-4969220925523</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Kích thước sản phẩm (D x R x C cm)</td>
+                                              <td>65 x 90 x 110</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Trọng lượng (KG)</td>
+                                              <td>3.8</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Sản xuất tại</td>
+                                              <td>Trung Quốc</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Thời gian bảo hành</td>
+                                              <td>12 tháng</td>
+                                          </tr>
+                                          <tr>
+                                              <td>Loại hình bảo hành</td>
+                                              <td>Bằng Phiếu bảo hành và Hóa đơn</td>
+                                          </tr>
+                                      </table>
+                                    </div>
+
+                                    <div id="productBrand" class="productDetail-tabcontent">
+                                      Xe đẩy trẻ em Aprica Luxuna CTS Navy 92996 là sản phẩm xe đẩy trẻ em đặc biệt từ Aprica, được thiết kế để tích hợp với địu CTS, đặc biệt thích hợp với các chuyến đi xa, món quà từ thương hiệu Aprica dành cho mẹ và bé.<br
+                                      />
+                                      <br /> Sự an toàn<br /> - Ghế cao 53cm, giúp bé tránh khỏi phản xạ nhiệt từ mặt đất và bụi bẩn.<br /> - Mái che đa nấc chặn 99% tia UV, bảo vệ bé khỏi ánh nắng mặt trời trực tiếp và tia cực tím.<br /> - Tấm đệm
+                                      y khoa Mamolu cố định phần đầu của bé, ngăn chặn nghiêng lệch phần cổ.<br /> - Đai cài an toàn 5 điểm.<br />
+                                      <br /> Sự thoải mái<br /> - Đệm ghế ngồi tháo ra dễ dàng và giặt được bằng máy.<br /> - Chất liệu Silky Air™ mềm mại và thoáng khí hơn gấp 1.8 lần.<br /> - Kết cấu hấp thụ lực đa diện cho những chuyến đi thoải mái
+                                      và những chuyển động êm ái nhất.<br /> - Hệ thống hấp thụ nhiệt y khoa kép giúp thoáng khí và giảm nhiệt.<br /> - Khung xe có độ bền cao và hệ thống giảm xóc hấp thụ lực trên các bánh xe.<br /> Sự thuận tiện<br
+                                      /> - Được trang bị hệ thống CTS (có thể tích hợp với địu CTS: Địu trẻ em Aprica Colan CTS Smart Brown 39551 hoặc Địu trẻ em Aprica Colan CTS Smart Gray 39552)<br /> - Cân nặng chỉ 5.3kg.<br /> - 4 bánh xe quay tự
+                                      động giúp tăng cường sự khả dụng và giúp dễ dàng điều khiển.<br /> - Đóng/ Mở chỉ với 1 chạm và xe tự đứng vững.<br />
+                                    </div>
+                                </div>
+
+                                <div class="product-comment-wrapper large--hide">
+                                    <div class="product-comment">
+                                        <h3>Bình luận</h3>
+                                        <div class="line"></div>
+                                        <div class="fb-comments">
+                                            <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="1"></div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1836,131 +1997,131 @@
                     </div>
                     <div class="related-products-slider-wrapper grid">
                         <div id="owl-home-related-product-slider" class="owl-carousel owl-theme">
-                          <div class="item grid__item">
-                              <div class="product-item">
-                                  <div class="product-img text-center">
-                                      <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                                  </div>
-                                  <div class="product-title text-left">
-                                      <a href="product.html">Xe đẩy dành cho trẻ em Aprica Luxuna</a>
-                                  </div>
-                                  <div class="product-price text-left clearfix">
-                                      <span class="current-price">11.220.000đ</span>
-                                      <span class="sale-off">50%</span><br />
-                                      <span class="original-price"><s>13.420.000đ</s></span>
-                                  </div>
-                                  <div class="product-actions text-center">
-                                      <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                      <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                  </div>
-                                  <div class="product-sale-tag">
-                                      <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                                      <span class="new">New</span>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="item grid__item">
-                            <div class="product-item">
-                                <div class="product-img text-center">
-                                    <a href="product.html"><img src="images/suggested-product2.png" alt="" /></a>
-                                </div>
-                                <div class="product-title text-left">
-                                    <a href="product.html">Sữa dinh dưỡng Glico dành cho trẻ sơ...</a>
-                                </div>
-                                <div class="product-price text-left clearfix">
-                                    <span class="current-price">520.000đ</span>
-                                </div>
-                                <div class="product-actions text-center">
-                                    <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                            <div class="item grid__item">
+                                <div class="product-item">
+                                    <div class="product-img text-center">
+                                        <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                                    </div>
+                                    <div class="product-title text-left">
+                                        <a href="product.html">Xe đẩy dành cho trẻ em Aprica Luxuna</a>
+                                    </div>
+                                    <div class="product-price text-left clearfix">
+                                        <span class="current-price">11.220.000đ</span>
+                                        <span class="sale-off medium--hide small--hide">50%</span><br />
+                                        <span class="original-price"><s>13.420.000đ</s></span>
+                                    </div>
+                                    <div class="product-actions text-center medium--hide small--hide">
+                                        <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                        <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    </div>
+                                    <div class="product-sale-tag">
+                                        <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                                        <span class="new">New</span>
+                                    </div>
                                 </div>
                             </div>
-                          </div>
-                          <div class="item grid__item">
-                            <div class="product-item">
-                                <div class="product-img text-center">
-                                    <a href="product.html"><img src="images/suggested-product3.png" alt="" /></a>
-                                </div>
-                                <div class="product-title text-left">
-                                    <a href="product.html">Giày Kitty</a>
-                                </div>
-                                <div class="product-price text-left clearfix">
-                                    <span class="current-price">320.000đ</span>
-                                </div>
-                                <div class="product-actions text-center">
-                                    <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="item grid__item">
-                            <div class="product-item">
-                                <div class="product-img text-center">
-                                    <a href="product.html"><img src="images/suggested-product4.png" alt="" /></a>
-                                </div>
-                                <div class="product-title text-left">
-                                    <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                                </div>
-                                <div class="product-price text-left clearfix">
-                                    <span class="current-price">13.420.000đ</span>
-                                </div>
-                                <div class="product-actions text-center">
-                                    <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                            <div class="item grid__item">
+                                <div class="product-item">
+                                    <div class="product-img text-center">
+                                        <a href="product.html"><img src="images/suggested-product2.png" alt="" /></a>
+                                    </div>
+                                    <div class="product-title text-left">
+                                        <a href="product.html">Sữa dinh dưỡng Glico dành cho trẻ sơ...</a>
+                                    </div>
+                                    <div class="product-price text-left clearfix">
+                                        <span class="current-price">520.000đ</span>
+                                    </div>
+                                    <div class="product-actions text-center medium--hide small--hide">
+                                        <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                        <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                          </div>
-                          <div class="item grid__item">
-                            <div class="product-item">
-                                <div class="product-img text-center">
-                                    <a href="product.html"><img src="images/suggested-product5.png" alt="" /></a>
-                                </div>
-                                <div class="product-title text-left">
-                                    <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                                </div>
-                                <div class="product-price text-left clearfix">
-                                    <span class="current-price">13.420.000đ</span>
-                                </div>
-                                <div class="product-actions text-center">
-                                    <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div class="item grid__item">
-                            <div class="product-item">
-                                <div class="product-img text-center">
-                                    <a href="product.html"><img src="images/suggested-product6.png" alt="" /></a>
-                                </div>
-                                <div class="product-title text-left">
-                                    <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                                </div>
-                                <div class="product-price text-left clearfix">
-                                    <span class="current-price">13.420.000đ</span>
-                                </div>
-                                <div class="product-actions text-center">
-                                    <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                            <div class="item grid__item">
+                                <div class="product-item">
+                                    <div class="product-img text-center">
+                                        <a href="product.html"><img src="images/suggested-product3.png" alt="" /></a>
+                                    </div>
+                                    <div class="product-title text-left">
+                                        <a href="product.html">Giày Kitty</a>
+                                    </div>
+                                    <div class="product-price text-left clearfix">
+                                        <span class="current-price">320.000đ</span>
+                                    </div>
+                                    <div class="product-actions text-center medium--hide small--hide">
+                                        <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                        <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                          </div>
-                          <div class="item grid__item">
-                            <div class="product-item">
-                                <div class="product-img text-center">
-                                    <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                                </div>
-                                <div class="product-title text-left">
-                                    <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                                </div>
-                                <div class="product-price text-left clearfix">
-                                    <span class="current-price">13.420.000đ</span>
-                                </div>
-                                <div class="product-actions text-center">
-                                    <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                                    <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                            <div class="item grid__item">
+                                <div class="product-item">
+                                    <div class="product-img text-center">
+                                        <a href="product.html"><img src="images/suggested-product4.png" alt="" /></a>
+                                    </div>
+                                    <div class="product-title text-left">
+                                        <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                                    </div>
+                                    <div class="product-price text-left clearfix">
+                                        <span class="current-price">13.420.000đ</span>
+                                    </div>
+                                    <div class="product-actions text-center medium--hide small--hide">
+                                        <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                        <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    </div>
                                 </div>
                             </div>
-                          </div>
+                            <div class="item grid__item">
+                                <div class="product-item">
+                                    <div class="product-img text-center">
+                                        <a href="product.html"><img src="images/suggested-product5.png" alt="" /></a>
+                                    </div>
+                                    <div class="product-title text-left">
+                                        <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                                    </div>
+                                    <div class="product-price text-left clearfix">
+                                        <span class="current-price">13.420.000đ</span>
+                                    </div>
+                                    <div class="product-actions text-center medium--hide small--hide">
+                                        <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                        <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item grid__item">
+                                <div class="product-item">
+                                    <div class="product-img text-center">
+                                        <a href="product.html"><img src="images/suggested-product6.png" alt="" /></a>
+                                    </div>
+                                    <div class="product-title text-left">
+                                        <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                                    </div>
+                                    <div class="product-price text-left clearfix">
+                                        <span class="current-price">13.420.000đ</span>
+                                    </div>
+                                    <div class="product-actions text-center medium--hide small--hide">
+                                        <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                        <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item grid__item">
+                                <div class="product-item">
+                                    <div class="product-img text-center">
+                                        <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                                    </div>
+                                    <div class="product-title text-left">
+                                        <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                                    </div>
+                                    <div class="product-price text-left clearfix">
+                                        <span class="current-price">13.420.000đ</span>
+                                    </div>
+                                    <div class="product-actions text-center medium--hide small--hide">
+                                        <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                                        <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -1968,20 +2129,299 @@
         </div>
     </section>
 
-    <section id="back-to-top">
-        <div class="border-wrapper">
-            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    <section id="mobile-footer-nav" class="large--hide">
+        <div class="mobile-footer-nav-title">
+            <div class="wrapper">
+                <div class="inner">
+                    <h3>Tất cả danh mục</h3>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-footer-nav-content">
+            <div class="mobile-footer-item">
+                <div class="wrapper">
+                    <div class="inner">
+                        <a class="accordion" href="/">Trang chủ</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-footer-item">
+                <div class="wrapper">
+                    <div class="inner">
+                        <a class="accordion has-children">Đồ dùng cho bé ăn</a>
+                        <div class="panel">
+                            <ul class="no-bullets">
+                                <li>
+                                    <a href="collection.html">Ăn uống và đồ dùng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bình sữa và núm ti</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cốc bát thìa dĩa</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cắn răng và ti giả</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Yếm và khăn ăn</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Đồ dùng vệ sinh, tiệt trùng và hâm nóng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bàn ghế tập ăn và phụ kiện</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Phương tiện chế biến</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Vệ sinh đồ dùng ăn uống</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-footer-item">
+                <div class="wrapper">
+                    <div class="inner">
+                        <a class="accordion has-children">Đồ vệ sinh cho bé</a>
+                        <div class="panel">
+                            <ul class="no-bullets">
+                                <li>
+                                    <a href="collection.html">Ăn uống và đồ dùng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bình sữa và núm ti</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cốc bát thìa dĩa</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cắn răng và ti giả</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Yếm và khăn ăn</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Đồ dùng vệ sinh, tiệt trùng và hâm nóng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bàn ghế tập ăn và phụ kiện</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Phương tiện chế biến</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Vệ sinh đồ dùng ăn uống</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-footer-item">
+                <div class="wrapper">
+                    <div class="inner">
+                        <a class="accordion has-children">Đồ dùng cho bé tắm</a>
+                        <div class="panel">
+                            <ul class="no-bullets">
+                                <li>
+                                    <a href="collection.html">Ăn uống và đồ dùng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bình sữa và núm ti</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cốc bát thìa dĩa</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cắn răng và ti giả</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Yếm và khăn ăn</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Đồ dùng vệ sinh, tiệt trùng và hâm nóng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bàn ghế tập ăn và phụ kiện</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Phương tiện chế biến</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Vệ sinh đồ dùng ăn uống</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-footer-item">
+                <div class="wrapper">
+                    <div class="inner">
+                        <a class="accordion has-children">Đồ chăm sóc giấc ngủ</a>
+                        <div class="panel">
+                            <ul class="no-bullets">
+                                <li>
+                                    <a href="collection.html">Ăn uống và đồ dùng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bình sữa và núm ti</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cốc bát thìa dĩa</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cắn răng và ti giả</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Yếm và khăn ăn</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Đồ dùng vệ sinh, tiệt trùng và hâm nóng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bàn ghế tập ăn và phụ kiện</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Phương tiện chế biến</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Vệ sinh đồ dùng ăn uống</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-footer-item">
+                <div class="wrapper">
+                    <div class="inner">
+                        <a class="accordion has-children">Đồ dùng cho bé đi</a>
+                        <div class="panel">
+                            <ul class="no-bullets">
+                                <li>
+                                    <a href="collection.html">Ăn uống và đồ dùng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bình sữa và núm ti</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cốc bát thìa dĩa</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cắn răng và ti giả</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Yếm và khăn ăn</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Đồ dùng vệ sinh, tiệt trùng và hâm nóng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bàn ghế tập ăn và phụ kiện</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Phương tiện chế biến</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Vệ sinh đồ dùng ăn uống</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-footer-item">
+                <div class="wrapper">
+                    <div class="inner">
+                        <a class="accordion has-children">Đồ chơi cho bé</a>
+                        <div class="panel">
+                            <ul class="no-bullets">
+                                <li>
+                                    <a href="collection.html">Ăn uống và đồ dùng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bình sữa và núm ti</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cốc bát thìa dĩa</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cắn răng và ti giả</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Yếm và khăn ăn</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Đồ dùng vệ sinh, tiệt trùng và hâm nóng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bàn ghế tập ăn và phụ kiện</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Phương tiện chế biến</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Vệ sinh đồ dùng ăn uống</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile-footer-item">
+                <div class="wrapper">
+                    <div class="inner">
+                        <a class="accordion has-children">Thời trang cho bé</a>
+                        <div class="panel">
+                            <ul class="no-bullets">
+                                <li>
+                                    <a href="collection.html">Ăn uống và đồ dùng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bình sữa và núm ti</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cốc bát thìa dĩa</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Cắn răng và ti giả</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Yếm và khăn ăn</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Đồ dùng vệ sinh, tiệt trùng và hâm nóng</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Bàn ghế tập ăn và phụ kiện</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Phương tiện chế biến</a>
+                                </li>
+                                <li>
+                                    <a href="collection.html">Vệ sinh đồ dùng ăn uống</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="online-support" class="medium--hide small--hide">
-        <div class="online-support-desc text-left">
-            HỖ TRỢ TRỰC TUYẾN <i class="fa fa-angle-up" aria-hidden="true"></i>
-            <img src="images/online-support.png" alt="" />
-        </div>
-    </section>
-
-    <section id="footer">
+    <section id="footer" class="medium--hide small--hide">
         <div class="wrapper">
             <div class="inner">
                 <div class="grid">
@@ -2080,6 +2520,42 @@
         </div>
     </section>
 
+    <section id="mobile-social-network" class="large--hide">
+        <div class="wrapper">
+            <div class="inner">
+                <div class="footer-social-network text-center">
+                    <h3>Kết nối với chúng tôi</h3>
+                    <div class="list-social-network">
+                        <a href="/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href="/"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="mobile-hotline" class="large--hide">
+        <a href="tel:1900555599" class="mobile-hotline-content">
+            <img src="images/hotline-icon.png" alt="" />
+            <span class="title">Hotline</span>
+            <span class="number">1900 555 599</span>
+        </a>
+    </section>
+
+    <section id="back-to-top">
+        <div class="border-wrapper">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </div>
+    </section>
+
+    <section id="online-support" class="medium--hide small--hide">
+        <div class="online-support-desc text-left">
+            HỖ TRỢ TRỰC TUYẾN <i class="fa fa-angle-up" aria-hidden="true"></i>
+            <img src="images/online-support.png" alt="" />
+        </div>
+    </section>
+
     <!-- The Modal -->
     <div id="quickViewWrapper" class="quickViewWrapper">
 
@@ -2090,38 +2566,38 @@
                 <div class="grid__item large--six-twelfths">
                     <div class="product-img-wrapper">
                         <div id="sync3" class="owl-carousel">
-                          <div class="item">
-                              <img src="images/product-item1.jpeg" alt="" />
-                          </div>
-                          <div class="item">
-                              <img src="images/product-item2.jpeg" alt="" />
-                          </div>
-                          <div class="item">
-                              <img src="images/product-item3.jpeg" alt="" />
-                          </div>
-                          <div class="item">
-                              <img src="images/product-item4.jpeg" alt="" />
-                          </div>
-                          <div class="item">
-                              <img src="images/product-item1.jpeg" alt="" />
-                          </div>
+                            <div class="item">
+                                <img src="images/product-item1.jpeg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/product-item2.jpeg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/product-item3.jpeg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/product-item4.jpeg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/product-item1.jpeg" alt="" />
+                            </div>
                         </div>
                         <div id="sync4" class="owl-carousel">
-                          <div class="item">
-                              <img src="images/product-item1.jpeg" alt="" />
-                          </div>
-                          <div class="item">
-                              <img src="images/product-item2.jpeg" alt="" />
-                          </div>
-                          <div class="item">
-                              <img src="images/product-item3.jpeg" alt="" />
-                          </div>
-                          <div class="item">
-                              <img src="images/product-item4.jpeg" alt="" />
-                          </div>
-                          <div class="item">
-                              <img src="images/product-item1.jpeg" alt="" />
-                          </div>
+                            <div class="item">
+                                <img src="images/product-item1.jpeg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/product-item2.jpeg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/product-item3.jpeg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/product-item4.jpeg" alt="" />
+                            </div>
+                            <div class="item">
+                                <img src="images/product-item1.jpeg" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2148,7 +2624,7 @@
                                 </div>
                                 <div class="grid__item large--six-twelfths">
                                     <div class="product-fb-like">
-<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                                        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
                                     </div>
                                 </div>
                             </div>
@@ -2219,11 +2695,29 @@
     <script src="js/owl.carousel.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script>
-    $("document").ready(function() {
-    setTimeout(function() {
-        $(".trigger-first").trigger('click');
-    },10);
-});
+function openProductDetailTab(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("productDetail-tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("productDetail-tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen2").click();
+</script>
+    <script>
+        $("document").ready(function() {
+            setTimeout(function() {
+                $(".trigger-first").trigger('click');
+            }, 10);
+        });
     </script>
     <script>
         $(document).ready(function() {
@@ -2311,10 +2805,11 @@
             sync1.owlCarousel({
                 singleItem: true,
                 slideSpeed: 1000,
-                navigation: false,
+                navigation: true,
                 pagination: false,
                 afterAction: syncPosition,
                 responsiveRefreshRate: 200,
+                navigationText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>']
             });
 
             sync2.owlCarousel({
@@ -2635,7 +3130,7 @@
                 items: 6,
                 itemsDesktop: [1000, 6],
                 itemsDesktopSmall: [900, 4],
-                itemsTablet: [600, 2],
+                itemsTablet: [600, 3],
                 itemsMobile: false,
                 navigation: true,
                 pagination: false,
