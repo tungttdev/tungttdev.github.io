@@ -11510,11 +11510,12 @@ h3,
   bottom: 0;
   left: 0;
   right: 0;
+  z-index: 999999;
   height: 35px;
   background: #ee5c74;
   text-align: center;
 }
-/* line 7180, ../sass/partials/custom.scss */
+/* line 7181, ../sass/partials/custom.scss */
 #mobile-hotline > a {
   display: inline-block;
   margin: 0 auto;
@@ -11524,12 +11525,12 @@ h3,
   transform: translateY(-24px);
   border-radius: 10px;
 }
-/* line 7189, ../sass/partials/custom.scss */
+/* line 7190, ../sass/partials/custom.scss */
 #mobile-hotline > a > img {
   float: left;
   vertical-align: middle;
 }
-/* line 7194, ../sass/partials/custom.scss */
+/* line 7195, ../sass/partials/custom.scss */
 #mobile-hotline > a .title {
   text-align: left;
   display: block;
@@ -11537,7 +11538,7 @@ h3,
   color: #fff;
   font-style: italic;
 }
-/* line 7204, ../sass/partials/custom.scss */
+/* line 7205, ../sass/partials/custom.scss */
 #mobile-hotline > a .number {
   text-align: left;
   display: block;
@@ -11546,11 +11547,11 @@ h3,
   font-style: italic;
 }
 
-/* line 7217, ../sass/partials/custom.scss */
+/* line 7218, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-title {
   background: #ee5c74;
 }
-/* line 7220, ../sass/partials/custom.scss */
+/* line 7221, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-title h3, #mobile-footer-nav .mobile-footer-nav-title .h3 {
   color: #fff;
   margin: 0;
@@ -11558,15 +11559,15 @@ h3,
   line-height: 40px !important;
   padding: 0;
 }
-/* line 7233, ../sass/partials/custom.scss */
+/* line 7234, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item {
   border-bottom: 1px dotted #000;
 }
-/* line 7236, ../sass/partials/custom.scss */
+/* line 7237, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item:last-child {
   border-bottom: none !important;
 }
-/* line 7240, ../sass/partials/custom.scss */
+/* line 7241, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item a.accordion {
   color: #000;
   cursor: pointer;
@@ -11581,16 +11582,16 @@ h3,
   transition: all 0.3s ease;
   display: block;
 }
-/* line 7256, ../sass/partials/custom.scss */
+/* line 7257, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item a.accordion.active,
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item a.accordion:hover {
   color: #ee5c74;
 }
-/* line 7265, ../sass/partials/custom.scss */
+/* line 7266, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item a.accordion:hover::after {
   color: #ee5c74;
 }
-/* line 7269, ../sass/partials/custom.scss */
+/* line 7270, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item a.accordion.has-children:after {
   content: '\f105';
   font-family: FontAwesome;
@@ -11601,7 +11602,7 @@ h3,
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 7280, ../sass/partials/custom.scss */
+/* line 7281, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item a.accordion.has-children.active:after {
   content: "\f107";
   font-family: FontAwesome;
@@ -11609,7 +11610,7 @@ h3,
   float: right;
   margin-left: 5px;
 }
-/* line 7288, ../sass/partials/custom.scss */
+/* line 7289, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item div.panel {
   padding: 0 18px;
   background-color: white;
@@ -11617,14 +11618,14 @@ h3,
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
-/* line 7297, ../sass/partials/custom.scss */
+/* line 7298, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item div.panel ul li a {
   color: #000;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-/* line 7304, ../sass/partials/custom.scss */
+/* line 7305, ../sass/partials/custom.scss */
 #mobile-footer-nav .mobile-footer-nav-content .mobile-footer-item div.panel ul li a:hover {
   color: #ee5c74;
 }
