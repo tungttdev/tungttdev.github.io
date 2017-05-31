@@ -178,7 +178,9 @@
 
     #collection-wrapper .collection-content-wrapper .product-item .product-price span.original-price,
     #suggested-products #owl-home-suggested-product-slider .product-item .product-price span.original-price,
-    .related-products-wrapper .product-item .product-price span.original-price {
+    .related-products-wrapper .product-item .product-price span.original-price,
+    #flash-sale-wrapper .product-item .product-price span.original-price,
+    .sameprice-products .product-item .product-price span.original-price {
         font-size: 8px !important;
         margin-top: 3px;
     }
@@ -189,7 +191,9 @@
     #home-collection #owl-home-collection-slider3 .collection-item .collection-title a,
     #home-collection #owl-home-collection-slider4 .collection-item .collection-title a,
     #suggested-products #owl-home-suggested-product-slider .product-item .product-title a,
-    .related-products-wrapper .product-item .product-title a {
+    .related-products-wrapper .product-item .product-title a,
+    #flash-sale-wrapper .product-item .product-title a,
+    .sameprice-products .product-item .product-title a {
         font-size: 11px !important;
         height: 34px !important;
     }
@@ -200,7 +204,9 @@
     #home-collection #owl-home-collection-slider3 .collection-item .collection-price-range span.collection-price,
     #home-collection #owl-home-collection-slider4 .collection-item .collection-price-range span.collection-price,
     #suggested-products #owl-home-suggested-product-slider .product-item .product-price span.current-price,
-    .related-products-wrapper .product-item .product-price span.current-price {
+    .related-products-wrapper .product-item .product-price span.current-price,
+    #flash-sale-wrapper .product-item .product-price span.current-price,
+    .sameprice-products .product-item .product-price span.current-price {
         font-size: 11px !important;
     }
 
@@ -330,8 +336,42 @@
     .optin-desc,
     .sameprice-desc,
     .sameprice-title,
-    div.flash-sale-tab {
+    div.flash-sale-tab,
+    #flash-sale-wrapper .flash-sale-countdown {
         width: 100% !important;
+    }
+
+    #flash-sale-wrapper .flash-sale-countdown {
+      .day,
+      .hour,
+      .minute,
+      .second {
+        height: 60px !important;
+        width: 60px !important;
+        line-height: 60px !important;
+        font-size: 24px !important;
+        > div {
+          margin-top: 5px !important;
+        }
+      }
+    }
+
+    #optin-intro .optin-desc,
+    #sameprice-intro .sameprice-desc {
+      text-align: justify !important;
+    }
+
+    .optin-banners-slider-wrapper {
+      margin-bottom: 30px;
+    }
+    .optin-subscribe {
+      margin-bottom: 0px !important;
+    }
+    #new-product-wrapper .new-product-img, #new-product-wrapper .new-product-desc > div {
+      margin-bottom: 15px !important;
+    }
+    .product-specification {
+      margin: 15px 0px;
     }
 }
 /* ----------------------------------- */
@@ -5976,7 +6016,6 @@ h3 {
                 }
 
                 &.sale-off {
-                    display: inline-block !important;
                     text-align: center;
                     padding: 2px 3px;
                     color: #fff !important;
@@ -6400,7 +6439,6 @@ h3 {
     }
 
     .flash-sale-countdown {
-        max-width: 400px;
         text-align: center;
         width: 80%;
         margin: 0 auto 40px;
@@ -6587,7 +6625,6 @@ h3 {
                 }
 
                 &.sale-off {
-                    display: inline-block !important;
                     text-align: center;
                     padding: 2px 3px;
                     color: #fff !important;

@@ -28,20 +28,23 @@
 </head>
 
 <body>
-  <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-  <div class="fixed-left-like-share">
-    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-  </div>
+    <div id="fb-root"></div>
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="fixed-left-like-share">
+        <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="box_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+    </div>
     <div class="hover-layout1"></div>
     <section id="header">
-        <div class="header-top">
+        <div class="header-top medium--hide small--hide">
             <div class="wrapper">
                 <div class="inner">
                     <div class="grid">
@@ -799,6 +802,86 @@
                     </ul>
                 </div>
             </div>
+        </div>
+        <div class="mobile-header large--hide">
+              <div class="mobile-navbar">
+                <div class="wrapper">
+                  <div class="inner">
+                    <div class="grid mg-left-15">
+                      <div class="grid__item medium--three-twelfths small--three-twelfths pd-left15">
+                        <div class="mobile-bars text-left">
+                          <span><i class="fa fa-bars" aria-hidden="true"></i></span>
+                          <ul class="no-bullets">
+                              <li>
+                                <a href="/">Trang chủ</a>
+                              </li>
+                              <li>
+                                <a href="/">Đồ dùng cho bé ăn</a>
+                              </li>
+                              <li>
+                                <a href="/">Đồ vệ sinh cho bé</a>
+                              </li>
+                              <li>
+                                <a href="/">Đồ dùng cho bé tắm</a>
+                              </li>
+                              <li>
+                                <a href="/">Chăm sóc giấc ngủ của bé</a>
+                              </li>
+                              <li>
+                                <a href="/">Đồ cho bé ra ngoài</a>
+                              </li>
+                              <li>
+                                <a href="/">Đồ chăm sóc vệ sinh & bảo vệ bé</a>
+                              </li>
+                              <li>
+                                <a href="/">Đồ chơi cho bé</a>
+                              </li>
+                              <li>
+                                <a href="/">Thời trang cho bé</a>
+                              </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="grid__item medium--six-twelfths small--six-twelfths pd-left15">
+                        <div class="mobile-logo text-center">
+                          <a href="/">
+                            <img src="images/mobile-header-logo.png" alt="" />
+                          </a>
+                        </div>
+                      </div>
+                      <div class="grid__item medium--three-twelfths small--three-twelfths pd-left15">
+                        <div class="mobile-actions clearfix text-right">
+                          <div class="mobile-dots">
+                            <a href="/">
+                              <img src="images/mobile-dots.png" alt="" />
+                            </a>
+                          </div>
+                          <div class="mobile-cart">
+                            <a href="/">
+                              <img src="images/cart-icon-mobile.png" alt="" />
+                              <span>5</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mobile-search-form">
+                <div class="wrapper">
+                  <div class="inner">
+                    <form accept-charset="UTF-8" action="/search" class="mobile-search-form" method="post">
+                        <div class="input-group">
+                            <input type="text" id="txtMobileSearchProduct" value="" placeholder="Bố mẹ cần tìm gì?" name="q" autocorrect="off" autocapitalize="off">
+                            <span class="input-group-btn">
+                              <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </span>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
 
@@ -1567,9 +1650,9 @@
     </section>
 
     <section id="sameprice-intro">
-      <div class="sameprice-banner">
-          <a href="/"><img src="images/sameprice-banner.png" alt="" /></a>
-      </div>
+        <div class="sameprice-banner">
+            <a href="/"><img src="images/sameprice-banner.png" alt="" /></a>
+        </div>
         <div class="wrapper">
             <div class="inner">
                 <div class="sameprice-title text-center">
@@ -1590,235 +1673,235 @@
                     <h2>Đồng giá 199K</h2>
                 </div>
                 <div class="grid mg-left-15">
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy dành cho trẻ em Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy dành cho trẻ em Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product2.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Sữa dinh dưỡng Glico dành cho trẻ sơ...</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product2.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Sữa dinh dưỡng Glico dành cho trẻ sơ...</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product3.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Giày Kitty</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product3.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Giày Kitty</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product4.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product4.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product5.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product5.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product6.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product6.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
                 </div>
                 <div class="pagination-custom text-center">
@@ -1831,6 +1914,7 @@
             </div>
         </div>
     </section>
+
     <section class="sameprice-products">
         <div class="wrapper">
             <div class="inner">
@@ -1838,235 +1922,235 @@
                     <h2>Đồng giá 199K</h2>
                 </div>
                 <div class="grid mg-left-15">
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy dành cho trẻ em Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy dành cho trẻ em Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product2.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Sữa dinh dưỡng Glico dành cho trẻ sơ...</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product2.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Sữa dinh dưỡng Glico dành cho trẻ sơ...</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product3.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Giày Kitty</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product3.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Giày Kitty</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product4.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product4.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product5.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product5.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product6.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product6.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
-                  <div class="grid__item large--two-tenths pd-left15">
-                    <div class="product-item">
-                        <div class="product-img text-center">
-                            <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
-                        </div>
-                        <div class="product-title text-left">
-                            <a href="product.html">Xe đẩy Aprica Luxuna</a>
-                        </div>
-                        <div class="product-price text-left clearfix">
-                          <span class="current-price">11.220.000đ</span>
-                          <span class="sale-off">50%</span><br />
-                          <span class="original-price"><s>13.420.000đ</s></span>
-                        </div>
-                        <div class="product-actions text-center">
-                            <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
-                            <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                        </div>
-                        <div class="product-sale-tag">
-                            <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
-                            <span class="new">New</span>
-                        </div>
-                    </div>
+                  <div class="grid__item large--two-tenths medium--one-third small--one-half pd-left15">
+                      <div class="product-item">
+                          <div class="product-img text-center">
+                              <a href="product.html"><img src="images/suggested-product1.png" alt="" /></a>
+                          </div>
+                          <div class="product-title text-left">
+                              <a href="product.html">Xe đẩy Aprica Luxuna</a>
+                          </div>
+                          <div class="product-price text-left clearfix">
+                              <span class="current-price">11.220.000đ</span>
+                              <span class="sale-off medium--hide small--hide">50%</span><br />
+                              <span class="original-price"><s>13.420.000đ</s></span>
+                          </div>
+                          <div class="product-actions text-center medium--hide small--hide">
+                              <a href="/" class="btnAddToCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+                              <a href="javascript:void(0)" class="btnQuickView"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="product-sale-tag">
+                              <span class="gift"><img src="images/tag-gift.png" alt="" /></span>
+                              <span class="new">New</span>
+                          </div>
+                      </div>
                   </div>
                 </div>
                 <div class="pagination-custom text-center">
@@ -2081,67 +2165,55 @@
     </section>
 
     <section id="other-sameprice-events">
-      <div class="wrapper">
-        <div class="inner">
-          <div class="other-sameprice-events-title text-center">
-            <h2>Các chương trình khác</h2>
-          </div>
-          <div class="other-sameprice-events-slider-wrapper grid mg-left-15">
-            <div id="other-sameprice-events-slider" class="owl-carousel owl-theme">
-                <div class="item grid__item pd-left15">
-                  <div class="other-sameprice-event-item">
-                    <a href="/">
-                      <img src="images/other-sameprice-event1.png" alt="" />
-                    </a>
-                  </div>
+        <div class="wrapper">
+            <div class="inner">
+                <div class="other-sameprice-events-title text-center">
+                    <h2>Các chương trình khác</h2>
                 </div>
-                <div class="item grid__item pd-left15">
-                  <div class="other-sameprice-event-item">
-                    <a href="/">
-                      <img src="images/other-sameprice-event2.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="item grid__item pd-left15">
-                  <div class="other-sameprice-event-item">
-                    <a href="/">
-                      <img src="images/other-sameprice-event3.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="item grid__item pd-left15">
-                  <div class="other-sameprice-event-item">
-                    <a href="/">
-                      <img src="images/other-sameprice-event4.png" alt="" />
-                    </a>
-                  </div>
-                </div>
-                <div class="item grid__item pd-left15">
-                  <div class="other-sameprice-event-item">
-                    <a href="/">
-                      <img src="images/other-sameprice-event1.png" alt="" />
-                    </a>
-                  </div>
+                <div class="other-sameprice-events-slider-wrapper grid mg-left-15">
+                    <div id="other-sameprice-events-slider" class="owl-carousel owl-theme">
+                        <div class="item grid__item pd-left15">
+                            <div class="other-sameprice-event-item">
+                                <a href="/">
+                                    <img src="images/other-sameprice-event1.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item grid__item pd-left15">
+                            <div class="other-sameprice-event-item">
+                                <a href="/">
+                                    <img src="images/other-sameprice-event2.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item grid__item pd-left15">
+                            <div class="other-sameprice-event-item">
+                                <a href="/">
+                                    <img src="images/other-sameprice-event3.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item grid__item pd-left15">
+                            <div class="other-sameprice-event-item">
+                                <a href="/">
+                                    <img src="images/other-sameprice-event4.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item grid__item pd-left15">
+                            <div class="other-sameprice-event-item">
+                                <a href="/">
+                                    <img src="images/other-sameprice-event1.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="back-to-top">
-        <div class="border-wrapper">
-            <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </div>
     </section>
 
-    <section id="online-support" class="medium--hide small--hide">
-        <div class="online-support-desc text-left">
-            HỖ TRỢ TRỰC TUYẾN <i class="fa fa-angle-up" aria-hidden="true"></i>
-            <img src="images/online-support.png" alt="" />
-        </div>
-    </section>
-
-    <section id="footer">
+    <section id="footer" class="medium--hide small--hide">
         <div class="wrapper">
             <div class="inner">
                 <div class="grid">
@@ -2237,6 +2309,42 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <section id="mobile-social-network" class="large--hide">
+      <div class="wrapper">
+        <div class="inner">
+          <div class="footer-social-network text-center">
+              <h3>Kết nối với chúng tôi</h3>
+              <div class="list-social-network">
+                  <a href="/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="/"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                  <a href="/"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mobile-hotline" class="large--hide">
+      <a href="tel:1900555599" class="mobile-hotline-content">
+        <img src="images/hotline-icon.png" alt="" />
+        <span class="title">Hotline</span>
+        <span class="number">1900 555 599</span>
+      </a>
+    </section>
+
+    <section id="back-to-top">
+        <div class="border-wrapper">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </div>
+    </section>
+
+    <section id="online-support" class="medium--hide small--hide">
+        <div class="online-support-desc text-left">
+            HỖ TRỢ TRỰC TUYẾN <i class="fa fa-angle-up" aria-hidden="true"></i>
+            <img src="images/online-support.png" alt="" />
         </div>
     </section>
 
