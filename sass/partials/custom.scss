@@ -40,6 +40,33 @@
 /* ----------------------------------- */
 @media (max-width: 480px) {}
 @media (max-width:768px) {
+  .account-default-address, .account-user-info {
+    margin-bottom: 15px;
+  }
+  .cart-note-wrapper {
+    margin-bottom: 15px;
+  }
+  #cart-wrapper .cart-checkout .cart-actions > a.btnRefreshCart {
+    margin: 0px 0px 15px 0px !important;
+  }
+  #cart-wrapper table td {
+    &.product-money,
+    &.product-actions,
+    &.product-remove {
+      text-align: center;
+    }
+  }
+  #flash-sale-wrapper .product-item .product-price,
+  .sameprice-products .product-item .product-price {
+    height: auto !important;
+  }
+
+  #flash-sale-wrapper .product-item .product-actions a.btnAddToCart,
+  .sameprice-products .product-item .product-actions a.btnAddToCart {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
     #product-wrapper {
         .product-comment-wrapper .product-comment > h3 {
             font-size: 14px !important;
@@ -6716,6 +6743,11 @@ h3 {
 #cart-wrapper {
     margin-bottom: 30px;
 
+    .cart-table {
+      overflow-x: scroll;
+      width: 100%;
+    }
+
     table,
     td,
     th {
@@ -6725,16 +6757,17 @@ h3 {
 
     table {
         margin-bottom: 30px;
-
         th {
             padding: 15px !important;
             @extend %text-normal;
             @extend %text-bold;
             color: $colorTextBody;
+            min-width: 160px;
         }
 
         td {
             padding: 15px !important;
+            min-width: 160px;
 
             &.product-img {
                 text-align: center;
@@ -7021,6 +7054,8 @@ h3 {
         padding-bottom: 30px;
 
         .account-list-orders {
+          overflow-x: scroll;
+          max-width: 100%;
             h2 {
                 @extend %text-normal;
                 @extend %text-bold;
@@ -7049,6 +7084,7 @@ h3 {
             td,
             th {
                 padding: 10px 15px !important;
+                min-width: 160px;
             }
 
             thead {
@@ -7788,4 +7824,15 @@ h3 {
             background: #fff;
         }
     }
+}
+
+.mobile-flash-sale-banner, .mobile-sameprice-banner {
+  margin-bottom: 30px;
+  > a {
+    display: block;
+    img {
+      width: 100%;
+      vertical-align: middle;
+    }
+  }
 }
